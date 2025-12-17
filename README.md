@@ -1,4 +1,6 @@
 # Learn python by coding 
 # code basic questions by topic-wise
 
-Topic : Variables 
+Topic : 
+1. Variables
+2. Datatypes
