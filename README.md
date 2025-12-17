@@ -1,5 +1,5 @@
 # Learn python by coding 
-# code basic questions by topic-wise
+# code basic coding questions by topic-wise
 
 Topic : 
 1. Variables
