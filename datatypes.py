@@ -40,7 +40,6 @@ powerful_programming_languages = "python"
 print(powerful_programming_languages.upper())
 
 #✅ 10. Add an item “grapes” to the list fruits.
-
 fav_fruits = ["watermelon", "mango", "banana"]
 fav_fruits.append("grapes")
 print(fav_fruits)
