@@ -61,6 +61,12 @@ bill_amount_new = 999.99
 bill_amount_new *= 1.18
 print("Total bill amount new :",bill_amount_new)
 
+# 20 % discount
+totl_bill_today = 210
+discount = totl_bill_today * 0.20
+totl_bill_today -= discount
+print("Total bill today :",totl_bill_today)
+
 # 10. Convert 100 minutes into hours using division.
 minutes = 100
 convert_hours = minutes / 60

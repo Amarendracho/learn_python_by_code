@@ -127,7 +127,7 @@
       <updated>1765732805667</updated>
       <workItem from="1765732806695" duration="23396000" />
       <workItem from="1766058404231" duration="29000" />
-      <workItem from="1766058885802" duration="13357000" />
+      <workItem from="1766058885802" duration="13827000" />
     </task>
     <servers />
   </component>
@@ -198,7 +198,7 @@
     <SUITE FILE_PATH="coverage/python_code_practice$variables.coverage" NAME="variables Coverage Results" MODIFIED="1766163095159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_codepractice$main.coverage" NAME="main Coverage Results" MODIFIED="1765733039918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$typecasting.coverage" NAME="typecasting Coverage Results" MODIFIED="1766087669746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../learn_python" />
-    <SUITE FILE_PATH="coverage/python_code_practice$Arithmetic_operators.coverage" NAME="Arithmetic_operators Coverage Results" MODIFIED="1766166211681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_code_practice$Arithmetic_operators.coverage" NAME="Arithmetic_operators Coverage Results" MODIFIED="1766166704000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$operators.coverage" NAME="operators Coverage Results" MODIFIED="1766089761862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../learn_python" />
   </component>
 </project>
