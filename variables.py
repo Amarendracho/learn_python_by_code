@@ -74,7 +74,6 @@ print("Difference =", diff_result)
 temperature_celsius = -14
 print("Today's temperature (°C):", temperature_celsius)
 
-
 #13. Create a variable storing a sentence with double quotes inside it.
 sentence = 'He said, "Code every day, it will change your life."'
 print(sentence)
@@ -111,3 +110,7 @@ fruits = ["apple", "banana", "orange"]
 #20. Create a variable storing the current year.
 current_year = datetime.datetime.now().year
 print(current_year)
+present_date = datetime.datetime.now().date()
+print("today's date :" ,present_date)
+present_time = datetime.datetime.now().time()
+print("rightnow time :", present_time)
