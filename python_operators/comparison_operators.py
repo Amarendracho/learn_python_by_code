@@ -28,11 +28,16 @@ print(num_compare_check)
 multiplication = 7 * 3
 num_check1 = multiplication > 20
 print(num_check1)
+# Approach 2
+multiplication1 = 7 * 3 > 20
+print("check this will work :" ,multiplication1)
 
 # 15. Check if the length of "Python" is 6.
 program_language = "Python"
 size_check= len(program_language) == 6
 print(size_check)
+# Approach 2
+print("Approach 2 : ",len("Python") == 6)
 
 # 16. Check if GPA = 3.8 is greater than or equal to 3.5.
 GPA = 3.8
