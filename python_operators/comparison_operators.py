@@ -1,4 +1,4 @@
-# Try to solve your self first
+# Try to solve your self first (==, !=, >, <, >=, <=)
 
 # 11. Check if 100 is greater than 50.
 # 12. Check if 23 is equal to "23".

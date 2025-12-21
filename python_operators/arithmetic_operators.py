@@ -1,4 +1,4 @@
-# Try to solve your self first
+# Try to solve your self first (+, -, *, /, %, //, **)
 
 # 1. Add two numbers: 45 and 67. Store the result in total.
 # 2. Find the remainder when 55 is divided by 6.
