@@ -41,3 +41,71 @@ for letter in name :
 for j in range(10, 0, -1) :
     print(j, end = " ")
 
+
+# LEVEL 2 (Intermediate)
+#
+# 6️⃣ Count how many numbers between 1–50 are divisible by 3
+# 7️⃣ Print multiplication table of 5
+# 8️⃣ Find factorial of a number (e.g., 5 → 120)
+# 9️⃣ Print only vowels from a string
+# 🔟 Keep asking user for password until correct
+
+
+
+# 6️⃣ Count how many numbers between 1–50 are divisible by 3
+count = 0
+for i in range(1,51) :
+    if i % 3 == 0:
+        count += 1
+print(count)
+
+# Approach - 2
+count = 0
+for i in range(3, 51, 3) :
+    count += 1
+print(count)
+
+# 7️⃣ Print multiplication table of 5
+for i in range(1,11):
+    print("5 *" ,i, " = ", i * 5)
+
+# Approach - 2 user input
+number = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(number,"*" , i , "=", number * i)
+
+# 8️⃣ Find factorial of a number (e.g., 5 → 120) 5! = 5 * 4 * 3 * 2 * 1
+count = 1
+for i in range(5,0,-1) :
+    count *= i
+print(count)
+
+# Approach - 2 user input
+number = int(input("Enter a number : "))
+count = 1
+for i in range (number , 0, -1) :
+    count *= i
+print(count)
+
+# 9️⃣ Print only vowels from a string
+text = input("Enter a string: ")
+
+for char in text:
+    if char.lower() in "aeiou":
+        print(char, end=" ")
+
+
+# 🔟 Keep asking user for password until correct
+password = input("Enter a password : ")
+while password != "admin" :
+    print("Wrong password please try again")
+    password = input("Enter a password : ")
+print("Login successful")
+
+# Approach - 2
+while True:
+    password = input("Enter password: ")
+    if password == "admin":
+        print("Login successful")
+        break
+    print("Wrong password, try again")
