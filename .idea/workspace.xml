@@ -64,11 +64,15 @@
     "Python.datatypes.executor": "Run",
     "Python.for_loops.executor": "Run",
     "Python.identity_operator.executor": "Run",
+    "Python.list.executor": "Run",
     "Python.logical_operators.executor": "Run",
     "Python.main.executor": "Run",
     "Python.operators.executor": "Run",
     "Python.real_world_exampls.executor": "Run",
+    "Python.set.executor": "Run",
+    "Python.string_manipulation.executor": "Run",
     "Python.testing.executor": "Run",
+    "Python.tuple.executor": "Run",
     "Python.typecasting.executor": "Run",
     "Python.variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -143,7 +147,7 @@
       <workItem from="1765732806695" duration="23396000" />
       <workItem from="1766058404231" duration="29000" />
       <workItem from="1766058885802" duration="34713000" />
-      <workItem from="1766792939754" duration="20732000" />
+      <workItem from="1766792939754" duration="36415000" />
     </task>
     <servers />
   </component>
@@ -207,7 +211,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_code_practice$for_loops.coverage" NAME="for_loops Coverage Results" MODIFIED="1766903087632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loops" />
+    <SUITE FILE_PATH="coverage/python_code_practice$for_loops.coverage" NAME="for_loops Coverage Results" MODIFIED="1767129394031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loops" />
     <SUITE FILE_PATH="coverage/python_codepractice$main.coverage" NAME="main Coverage Results" MODIFIED="1765733039918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$Arithmetic_operators.coverage" NAME="Arithmetic_operators Coverage Results" MODIFIED="1766166704000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$logical_operators.coverage" NAME="logical_operators Coverage Results" MODIFIED="1766270828556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
@@ -215,15 +219,19 @@
     <SUITE FILE_PATH="coverage/python_code_practice$operators.coverage" NAME="operators Coverage Results" MODIFIED="1766089761862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../learn_python" />
     <SUITE FILE_PATH="coverage/python_code_practice$real_world_exampls.coverage" NAME="real_world_exampls Coverage Results" MODIFIED="1766782806984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
     <SUITE FILE_PATH="coverage/python_code_practice$check.coverage" NAME="check Coverage Results" MODIFIED="1766890526365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_code_practice$set.coverage" NAME="set Coverage Results" MODIFIED="1767228034211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_datastructures" />
     <SUITE FILE_PATH="coverage/python_code_practice$conditional_stmts.coverage" NAME="conditional_stmts Coverage Results" MODIFIED="1766810139277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$assignment_operators.coverage" NAME="assignment_operators Coverage Results" MODIFIED="1766274398708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
     <SUITE FILE_PATH="coverage/python_code_practice$datatypes.coverage" NAME="datatypes Coverage Results" MODIFIED="1766161872203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$comparison_operators.coverage" NAME="comparison_operators Coverage Results" MODIFIED="1766267371435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
+    <SUITE FILE_PATH="coverage/python_code_practice$list.coverage" NAME="list Coverage Results" MODIFIED="1767218389768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_datastructures" />
     <SUITE FILE_PATH="coverage/python_codepractice$variables.coverage" NAME="variables Coverage Results" MODIFIED="1765744909514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_codepractice$datatypes.coverage" NAME="datatypes Coverage Results" MODIFIED="1765915067631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$testing.coverage" NAME="testing Coverage Results" MODIFIED="1766057971459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/python_code_practice$variables.coverage" NAME="variables Coverage Results" MODIFIED="1766163095159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$identity_operator.coverage" NAME="identity_operator Coverage Results" MODIFIED="1766296245939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
+    <SUITE FILE_PATH="coverage/python_code_practice$string_manipulation.coverage" NAME="string_manipulation Coverage Results" MODIFIED="1767298506814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_datastructures" />
+    <SUITE FILE_PATH="coverage/python_code_practice$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1767228734174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_datastructures" />
     <SUITE FILE_PATH="coverage/python_code_practice$conditional_stmt_realtime.coverage" NAME="conditional_stmt_realtime Coverage Results" MODIFIED="1766890298562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$conditional_stmts_medium.coverage" NAME="conditional_stmts_medium Coverage Results" MODIFIED="1766870526943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
