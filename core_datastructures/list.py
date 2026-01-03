@@ -2,7 +2,6 @@
 # collection = single "variable" stored multiple values.
 # List = [] ordered and changeable. Duplicate value allowed.
 
-
 fruits = ["apple", "banana", "cherry", "watermelon"]
 print(fruits)
 
