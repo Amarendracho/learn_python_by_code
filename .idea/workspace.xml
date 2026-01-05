@@ -148,7 +148,7 @@
       <workItem from="1765732806695" duration="23396000" />
       <workItem from="1766058404231" duration="29000" />
       <workItem from="1766058885802" duration="34713000" />
-      <workItem from="1766792939754" duration="57889000" />
+      <workItem from="1766792939754" duration="59832000" />
     </task>
     <servers />
   </component>
@@ -235,6 +235,6 @@
     <SUITE FILE_PATH="coverage/python_code_practice$variables.coverage" NAME="variables Coverage Results" MODIFIED="1766163095159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_code_practice$identity_operator.coverage" NAME="identity_operator Coverage Results" MODIFIED="1766296245939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_operators" />
     <SUITE FILE_PATH="coverage/python_code_practice$string_manipulation.coverage" NAME="string_manipulation Coverage Results" MODIFIED="1767329805947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core_datastructures" />
-    <SUITE FILE_PATH="coverage/python_code_practice$functions.coverage" NAME="functions Coverage Results" MODIFIED="1767503512851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_code_practice$functions.coverage" NAME="functions Coverage Results" MODIFIED="1767657004726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
