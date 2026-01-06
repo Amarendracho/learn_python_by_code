@@ -96,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/functional_programming" />
       <recent name="$PROJECT_DIR$/conditional_statements" />
     </key>
   </component>
@@ -149,7 +150,7 @@
       <workItem from="1766058404231" duration="29000" />
       <workItem from="1766058885802" duration="34713000" />
       <workItem from="1766792939754" duration="61130000" />
-      <workItem from="1767715922763" duration="2836000" />
+      <workItem from="1767715922763" duration="2969000" />
     </task>
     <servers />
   </component>
