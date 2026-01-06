@@ -167,25 +167,79 @@
 # result = atm_withdraw(5000)
 # print(result)
 
-# 1️⃣2️⃣ Login validation function
-def login_validation():
-    VALID_USRENAME="amar"
-    VALID_PASSWORD="admin"
+# # 1️⃣2️⃣ Login validation function
+# def login_validation():
+#     VALID_USRENAME="amar"
+#     VALID_PASSWORD="admin"
+#
+#     username = input("Please enter your username: ").strip()
+#     if username.lower() == VALID_USRENAME:
+#         password = input("Please enter your password: ").strip()
+#         if password == VALID_PASSWORD:
+#             return f"Login successful,\nWelcome {username}"
+#         else:
+#             return "password incorrect, please try again"
+#     else:
+#         return "username incorrect, please try again"
+#
+#
+# login = login_validation()
+# print(login)
 
-    username = input("Please enter your username: ").strip()
-    if username.lower() == VALID_USRENAME:
-        password = input("Please enter your password: ").strip()
-        if password == VALID_PASSWORD:
-            return f"Login successful,\nWelcome {username}"
-        else:
-            return "password incorrect, please try again"
+# # 1️⃣3️⃣ Discount calculator function
+# def discount():
+#     total_bill = int(input("Enter your total bill: "))
+#     if total_bill > 10000:
+#         percentage = total_bill * .30
+#         print(f"Thank you for shopping with us\n you got 30% of your bill\n Total Bill Now : $")
+#         return total_bill - percentage
+#     elif total_bill > 5000:
+#         percentage = total_bill * .20
+#         print(f"Thank you for shopping with us\n you got 20% of your bill\n Total Bill Now : $")
+#         return total_bill - percentage
+#     elif total_bill > 2000:
+#         percentage = total_bill * .10
+#         print(f"Thank you for shopping with us\n you got 10% of your bill\n Total Bill Now : $ ")
+#         return total_bill - percentage
+#     else:
+#         return f"Thank you for shopping with us your Total Bill Now : {total_bill}$"
+#
+# print(discount())
+
+# Approach 1
+def calculate_discount(total_bill):
+    if total_bill >= 10000:
+        discount = total_bill * 0.30
+    elif total_bill >= 5000:
+        discount = total_bill * 0.20
+    elif total_bill >= 2000:
+        discount = total_bill * 0.10
     else:
-        return "username incorrect, please try again"
+        discount = 0
+
+    final_amount = total_bill - discount
+    return final_amount, discount
+
+bill = int(input("Enter your total bill: "))
+
+final_amount, discount = calculate_discount(bill)
+
+print("Thank you for shopping with us")
+print("Discount applied:", discount)
+print("Final bill amount:", final_amount)
 
 
-login = login_validation()
-print(login)
+# Approach - 2
+def calculate_discount(total_bill):
+    if total_bill >= 10000:
+        return total_bill * 0.70
+    elif total_bill >= 5000:
+        return total_bill * 0.80
+    elif total_bill >= 2000:
+        return total_bill * 0.90
+    else:
+        return total_bill
 
-# 1️⃣3️⃣ Discount calculator function
+print(calculate_discount(12000))
 # 1️⃣4️⃣ Grade calculator function
 # 1️⃣5️⃣ Pattern printing function
