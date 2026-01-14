@@ -1,57 +1,59 @@
+#creating a list
 
-# collection = single "variable" stored multiple values.
-# List = [] ordered and changeable. Duplicate value allowed.
+# 1. With square brackets [] list of strings
+countries=["INDIA","USA","CANADA","UK","JAPAN","CHINA"]
+print(countries)
 
-fruits = ["apple", "banana", "cherry", "watermelon"]
-print(fruits)
+# list of integers
+numbers = [10,20,30,40,50]
+print(numbers)
 
-# access elements by index
-print(fruits[1]) # banana
-print(fruits[-1]) # last element watermelon
-print(fruits[4]) #  out of range
-print(fruits[:3]) # first 3 elements
-print(fruits[::2]) # from index 0 then every 2 element ['apple', 'cherry']
-print(fruits[::-1]) # ['watermelon', 'cherry', 'banana', 'apple']
+#list of mixing datatypes
+mix_type = ["POP",2000,"ROCK",1990,"AI",2025]
+print(mix_type)
 
-# Iterating over list
-for fruit in fruits :
-    print(fruit)
+# 2. using list() constructor
+# if list contains multiple values we can add values inside ()
+games = list(("CRICKET","AMERICAN-FOOTBALL","TENNIS","SWIMMING"))
+print(games)
 
-# Re-assign value = mutable
-fruits[0] = "pineapple"
-for fruit in fruits:
-    print(fruit)
+# if list value contains single name list() is enough
+singer = list("justin-bieber")
+print(singer)
 
+# Basic iteration
+s = "amar"
+for char in s:
+    print(char)
+print(s)
 
-# Different methods
-print(dir(fruits)) # Display all attributes and methods -> list provide
-print(help(fruits)) # Description for all the methods
-print(len(fruits)) # length of the list
-print("pineapple" in fruits) # false boolean return
-print(fruits.append("pineapple")) # add an element end of the list use <-
-print(fruits.remove("apple")) # remove apple
-print(fruits.append("apple")) # Duplicates allowed 2 times apple print
-print(fruits.count("apple")) # 2 caz 2 times apple
-fruits.insert(0,"dragon") # dragon first all next
-print(fruits.sort()) # sorting list alphabetical order
-print(fruits.reverse()) # reverse the list
-fruits.clear() # all the elements are gone
-print(fruits.index("dragon")) # 2
-print(fruits.pop()) # display last element and remove from the list
-print(fruits)
+#Creating list from string
+name = "AMARENDRA"
+res = list(name)
+print(res)
+print(len(name))
 
+#Creating a list from a tuple
+tu =(10,20,30,"amar")
+convert_to_list = list(tu)
+print(f"convert into list : {convert_to_list}")
+print(f"This is actual tuple : {tu}")
 
+# Creating a List from a Set
+names = {"amar","justin","selena","drake"}
+convert_to_list = list(names)
+print(convert_to_list)
 
-# list with numbers
-numbers = [10,20,30,40]
-print(max(numbers))
-sum_of_nums = sum(numbers)
-print(f"sum of number = {sum_of_nums}")
-length = len(numbers)
-print(f"length of numbers : {length}")
-average = sum_of_nums / length
-print(f"average is : {average}")
+#Creating a list from a dictionary
+company_ranking = {"Google" :1,"Microsoft":2,"Meta":3,"Amazon":4}
+print(company_ranking)
+convert_list = list(company_ranking) #it only prints keys not values
+print(convert_list)
 
-names = ["justin", "kayle" , 30, 71, "arina"]
-print(len(names))
-print(names)
+# Basic userinput
+userinput = input("Enter your name : ")
+print(f"Hello {userinput}!")
+
+# User input convert into list
+userinput = list(input("Enter your name : "))
+print(f"Hello {userinput}!")
