@@ -2,9 +2,29 @@
 
 # LEVEL 3 (Real-world logic)
 
-# 11. ATM withdrawal:
-# balance ≥ amount → success
-# else → insufficient balance
+""" 11. ATM withdrawal:
+    balance ≥ amount → success
+    else → insufficient balance """
+
+""" 12. Login system:
+    correct username + password → login success
+    else → login failed """
+
+""" 13. E-commerce discount:
+    amount ≥ 5000 → 20% discount
+    amount ≥ 2000 → 10% discount
+    else → no discount """
+
+# 14. Check if a number is divisible by both 3 and 5.
+
+""" 15. Check if a triangle is valid (sum of angles = 180).
+    Math rule Triangle rule → sum of angles must be 180 like wise Leap year rule → % 4, % 100, % 400 and Voting age 
+    rule → >= 18 """
+
+                                    # ===================SOLUTIONS================= #
+""" 11. ATM withdrawal:
+ balance ≥ amount → success
+ else → insufficient balance """
 
 available_balance = 25000
 withdraw_amount = int(input("Enter withdrawal amount: $ "))

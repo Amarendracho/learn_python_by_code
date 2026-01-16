@@ -1,9 +1,32 @@
+
+# Try to solve your self first
+
 # LEVEL 2 (Intermediate)
-# 6. Check grade based on marks:
-# ≥90 → A
-# ≥70 → B
-# ≥40 → C
-# Else → Fail
+
+""" # 6. Check grade based on marks:
+    ≥90 → A
+    ≥70 → B
+    ≥40 → C
+    Else → Fail """
+
+# 7. Check if a year is a leap year.
+# 8. Check if username equals "admin" and password equals "1234".
+"""  9. Check if temperature is:
+    30 → Hot
+    15–30 → Warm
+    <15 → Cold """
+
+# 10. Check if number lies between 10 and 50.
+
+
+
+                            # ===================SOLUTIONS================= #
+""" # 6. Check grade based on marks:
+    ≥90 → A
+    ≥70 → B
+    ≥40 → C
+    Else → Fail """
+
 marks = int(input("Enter your marks:\n"))
 if marks < 0 or marks > 100:
     print("Invalid marks")
@@ -55,7 +78,7 @@ elif 15 <= temperature <= 30:
 else:
     print("Cold")
 
-# 10. Check if a number lies between 10 and 50.
+# 10. Check if number lies between 10 and 50.
 number = int(input("Enter a number : \n"))
 if 10 <= number <= 50 :
     print("Your number lies in between 10 and 50")

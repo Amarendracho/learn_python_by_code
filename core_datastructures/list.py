@@ -112,3 +112,22 @@ matrix = [  [1,2,3],
 
 print(matrix)
 print(matrix[1][1])
+
+
+def primecheck():
+    number = int(input("Enter a number: "))
+
+    if number <= 2:
+        return "Not Prime"
+
+
+    for i in range(2,number):
+        if number % 2 == 0:
+            print("Not Prime")
+            break
+        else:
+            print("Prime")
+            return
+
+result = primecheck()
+print(result)
