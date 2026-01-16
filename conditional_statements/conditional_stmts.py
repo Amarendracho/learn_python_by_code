@@ -6,6 +6,7 @@
 # Check if a person is eligible to vote.
 # Check if a number is greater than 100.
 # Check if a string is empty or not.
+# # PRIME NUMBER CHECK
 
 
 
@@ -83,5 +84,20 @@ if message.strip() == "":
     print("You entered an empty string (or only spaces)")
 else:
     print("Not empty. Your message is:", message)
+
+
+# PRIME NUMBER CHECK
+num = int(input("Enter a number: "))
+if num <= 2:
+    print("NOT PRIME")
+
+for i in range(2, num):
+    if num % i == 0:
+        print("NOT PRIME")
+        break
+    else:
+        print("PRIME NUMBER")
+        break
+
 
 

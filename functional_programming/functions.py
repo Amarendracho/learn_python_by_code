@@ -112,6 +112,7 @@ def is_prime(number):
     return True
 
 print(is_prime(29))
+
 # 8️⃣ Function to reverse a number
 def reverse_number(number):
     reverse = 0

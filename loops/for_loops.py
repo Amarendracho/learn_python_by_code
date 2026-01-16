@@ -8,6 +8,7 @@
 # 5️⃣ Print numbers from 10 to 1 (reverse)
 
 
+                        # ===================SOLUTIONS================= #
 
 # # 1️⃣ Print numbers from 1 to 10
 for i in range (1, 11) :
