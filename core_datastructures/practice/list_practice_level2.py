@@ -74,6 +74,11 @@ for num in numbers:
         update_numbers.append(num)
 print(update_numbers)
 
+# Even better List comprehension
+update_numbers = [num for num in numbers if num > 50]
+print(update_numbers)
+
+
 # 1️⃣6️⃣ Given a list of numbers, replace all negative numbers with 0.
 # 1️⃣7️⃣ Merge two lists into one.
 # 1️⃣8️⃣ Remove duplicate elements from a list (basic logic).
