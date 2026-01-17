@@ -117,15 +117,25 @@
 # num1.append(num2)
 # print(num1) # [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
 
-# 1️⃣8️⃣ Remove duplicate elements from a list (basic logic).
-numbers = [10,20,30,40,50,40,50,20,30,10]
-remove_duplicates =[]
+# # 1️⃣8️⃣ Remove duplicate elements from a list (basic logic).
+# numbers = [10,20,30,40,50,40,50,20,30,10]
+# remove_duplicates =[]
+#
+# for num in numbers:
+#     if num not in remove_duplicates:
+#         remove_duplicates.append(num)
+# print(remove_duplicates)
 
-for num in numbers:
-    if num not in remove_duplicates:
-        remove_duplicates.append(num)
-print(remove_duplicates)
+# 1️⃣9️⃣ Find the second-largest number in a list.
 
-# 1️⃣9️⃣ Find the second largest number in a list.
 
 # 2️⃣0️⃣ Check if a list is sorted or not.
+# numbers = [10, 20, 30, 40, 50]
+#
+# is_sorted = True
+# for num in range(len(numbers) -1):
+#     if numbers[num] > numbers[num+1]:
+#         is_sorted = False
+#         break
+#
+# print("Sorted" if is_sorted else "Not sorted")
