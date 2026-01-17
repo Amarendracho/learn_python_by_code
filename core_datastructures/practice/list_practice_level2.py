@@ -55,31 +55,42 @@
 # print(odd_count)
 #
 
-# 1️⃣5️⃣ Create a new list containing only numbers greater than 50.
-numbers = [20,30,40,50,60,70,80,10]
-update_numbers = []
-
-for num in numbers:
-    if num > 50:
-        update_numbers.append(num)
-print(update_numbers)
-
-# Approach 2
-numbers = [20,30,40,50,60,70,80,10]
-update_numbers = []
-for num in numbers:
-    if num <= 50:
-        continue
-    else:
-        update_numbers.append(num)
-print(update_numbers)
-
-# Even better List comprehension
-update_numbers = [num for num in numbers if num > 50]
-print(update_numbers)
+# # 1️⃣5️⃣ Create a new list containing only numbers greater than 50.
+# numbers = [20,30,40,50,60,70,80,10]
+# update_numbers = []
+#
+# for num in numbers:
+#     if num > 50:
+#         update_numbers.append(num)
+# print(update_numbers)
+#
+# # Approach 2
+# numbers = [20,30,40,50,60,70,80,10]
+# update_numbers = []
+# for num in numbers:
+#     if num <= 50:
+#         continue
+#     else:
+#         update_numbers.append(num)
+# print(update_numbers)
+#
+# # Even better List comprehension
+# update_numbers = [num for num in numbers if num > 50]
+# print(update_numbers)
 
 
 # 1️⃣6️⃣ Given a list of numbers, replace all negative numbers with 0.
+mix_nums = [5,-1,3,12,-3,5,-2]
+filter_li = []
+
+for num in mix_nums:
+    if num < 0:
+        filter_li.append(0)
+    else:
+        filter_li.append(num)
+
+print(filter_li)
+
 # 1️⃣7️⃣ Merge two lists into one.
 # 1️⃣8️⃣ Remove duplicate elements from a list (basic logic).
 # 1️⃣9️⃣ Find the second largest number in a list.
