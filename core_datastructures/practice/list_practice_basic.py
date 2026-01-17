@@ -52,13 +52,17 @@ print(repeat)
 # 6️⃣ Check if an element exists in a list (in keyword).
 names = ["mark", "jack","sam","linda","brain"]
 if "sam" in names:
-    print("Name is Exist")
+    print("Name is exists")
 else:
-    print("Name is not Exist")
+    print("Name is not exists")
 
 # 7️⃣ Remove the last element from a list.
 numbers = [36,249,414,259,3]
-numbers.remove(numbers[-1])
+#numbers.remove(3) # remove() removes by value.
+print(numbers)
+
+# Better way
+print(numbers.pop()) # pop() removes by index,
 print(numbers)
 
 # 8️⃣ Print all elements of a list using a for loop.
@@ -68,8 +72,25 @@ for i in numbers:
 
 # 9️⃣ Print list elements in reverse order (without reverse() method). I tried but I don't know
 
-# 🔟 Copy one list into another list.
+numbers = [36,249,414,259,3]
+reverse = []
 
+for i in range(len(numbers) -1, -1, -1):
+    reverse.append(numbers[i])
+
+print(reverse)
+
+# Approach 2
+numbers = [36,249,414,259,3]
+reverse = []
+
+for i in numbers:
+    reverse.insert(0, i)
+
+print(reverse)
+
+
+# 🔟 Copy one list into another list.
 numbers = [36,249,414,259,3]
 number_copy = numbers.copy()
 print(number_copy)
