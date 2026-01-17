@@ -127,7 +127,19 @@
 # print(remove_duplicates)
 
 # 1️⃣9️⃣ Find the second-largest number in a list.
+numbers = [10, 20, 30, 40, 50]
 
+largest = numbers[0]
+second_largest = None
+
+for num in numbers:
+    if num > largest:
+        second_largest = largest
+        largest = num
+    elif num != largest and (second_largest is None or num > second_largest):
+        second_largest = num
+
+print("Second largest:", second_largest)
 
 # 2️⃣0️⃣ Check if a list is sorted or not.
 # numbers = [10, 20, 30, 40, 50]
