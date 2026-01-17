@@ -1,5 +1,6 @@
+                                    # Try to solve first and then look those answers
 
-# Try to solve first and then look those answers
+
 """ LEVEL 1 — BASICS (Foundation)
 1️⃣ Create a list of 5 integers and print it.
 2️⃣ Access and print the first, last, and middle element of a list.
