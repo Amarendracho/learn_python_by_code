@@ -91,7 +91,32 @@ for num in mix_nums:
 
 print(filter_li)
 
+# Approach 2 Better
+mix_nums = [5,-1,3,12,-3,5,-2]
+filter_li = []
+
+for num in mix_nums:
+    filter_li.append(0 if num < 0 else num)
+print(filter_li)
+
 # 1️⃣7️⃣ Merge two lists into one.
+list1 = [1,2,3,4,5]
+list2 = [10,20,30,40,50]
+list3 = list1 + list2
+print(list3)
+
+# Approach 2 Better
+names = ["Amar", "John"]
+new_names = ["Alex", "Sam"]
+names.extend(new_names)
+print(names)
+
+# What happen if we use append
+num1=[1,2,3,4,5]
+num2=[6,7,8,9,10]
+num1.append(num2)
+print(num1) # [1, 2, 3, 4, 5, [6, 7, 8, 9, 10]]
+
 # 1️⃣8️⃣ Remove duplicate elements from a list (basic logic).
 # 1️⃣9️⃣ Find the second largest number in a list.
 # 2️⃣0️⃣ Check if a list is sorted or not.
