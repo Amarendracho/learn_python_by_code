@@ -53,12 +53,30 @@ tuple is immutable this is the only difference from list"""
 #     print(name)
 
 
-# Accessing of Tuples elements
+                                 # Accessing of Tuples elements
+
+# Accessing Tuple with Indexing
+name = ("Amar")
+print(name[0])
+
+names = ("Amar","Justin","Selena","Taylor")
+print(len(names))
+print(names[2])
+
+# Accessing a range of elements using slicing
+program_language = ("Python Language")
+print(program_language[5]) # print the index value
+print(program_language[:4]) # 0 to 3 -> Pyth
+print(program_language[1:10]) # 1 to 9 -> y to n
+print(program_language[::2]) # from 0 to n-1 -> every 2 element 0 2 4 . .
 
 
-# Iterable
-# for name in names :
-#     print(name)
-#
-# numbers = [10,20,30,40]
-# print(max(numbers))
+# Tuple unpacking
+names = ("Amar","Justin","Selena","Taylor")
+
+# This line unpack values of Tuple1
+a ,b ,c, d = names
+print(a)
+print(b)
+print(c)
+print(d)
