@@ -55,28 +55,46 @@ tuple is immutable this is the only difference from list"""
 
                                  # Accessing of Tuples elements
 
-# Accessing Tuple with Indexing
-name = ("Amar")
-print(name[0])
+# # Accessing Tuple with Indexing
+# name = ("Amar")
+# print(name[0])
+#
+# names = ("Amar","Justin","Selena","Taylor")
+# print(len(names))
+# print(names[2])
+#
+# # Accessing a range of elements using slicing
+# program_language = ("Python Language")
+# print(program_language[5]) # print the index value
+# print(program_language[:4]) # 0 to 3 -> Pyth
+# print(program_language[1:10]) # 1 to 9 -> y to n
+# print(program_language[::2]) # from 0 to n-1 -> every 2 element 0 2 4 . .
+#
+#
+# # Tuple unpacking
+# names = ("Amar","Justin","Selena","Taylor")
+#
+# # This line unpack values of Tuple1
+# a ,b ,c, d = names
+# print(a)
+# print(b)
+# print(c)
+# print(d)
 
-names = ("Amar","Justin","Selena","Taylor")
-print(len(names))
-print(names[2])
 
-# Accessing a range of elements using slicing
-program_language = ("Python Language")
-print(program_language[5]) # print the index value
-print(program_language[:4]) # 0 to 3 -> Pyth
-print(program_language[1:10]) # 1 to 9 -> y to n
-print(program_language[::2]) # from 0 to n-1 -> every 2 element 0 2 4 . .
+                                 # TUPLE SLICING
 
+tup = [0,1,2,3,4,5,6,7,8,9,10]
 
-# Tuple unpacking
-names = ("Amar","Justin","Selena","Taylor")
+# Slice from index 2 to 5
+print(tup[2:6])
 
-# This line unpack values of Tuple1
-a ,b ,c, d = names
-print(a)
-print(b)
-print(c)
-print(d)
+# Slice from the beginning to index 3
+print(tup[:4])
+
+# Slice from index 5 to the end
+print(tup[5:])
+
+# Slice the entire tuple
+print(tup[:])
+
