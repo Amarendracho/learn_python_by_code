@@ -84,17 +84,33 @@ tuple is immutable this is the only difference from list"""
 
                                  # TUPLE SLICING
 
-tup = [0,1,2,3,4,5,6,7,8,9,10]
+# tup = [0,1,2,3,4,5,6,7,8,9,10]
+#
+# # Slice from index 2 to 5
+# print(tup[2:6])
+#
+# # Slice from the beginning to index 3
+# print(tup[:4])
+#
+# # Slice from index 5 to the end
+# print(tup[5:])
+#
+# # Slice the entire tuple
+# print(tup[:])
 
-# Slice from index 2 to 5
-print(tup[2:6])
+#Using Negative Indices
 
-# Slice from the beginning to index 3
-print(tup[:4])
+tup = [0,1,2,3,4,5,6,7,8,9]
 
-# Slice from index 5 to the end
-print(tup[5:])
+# Slice from the third last to the end
+s1 = tup[-3:]
+print(s1)
 
-# Slice the entire tuple
-print(tup[:])
+# Slice from the beginning to the third last
+s2 = tup[:-3]
+print(s2)
+
+# Slice from the third last to the second last
+s3 = tup[-3:-1]
+print(s3)
 
