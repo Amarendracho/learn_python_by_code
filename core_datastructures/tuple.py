@@ -114,3 +114,9 @@ print(s2)
 s3 = tup[-3:-1]
 print(s3)
 
+                        # Concatenation of Tuples
+
+tup1 = (1,2,3,4)
+tup2 = ("name","mak","sha","josh")
+tup3 = tup1 + tup2
+print(tup3)
