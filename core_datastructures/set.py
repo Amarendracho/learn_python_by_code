@@ -56,11 +56,24 @@
 # print(r)
 # print(r1)
 
-#Converting a Dictionary into a Set
-kv = {1:"Amar", 2:"Justin", 3:"Drake"}
-c_set = set(kv) # ONLY PRINT KEYS
-print(set(kv.keys()))
-c_set_v = set(kv.values()) # PRINT VALUES
-print(c_set)
-print(c_set_v)
+# #Converting a Dictionary into a Set
+# kv = {1:"Amar", 2:"Justin", 3:"Drake"}
+# c_set = set(kv) # ONLY PRINT KEYS
+# print(set(kv.keys()))
+# c_set_v = set(kv.values()) # PRINT VALUES
+# print(c_set)
+# print(c_set_v)
+
+# #TYPE CASTING
+# s = set([1,2,3,4,3,2,4,1])
+# s1 = set(["Amar","Justin","Drake","Amar","Justin","Drake",])
+# s1.add("Newname") # ADDING ITEM INTO SET
+# print(s)
+# print(s1)
+
+# singer_names = {"Justin","Drake","Ed sharan","Akon","Selena","Justin"}
+# print(singer_names)
+## singer_names[2] = "Newsinger" # ERROR YOU CAN NOT CHANGE VALUE DIRECTLY USE ADD() ONLY
+# singer_names.add("Newsinger added") # IT WILL WORK
+# print(singer_names)
 
