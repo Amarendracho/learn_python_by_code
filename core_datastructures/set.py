@@ -26,3 +26,40 @@
 """
         SET - UN-ORDERED , NO-DUPLICATES , IMMUTABLE
 """
+# s = {1,2,3,4}
+# print(s)
+# print(type(s)) # <class 'set'>
+
+# #dict type
+# s = {}
+# print(type(s))
+#
+# #Creating an Empty Set
+# empty_set = set()
+# print(empty_set)
+
+
+# #Converting a List into a Set
+# list_nums = [1,2,3,4,5,5,4,3,2,1]
+# convert_to_Set = set(list_nums)
+# print(convert_to_Set)
+
+
+#Converting a Tuple into a Set
+a ={10,20,30,40,30,40,20,20}
+b = set(a)
+print(b)
+
+#Using Range with Set
+r = set(range(10))
+r1 = set(range(1,10))
+print(r)
+print(r1)
+
+#Converting a Dictionary into a Set
+kv = {1:"Amar", 2:"Justin", 3:"Drake"}
+c_set = set(kv) # ONLY PRINT KEYS
+c_set_v = set(kv.values()) # PRINT VALUES
+print(c_set)
+print(c_set_v)
+
