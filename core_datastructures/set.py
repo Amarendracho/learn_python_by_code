@@ -45,20 +45,21 @@
 # print(convert_to_Set)
 
 
-#Converting a Tuple into a Set
-a ={10,20,30,40,30,40,20,20}
-b = set(a)
-print(b)
+# #Converting a Tuple into a Set
+# a =(10,20,30,40,30,40,20,20)
+# b = set(a)
+# print(b)
 
-#Using Range with Set
-r = set(range(10))
-r1 = set(range(1,10))
-print(r)
-print(r1)
+# #Using Range with Set
+# r = set(range(10))
+# r1 = set(range(1,10))
+# print(r)
+# print(r1)
 
 #Converting a Dictionary into a Set
 kv = {1:"Amar", 2:"Justin", 3:"Drake"}
 c_set = set(kv) # ONLY PRINT KEYS
+print(set(kv.keys()))
 c_set_v = set(kv.values()) # PRINT VALUES
 print(c_set)
 print(c_set_v)
