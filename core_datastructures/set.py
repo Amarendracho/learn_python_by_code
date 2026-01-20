@@ -77,3 +77,6 @@
 # singer_names.add("Newsinger added") # IT WILL WORK
 # print(singer_names)
 
+#Heterogeneous Element ALLOWED
+s = {"Amar", "learn", 10, 52.7, True}
+print(s)
