@@ -80,7 +80,38 @@
 # singer_names.add("Newsinger added") # IT WILL WORK
 # print(singer_names)
 
-#Heterogeneous Element ALLOWED
-s = {"Amar", "learn", 10, 52.7, True}
-print(s)
+# #Heterogeneous Element ALLOWED
+# s = {"Amar", "learn", 10, 52.7, True}
+# print(s)
+#
+# #ACCESSING ELEMENTS FROM SET
+# for x in s:
+#     print(x, end =", ")
+
+# REMOVING ELEMENTS FROM SET
+#remove() -> error if missing
+names = {"Justin","Joy","Keran","Mark","Brandon","Joy"}
+#print(names.remove("selena")) # SHOW ERROR IF ITEM MISSING
+print(names.remove("Joy"))
+print(names)
+
+#discard() -> NO error if missing (safer)
+print(names.discard("Amar"))
+
+#pop() → removes random element
+print(names.pop())
+
+#clear() → empty set
+delete = names.clear()
+print(names)
+
+#Checking Membership -> check membership is faster then list
+nums = {1,2,4,6,2,3}
+if 1 in nums:
+    print("EXISTS")
+else:
+    print("NOT EXISTS")
+
+#METHODS FOR SETS
+#add()
 
