@@ -38,6 +38,9 @@
 # empty_set = set()
 # print(empty_set)
 
+# #From a String
+# name = set("Amarendra")
+# print(name)
 
 # #Converting a List into a Set
 # list_nums = [1,2,3,4,5,5,4,3,2,1]
@@ -80,3 +83,4 @@
 #Heterogeneous Element ALLOWED
 s = {"Amar", "learn", 10, 52.7, True}
 print(s)
+
