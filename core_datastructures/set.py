@@ -160,3 +160,9 @@ A = {1,2,3,4,5}
 B = {5,4,3,2,1,10}
 print(A.difference(B)) # empty set()
 print(B.difference(A)) # 10
+
+
+#Clearing a Set clear()
+names_set = {"john","mark","justin","collin"}
+names_set.clear()
+print(names_set)
