@@ -152,7 +152,11 @@ print(res) # {1,2} - {3,4,5} are present in the other sets to so skip
 #Using difference() with an Empty Set
 names = {"john","mark","justin","collin"}
 empty_set = set()
-print(names.difference(empty_set))
+print(names.difference(empty_set)) # prints all names becz empty_set is empty
 
 
-# When Sets Are Equal
+#When Sets Are Equal
+A = {1,2,3,4,5}
+B = {5,4,3,2,1,10}
+print(A.difference(B)) # empty set()
+print(B.difference(A)) # 10
