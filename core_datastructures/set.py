@@ -88,47 +88,71 @@
 # for x in s:
 #     print(x, end =", ")
 
-# REMOVING ELEMENTS FROM SET
-#remove() -> error if missing
-names = {"Justin","Joy","Keran","Mark","Brandon","Joy"}
-#print(names.remove("selena")) # SHOW ERROR IF ITEM MISSING
-print(names.remove("Joy"))
-print(names)
+# # REMOVING ELEMENTS FROM SET
+# #remove() -> error if missing
+# names = {"Justin","Joy","Keran","Mark","Brandon","Joy"}
+# #print(names.remove("selena")) # SHOW ERROR IF ITEM MISSING
+# print(names.remove("Joy"))
+# print(names)
+#
+# #discard() -> NO error if missing (safer)
+# print(names.discard("Amar"))
+#
+# #pop() → removes random element
+# print(names.pop())
+#
+# #clear() → empty set
+# delete = names.clear()
+# print(names)
+#
+# #Checking Membership -> check membership is faster then list
+# nums = {1,2,4,6,2,3}
+# if 1 in nums:
+#     print("EXISTS")
+# else:
+#     print("NOT EXISTS")
+#
+# #METHODS FOR SETS
+# #add() -  used to insert new elements into a set.
+# prog_langs= {"JAVA","PYTHON","JAVASCRIPT",".NET"}
+# prog_langs.add("C#")
+# print(f"Add new element : {prog_langs}")
+#
+# #union() - combines two sets and returns a new set with all unique elements.
+# old_p_langs= {"C++","C#", ".NET","JAVA"}
+# new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
+#
+# present_langs = old_p_langs.union(new_p_langs)
+# print(f"Only unique elements : {present_langs}")
+#
+# #intersection() - function returns a new set containing elements that are common to both sets
+# old_p_langs= {"C","C++","C#", ".NET","JAVA"}
+# new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
+#
+# common_langs = old_p_langs.intersection(new_p_langs)
+# print(f"common languages : {common_langs}")
 
-#discard() -> NO error if missing (safer)
-print(names.discard("Amar"))
+#difference()
+#In Python, the difference() method is used to find elements that exist in one set but not in another.
+# if any element present in second set it skip it and print only unique elements same b also.
+a = {10,20,30,40,50,100}
+b = {100,200,30,40,50}
 
-#pop() → removes random element
-print(names.pop())
+print(a.difference(b))
+print(b.difference(a))
 
-#clear() → empty set
-delete = names.clear()
-print(names)
+# Using difference() with Multiple Sets
+A = {1, 2, 3, 4, 5}
+B = {3, 4, 5, 6, 7}
+C = {5, 6, 7, 8, 9}
 
-#Checking Membership -> check membership is faster then list
-nums = {1,2,4,6,2,3}
-if 1 in nums:
-    print("EXISTS")
-else:
-    print("NOT EXISTS")
+res = A.difference(B, C)  # Elements in A that are not in B or C
+print(res) # {1,2} - {3,4,5} are present in the other sets to so skip
 
-#METHODS FOR SETS
-#add() -  used to insert new elements into a set.
-prog_langs= {"JAVA","PYTHON","JAVASCRIPT",".NET"}
-prog_langs.add("C#")
-print(f"Add new element : {prog_langs}")
+#Using difference() with an Empty Set
+names = {"john","mark","justin","collin"}
+empty_set = set()
+print(names.difference(empty_set))
 
-#union() - combines two sets and returns a new set with all unique elements.
-old_p_langs= {"C++","C#", ".NET","JAVA"}
-new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
 
-present_langs = old_p_langs.union(new_p_langs)
-print(f"Only unique elements : {present_langs}")
-
-#intersection() - function returns a new set containing elements that are common to both sets
-old_p_langs= {"C","C++","C#", ".NET","JAVA"}
-new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
-
-common_langs = old_p_langs.intersection(new_p_langs)
-print(f"common languages : {common_langs}")
-
+# When Sets Are Equal
