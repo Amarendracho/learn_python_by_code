@@ -113,5 +113,22 @@ else:
     print("NOT EXISTS")
 
 #METHODS FOR SETS
-#add()
+#add() -  used to insert new elements into a set.
+prog_langs= {"JAVA","PYTHON","JAVASCRIPT",".NET"}
+prog_langs.add("C#")
+print(f"Add new element : {prog_langs}")
+
+#union() - combines two sets and returns a new set with all unique elements.
+old_p_langs= {"C++","C#", ".NET","JAVA"}
+new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
+
+present_langs = old_p_langs.union(new_p_langs)
+print(f"Only unique elements : {present_langs}")
+
+#intersection() - function returns a new set containing elements that are common to both sets
+old_p_langs= {"C","C++","C#", ".NET","JAVA"}
+new_p_langs = {"JAVA","R","PYTHON","JS","C#"}
+
+common_langs = old_p_langs.intersection(new_p_langs)
+print(f"common languages : {common_langs}")
 
