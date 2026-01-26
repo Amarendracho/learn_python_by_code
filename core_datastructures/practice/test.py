@@ -8,3 +8,5 @@ print(name)
 name = name + "kadambala"
 print(name)
 
+for char in name:
+    print(char, end=" ")
