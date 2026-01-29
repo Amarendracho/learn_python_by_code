@@ -21,12 +21,6 @@
 numbers = [36,249,414,259,3]
 print(numbers)
 
-
-print(numbers[0])
-print(numbers[-1])
-mid = len(numbers) //2
-print(numbers[mid])
-
 #2️⃣ Access and print the first, last, and middle element of a list.
 numbers = [36,249,414,259,3]
 first_element = numbers[0]
@@ -48,6 +42,13 @@ print(empty_list)
 nums = [10,20,30,40]
 nums[2] = 300
 print(nums)
+
+
+nums= [1,2,3,4,5]
+length = 0
+for i in nums:
+    length += 1
+print(length)
 
 # 5️⃣ Find the length of a list without using len() (use a loop).
 numbers = [36,249,414,259,3]
