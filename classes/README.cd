@@ -1,0 +1,5 @@
+# LEARN FIRST CONSTRUCTOR LIKE (__init__) METHOD
+
+ __init__() - is a constructor.
+ It automatically calls when you create an object for the class.
+ Object is instance of class.
