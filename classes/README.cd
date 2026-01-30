@@ -3,3 +3,11 @@
  __init__() - is a constructor.
  It automatically calls when you create an object for the class.
  Object is instance of class.
+
+
+ #__init__(self)
+ is a constructor method that runs automatically when a new object is created.
+ It is used to initialize object data.
+
+ #self -> this in java
+ self refers to the current object, allowing each object to store and access its own data.
