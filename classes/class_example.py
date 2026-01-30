@@ -9,4 +9,4 @@ class test:
 
 obj = test("Amar",29)
 
-obj.details()
+obj.details() 
