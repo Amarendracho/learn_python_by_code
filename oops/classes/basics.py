@@ -1,0 +1,12 @@
+
+"""CLASS IS COLLECTION OF OBJECTS, CONTAINS ATTRIBUTES AND BEHAVIOR (VARIABLES AND METHODS)
+   CREATE A CLASS -> k/w class Classname :
+   EMPTY BLOCKS ARE NOT ALLOWED FOR CLASS, METHODS, BLOCKS...
+   SO WE USE - pass k/w MAKE CLASS OR METHOD SHOULD NOT BE EMPTY"""
+
+
+class Employee:
+    pass
+
+#Empty object creation no result
+Amarendra = Employee()
