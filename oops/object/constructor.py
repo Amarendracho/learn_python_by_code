@@ -4,16 +4,16 @@
 
 
 #__init__ with Parameters
-# class Human:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-#
-# person1 = Human("patric", 19)
-# person2 = Human("Justin", 24)
-#
-# print(person1.name , person1.age)
-# print(person2.name , person2.age)
+class Human:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person1 = Human("patric", 19)
+person2 = Human("Justin", 24)
+
+print(person1.name , person1.age)
+print(person2.name , person2.age)
 
 
 #Default Parameters in __init__
@@ -35,5 +35,15 @@ print(model2.model_name, model2.age, model2.usage)
 print(f"{model3.model_name}, age-{model3.age}, owned by-{model3.usage}")
 print(model4.model_name, model4.age, model4.usage)
 
+# __init__ Method with Inheritance
+class Parent:
+    def __init__(self):
+        print("Parent class constructor")
 
+class Child(Parent):
 
+    def __init__(self):
+        super().__init__() # calls parent class constructor
+        print("Child class constructor")
+
+object1 = Child()
