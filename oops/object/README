@@ -2,3 +2,7 @@
 
  create object
     obj1 = classname() - it calls __init__() method internally
+
+# CONSTRUCTOR
+    __init__() ->  __init__ with Parameters
+    __init__() -> Default Parameters in __init__
