@@ -10,3 +10,4 @@ class Employee:
 
 #Empty object creation no result
 Amarendra = Employee()
+
