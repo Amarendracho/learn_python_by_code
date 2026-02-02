@@ -15,4 +15,18 @@ class PassKeyword:
         pass
 
 obj1 = PassKeyword()
-obj1.display() # Display nothing because it pass the blocks
+obj1.display() # Display nothing because it passes the blocks
+
+
+# pass examples
+# When you know structure first, logic later. know the design logic later
+
+class BankAccount:
+
+    def deposit(self):
+        pass
+
+    def withdrew(self):
+        pass
+
+#“Methods exist, I’ll implement them later.”
