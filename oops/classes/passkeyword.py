@@ -8,25 +8,28 @@
 class PassKeyword:
     pass
 
+    # pass constructor
     def __init__(self):
         pass
 
+    # pass method
     def display(self):
         pass
-
-obj1 = PassKeyword()
-obj1.display() # Display nothing because it passes the blocks
 
 
 # pass examples
 # When you know structure first, logic later. know the design logic later
-
+#“Methods exist, I’ll implement them later.”
 class BankAccount:
 
+    # pass methods
     def deposit(self):
         pass
 
     def withdrew(self):
         pass
 
-#“Methods exist, I’ll implement them later.”
+    # pass block
+    if True:
+        pass
+

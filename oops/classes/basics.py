@@ -8,6 +8,3 @@
 class Employee:
     pass
 
-#Empty object creation no result
-Amarendra = Employee()
-
