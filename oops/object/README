@@ -1,0 +1,4 @@
+# OBJECT
+
+ create object
+    obj1 = classname() - it calls __init__() method internally
