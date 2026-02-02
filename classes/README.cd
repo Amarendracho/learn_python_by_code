@@ -1,6 +1,6 @@
 # LEARN FIRST CONSTRUCTOR LIKE (__init__) METHOD
 
- __init__() - is a constructor.
+ __init__() - is a Default constructor.
  It automatically calls when you create an object for the class.
  Object is instance of class.
 
@@ -11,3 +11,5 @@
 
  #self -> this in java
  self refers to the current object, allowing each object to store and access its own data.
+
+
