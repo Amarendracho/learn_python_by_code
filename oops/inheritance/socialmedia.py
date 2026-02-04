@@ -4,7 +4,6 @@
 
 # parent class
 class Meta:
-
     def __init__(self,username, is_present):
         self.username = username
         self.is_present = is_present
@@ -20,3 +19,5 @@ user1 = Whatsapp("Jacab@23", True)
 user2 = Whatsapp("Mark@@@@@@@", False)
 print(user1.user_details()) # inherited method
 print(user2.user_details())
+
+
