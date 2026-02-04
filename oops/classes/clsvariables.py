@@ -2,8 +2,6 @@
 #                    class variables defined outside the constructors.
 #                    calling class variables by obj reference and class_name.variable_name(recommended)
 
-
-
 class House:
     walls = True
     bedrooms= 3
@@ -14,6 +12,12 @@ obj2 = House()
 print(obj1.bedrooms, obj1.walls)
 print(House.bedrooms, House.walls)
 
+# 2 ways to modify the class variables using obj and classname
+obj1.bedrooms = 2 #(NOT RECOMMENDED)
+print(obj1.bedrooms, obj1.walls)
+
+House.bedrooms = 5 #(RECOMMENDED class name)
+print(House.bedrooms, House.walls)
 
 # with instance variables
 class Student:
