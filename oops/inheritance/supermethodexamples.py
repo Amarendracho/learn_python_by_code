@@ -2,6 +2,36 @@
 #  It allows you to extend or override inherited methods while still reusing the parent’s functionality.
 
 
+
+# Simple super() example
+class Phone:
+
+    def __init__(self, model_name, color,is_internet):
+        self.name = model_name
+        self.color = color
+        self.is_internet = is_internet
+
+    def phone_properties(self):
+        return (f"Phone Model : {self.name}\n"
+                f"Phone color : {self.color}\n"
+                f"Phone have Internet connection : {self.is_internet}")
+
+class Iphone(Phone):
+    def __init__(self, model_name, color,is_internet,camara):
+        super().__init__(model_name, color, is_internet)
+        self.camara= camara
+
+    def iphone_properties(self):
+        iphone_feature = super().phone_properties()
+        return (f"{iphone_feature}\n"
+                f"camara pixels : {self.camara}")
+
+iphone1 = Iphone("IPHONE-17-PROMAX", "Silver", True, "50MP")
+print(iphone1.iphone_properties())
+
+
+
+# Intermediate super() example include method super() and constructor super()
 class Flight:
     def __init__(self, flight_number, business_cls_status, destination):
         self.fnumber = flight_number
