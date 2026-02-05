@@ -38,3 +38,25 @@ class Villa(Flat,House):
 obj = Villa()
 obj.bedroom_count()
 
+#Multiple Inheritance with super()
+class A:
+    def show(self):
+        print("A")
+        super().show()
+
+class B:
+    def show(self):
+        print("B")
+        super().show()
+
+class C(A, B):
+    def show(self):
+        print("C")
+        super().show()
+
+class D:
+    def show(self):
+        print("D")
+
+obj = C()
+obj.show() # C A B
