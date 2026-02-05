@@ -1,8 +1,8 @@
 # Inheritance
 
     socialmedia.py - basic inheritance
-    car.py - with little super() function constructor level
-    supermethodexample.py - super() function constructor level and method level
+    car.py - with little super function constructor level
+    supermethodexample.py - super function constructor level and method level
     single-inheritance
     multiple-inheritance
     multilevel-inheritance
