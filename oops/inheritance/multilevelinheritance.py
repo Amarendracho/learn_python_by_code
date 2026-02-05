@@ -5,6 +5,23 @@
 # Python uses Method Resolution Order (MRO) to determine the sequence in which parent classes are searched.
 # When super() is used.
 
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+class Employee(Person):
+    def emp_details(self):
+        print(self.name, "- Is Employee")
+
+class Manager(Employee):
+    def team(self, team):
+        print(self.name, "- Is manages" , team , "team")
+
+emp1 = Manager("Amarendra")
+emp1.emp_details()
+emp1.team("tech")
+
 class Phone:
     def __init__(self, model):
         print("phone model : ", model)
