@@ -1,27 +1,40 @@
 
 # In multiple inheritance, a child class can inherit from more than one parent class.
 
-class Facebook :
 
-    def __init__(self, name):
-        self.name = name
+# multilevel inheritance with different methods
+class A:
+    def method_a(self):
+        print("A - CLASS METHOD")
 
-class Whatsapp(Facebook):
-    def __init__(self,name, email):
-        super().__init__(name)
-        self.email = email
+class B:
+    def method_b(self):
+        print("B - CLASS METHOD")
 
-    def profile(self):
-        return (f"Username is : {self.name}\n"
-                f"Email is : {self.email}")
+class C(A,B):
+    pass
 
-class SocialMedia(Facebook,Whatsapp):
-    def __init__(self,name,email):
-        Facebook.__init__(self,name)
-        Whatsapp.__init__(self,name,email)
+obj = C() # C inherit both A,B
+obj.method_a()
+obj.method_b()
 
-account1 = SocialMedia("Markana@2","markana32@gmail.com")
-account2 = SocialMedia("samaltman","samal891@gmail.com")
 
-print(account1.profile())
-print(account2.profile())
+# multilevel inheritance with same methods - python follow MRO(Model Resolution Order)
+# MRO check LEFT - TO - RIGHT (priority)
+
+class House:
+
+    def bedroom_count(self):
+        print("House have 3 bedroom")
+
+class Flat:
+
+    def bedroom_count(self):
+        print("Flat have 2 bedroom")
+
+class Villa(Flat,House):
+    pass
+
+obj = Villa()
+obj.bedroom_count()
+
