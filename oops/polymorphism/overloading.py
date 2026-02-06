@@ -40,3 +40,13 @@ print(add.addition(1,2,3,4,5))
 print(add.addition(10,20,30,40,50))
 print(add.addition(100,200,300))
 add.nums(5,2,35)
+
+#Mixing normal parameters with *args
+class Welcome:
+
+    def greet(self, message, *names):
+        for name in names:
+            print(f'{message} {name}')
+
+greet1 = Welcome()
+greet1.greet("Hello", "Jessy", "Mark", "Jorden")
