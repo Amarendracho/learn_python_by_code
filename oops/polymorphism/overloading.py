@@ -32,8 +32,8 @@ class VariableArgumentExample:
     def addition(self, *args):
         return sum(args)
 
-    # def nums(self, *args):
-    #     print(args)
+    def nums(self, *args):
+        print(args)
 
 add = VariableArgumentExample()
 print(add.addition(1,2,3,4,5))
