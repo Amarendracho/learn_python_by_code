@@ -1,4 +1,6 @@
 # polymorphism
 
     1. method overloading (not present) but help of default arguments and variable arguments (*args)
-    
+    2. default arguments & variable arguments(*args)
+    3. inbuildpoly.py python file (in-build python functions)
+    4. operator polymorphism
