@@ -1,12 +1,13 @@
 # In python method overloading is not supports but same concept we can achieve using
 #                               default arguments & variable arguments(*args)
 
-"""             IN JAVA it supports but not in python
+"""             IN JAVA, it supports but not in python
                 int add(a, b){ return a + b; }
                 int add(a, b, c) {return a + b + c; }
                 int add(a, b, c, d) { return a + b + c + d; }"""
 
 
+# default arguments
 class DefaultArgumentExample():
 
     # instead of multiple methods python use one methods handles multiple cases
@@ -22,3 +23,20 @@ add = DefaultArgumentExample()
 print(add.addition(10,20,))
 print(add.addition(5,20, 10))
 print(add.addition(10, 20, 30))
+
+
+#variable arguments(*args)
+class VariableArgumentExample:
+
+    # sum() in-build function
+    def addition(self, *args):
+        return sum(args)
+
+    # def nums(self, *args):
+    #     print(args)
+
+add = VariableArgumentExample()
+print(add.addition(1,2,3,4,5))
+print(add.addition(10,20,30,40,50))
+print(add.addition(100,200,300))
+add.nums(5,2,35)
