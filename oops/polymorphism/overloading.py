@@ -50,3 +50,11 @@ class Welcome:
 
 greet1 = Welcome()
 greet1.greet("Hello", "Jessy", "Mark", "Jorden")
+
+
+#*args in real projects
+class Order:
+
+    def log(self,*messages):
+        for msg in messages:
+            print(msg)
