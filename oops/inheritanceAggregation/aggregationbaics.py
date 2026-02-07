@@ -12,7 +12,13 @@ class Employee:
         self.emp_name = emp_name
         self.project = project
 
-project = Project("AI-ENGINEER")
-emp = Employee("Amarendra", project)
-print(emp.emp_name)
-print(emp.project)
+project = Project("AI-ENGINEER") # single project object
+emp1 = Employee("Amarendra", project)
+emp2 = Employee("Martin", project)
+
+print(emp1.emp_name, "works on", emp1.project.name)
+print(emp2.emp_name, "works on", emp2.project.name)
+
+# One project
+# Multiple employees
+# Project lives independently
