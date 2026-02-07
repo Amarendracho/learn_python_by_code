@@ -1,11 +1,11 @@
 # OOPS CONCEPTS 1
 
-    1. class
+    1. class basic.py
     2. what is pass keyword
         2.1 pass class
         2.2 pass block
         2.3 pass method
-    3. learning class deeply with learningclass
+    3. learning class deeply with learningclass.py
     4. Create car class implement all the logic and implementation.
        create main method class separately in the same package and create car objects and calling them
        As a real time.
