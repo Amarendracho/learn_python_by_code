@@ -15,4 +15,6 @@ class Car:
 car = Car("Mustang")
 print(car.model, car.engine.power)
 
-
+# Engine is created inside Car
+# Engine cannot exist without Car
+# Strong ownership
