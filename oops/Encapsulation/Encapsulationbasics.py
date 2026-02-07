@@ -9,7 +9,7 @@ class Employee:
         self.__salary = salary # private attribute
 
 emp1 = Employee("Tanish", 79000)
-print(emp1.name, emp1.__salary)
+print(emp1.name, emp1.__salary) # error
 
 
 # self.name = name: Public attribute, can be accessed directly.
