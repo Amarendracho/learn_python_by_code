@@ -11,15 +11,17 @@ class Property:
         self._property_cost = cost # protected member
 
     def _property_details(self):
-        print(f"{self.name} and cost of the property is {self._property_cost}")
+        print(f"property is : {self.name} and cost : {self._property_cost}")
 
 class House(Property):
     def __init__(self, name, cost, bedrooms):
-        super().__init(name,cost)
+        super().__init__(name,cost)
         self.bed = bedrooms
 
-    def house_property(self, bedrooms):
-        print(f"{self.name} and beds {self.bed} and {self._property_cost}")
+    def house_property(self):
+        super()._property_details()
+        print(f"It has {self.bed} rooms")
+        #print(f"{self.name} and beds {self.bed} and {self._property_cost}")
 
-house = House("House", 150000)
-house.house_property(3)
+house = House("House", 150000, 3)
+house.house_property()
