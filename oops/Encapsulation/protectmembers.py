@@ -27,10 +27,17 @@ house = House("House", 150000, 3)
 house.house_property()
 
 
+class Manager:
+    def __init(self, name, age):
+        self.name = name # public
+        self._age = age # protected
 
+class Employee(Manager):
 
+    def show_details(self):
+        return f"Employee age : {self._age}" # access protected variable in subclass
 
-
+emp1 = Employee("Chaile", 23)
 
 
 
