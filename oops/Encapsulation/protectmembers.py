@@ -28,7 +28,7 @@ house.house_property()
 
 
 class Manager:
-    def __init(self, name, age):
+    def __init__(self, name, age):
         self.name = name # public
         self._age = age # protected
 
@@ -38,7 +38,8 @@ class Employee(Manager):
         return f"Employee age : {self._age}" # access protected variable in subclass
 
 emp1 = Employee("Chaile", 23)
-
+print(emp1.name)
+print(emp1.show_details())
 
 
 
