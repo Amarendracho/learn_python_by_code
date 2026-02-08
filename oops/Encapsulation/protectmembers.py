@@ -25,3 +25,30 @@ class House(Property):
 
 house = House("House", 150000, 3)
 house.house_property()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
