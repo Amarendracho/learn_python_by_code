@@ -5,3 +5,4 @@
 2. publicmembers.py
 3. protectmembers.py
 4. privatemembers.py
+5. Modern Python Way to achieve encapsulation: @property
