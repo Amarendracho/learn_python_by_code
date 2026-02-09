@@ -4,7 +4,30 @@
 # only accessed in class and subclass. protected variables defined with a single underscore prefix.
 #                                                    (_varibalename)
 
+# Best use case inheritance
 
+
+
+
+class Account:
+    def __init__(self, balance):
+        self._bal = balance
+
+class Wellsfargo(Account):
+
+    def user_account(self):
+        print(f"I have account at wells fargo bank and balance is : {self._bal}")
+
+
+acc = Account(43000)
+print(acc._bal) # not recommended best use case inheritance
+
+bank1 = Wellsfargo(67000)
+bank1.user_account()
+
+
+
+#Example 2
 class Property:
     def __init__(self, name, cost):
         self.name = name
@@ -40,8 +63,6 @@ class Employee(Manager):
 emp1 = Employee("Chaile", 23)
 print(emp1.name)
 print(emp1.show_details())
-
-
 
 
 
