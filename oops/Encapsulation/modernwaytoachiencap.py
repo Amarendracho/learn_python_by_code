@@ -1,20 +1,20 @@
 # advance way to achieve encapsulation
 # using @property @variable_name.setter
 
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary
 
-class Account:
-    def __init___(self, balance):
-        self.__bal = balance # private variable
+    @property # act as getter
+    def salary(self):
+        return self.__salary
 
-    @property
-    def balance(self):
-        return self.__bal
+    @salary.setter # act as setter
+    def salary(self, amount):
+        if amount > 0:
+            self.__salary = amount
 
-    @balance.setter
-    def balance(self, balance):
-        if balance > 0:
-            self.__bal = balance
-
-city = Account()
-city.balance(25000)
-print(city.balance)
+e = Employee(50000)
+print(e.salary)    # looks like variable
+e.salary = 60000   # but validated
+print(e.salary)
