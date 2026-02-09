@@ -16,3 +16,7 @@ samsung = Phone("SAMSUNG S25 ULTRA", 1450)
 
 iphone.mobile_details() # accessed
 samsung.mobile_details() # accessed
+
+# value can be changed so no protection
+iphone.model = "18 PRO MAX" # allowed
+iphone.mobile_details()
