@@ -7,8 +7,6 @@
 # Best use case inheritance
 
 
-
-
 class Account:
     def __init__(self, balance):
         self._bal = balance
@@ -16,8 +14,7 @@ class Account:
 class Wellsfargo(Account):
 
     def user_account(self):
-        print(f"I have account at wells fargo bank and balance is : {self._bal}")
-
+        print(f"My wells fargo bank balance is : {self._bal}")
 
 acc = Account(43000)
 print(acc._bal) # not recommended best use case inheritance
