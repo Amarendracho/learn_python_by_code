@@ -1,6 +1,7 @@
 # Encapsulation
 
 1. Encapsulationbasics.py
+    3 ways to achieve encapsulation [access modifiers, getters & setters , @property]
 2. publicmembers.py
 3. protectmembers.py
 4. privatemembers.py
