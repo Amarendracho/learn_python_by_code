@@ -3,8 +3,7 @@
 
 # only accessed in class and subclass. protected variables defined with a single underscore prefix.
 #                                                    (_varibalename)
-
-# Best use case inheritance
+# Best use case in inheritance
 
 
 class Account:

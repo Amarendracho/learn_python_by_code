@@ -1,18 +1,30 @@
 # private members and methods cannot accessed outside the class
 # define using double underscore (self.__name/ def __details())
+# private data members accessed via 2 ways - method and setters&getters()
 
 
 class Account:
     def __init__(self, balance):
         self.__bal = balance
 
+    # one way to get private attributes access
     def acc_bal(self):
         return f"Account Balance : {self.__bal}"
 
-acc = Account(12000)
-#print(acc.__bal) # can not access directly
-print(acc.acc_bal())
+    # second way
+    def get_bal(self):
+        return self.__bal
 
+    def set_bal(self, balance):
+        if balance > 0:
+            self.__bal = balance
+
+acc = Account(12000)
+
+#print(acc.__bal) # can not access directly
+#print(acc.acc_bal())
+acc.set_bal(15000)
+print(acc.get_bal())
 
 
 
