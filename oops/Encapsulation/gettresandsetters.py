@@ -9,21 +9,26 @@ class Bank:
 
     # get method
     def get_NumberOfCustomers(self):
-        return f"Initial customers: {self.__num_customers}"
+        print("Initial customers:", self.__num_customers)
 
     #set method
     def set_NumberOfCustomers(self, num_customers):
         if num_customers > 0:
             self.__num_customers += num_customers
-            return f"After updating Total customers: {self.__num_customers}"
+            print("After updating Total customers:", self.__num_customers)
         else:
-            return f"Invalid Customer Number: {num_customers}"
+            print("Invalid Customer Number:",num_customers)
 
+    # achieve 100 encap
     def total_Customers(self, number):
         self.get_NumberOfCustomers()
         self.set_NumberOfCustomers(number)
 
-city = Bank()
-print(city.get_NumberOfCustomers())
-city.set_NumberOfCustomers(4000)
-print(city.get_NumberOfCustomers())
+# city = Bank()
+# print(city.get_NumberOfCustomers())
+# city.set_NumberOfCustomers(4000)
+# print(city.get_NumberOfCustomers())
+
+# actual Encap
+wells = Bank()
+wells.total_Customers(4000)
