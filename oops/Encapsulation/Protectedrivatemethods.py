@@ -10,7 +10,7 @@ class BankAccount:
     def _show_balance(self): # protected method
         return f"Account balance: {self.balance}"
 
-    def __update_balance(self, amount):
+    def __update_balance(self, amount): # private method
         update_bal = self.balance - amount
         return f"withdrew amount {amount} \nAvailable balance: {update_bal}"
 
