@@ -2,6 +2,7 @@
 # second approach to achieve encapsulation using getters and setters methods.
 # set_balance - set the balance
 # get_balance - get the balance
+# using getters and setters we cannot achieve 100% Encapsulation. because we can modify setter() method.
 
 class Bank:
     def __init__(self):
