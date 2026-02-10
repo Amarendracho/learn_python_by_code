@@ -16,6 +16,10 @@ class BankAccount:
 
     def deposit(self, amount):
         if amount > 0:
-            self.balance += amount
+            self.__update_balance(amount)
+            self._show_balance()
+        else:
+            print("Invalid deposit amount!")
+
 
 
