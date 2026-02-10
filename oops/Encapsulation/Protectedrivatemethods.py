@@ -3,25 +3,25 @@
 
 
 class BankAccount:
-
     def __init__(self):
-        self.balance = 10000
+        self.balance = 1000
 
-    def _show_balance(self): # protected method
-        return f"Account balance: {self.balance}"
+    def _show_balance(self):
+        print(f"Balance: ₹{self.balance}")  # Protected method
 
-    def __update_balance(self, amount): # private method
-        self.balance += amount
+    def __update_balance(self, amount):
+        self.balance += amount  # Private method
 
     def deposit(self, amount):
         if amount > 0:
             self.__update_balance(amount)  # Accessing private method internally
-            self._show_balance() #Accessing protected method
+            self._show_balance()  # Accessing protected method
         else:
             print("Invalid deposit amount!")
 
-wells = BankAccount()
-print(wells._show_balance())
-# print(wells.__update_balance) #Error: private method
-print(wells.deposit(5000))
+
+account = BankAccount()
+account._show_balance()  # Works, but should be treated as internal
+# account.__update_balance(500)  # Error: private method
+account.deposit(500)  # Uses both methods internally
 
