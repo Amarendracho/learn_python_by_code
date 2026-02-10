@@ -7,7 +7,7 @@ class BankAccount:
     def __init__(self):
         self.balance = 10000
 
-    def _show_balance(self):
+    def _show_balance(self): # protected method
         return f"Account balance: {self.balance}"
 
     def __update_balance(self, amount):
@@ -21,5 +21,6 @@ class BankAccount:
         else:
             print("Invalid deposit amount!")
 
-
+wells = BankAccount()
+print(wells._show_balance())
 
