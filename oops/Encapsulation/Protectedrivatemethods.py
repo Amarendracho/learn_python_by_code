@@ -10,6 +10,8 @@ class BankAccount:
     def _show_balance(self):
         return f"Account balance: {self.balance}"
 
+    def __withdrew_balance(self, amount):
+        update_bal = self.balance - amount
+        return f"withdrew amount {amount} \nAvailable balance: {update_bal}"
 
-    def __withdrew_balance(self):
-        pass
+    def deposit(self, amount):
