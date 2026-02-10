@@ -11,8 +11,7 @@ class BankAccount:
         return f"Account balance: {self.balance}"
 
     def __update_balance(self, amount): # private method
-        update_bal = self.balance - amount
-        return f"withdrew amount {amount} \nAvailable balance: {update_bal}"
+        self.balance += amount
 
     def deposit(self, amount):
         if amount > 0:
@@ -23,4 +22,6 @@ class BankAccount:
 
 wells = BankAccount()
 print(wells._show_balance())
+# print(wells.__update_balance) #Error: private method
+print(wells.deposit(5000))
 
