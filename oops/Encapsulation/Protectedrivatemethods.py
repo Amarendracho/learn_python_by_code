@@ -16,7 +16,7 @@ class BankAccount:
 
     def deposit(self, amount):
         if amount > 0:
-            self.__update_balance(amount)
+            self.__update_balance(amount)  # Accessing private method internally
             self._show_balance()
         else:
             print("Invalid deposit amount!")
