@@ -76,3 +76,5 @@ model1.mode_info()
 model2.mode_info()
 model3.mode_info()
 model4.mode_info()
+
+
