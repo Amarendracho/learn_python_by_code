@@ -62,15 +62,13 @@ class Iphone:
             self.cost = cost
 
         def mode_info(self):
-            print(f"{self.outer.name}\n"
-                  f"{self.name}\n"
-                  f"${self.cost}")
+            print(f"{self.outer.name}: Model: {self.name}, Cost: ${self.cost}")
 
 phone1 = Iphone("IPHONE 18 SERIES")
-model1 = Iphone.ModelName(phone1, "IPHONE - 18", 629.00)
-model2 = Iphone.ModelName(phone1, "IPHONE - 18 PLUS", 750.00)
-model3 = Iphone.ModelName(phone1, "IPHONE - 18 PRO", 1099.00)
-model4 = Iphone.ModelName(phone1, "IPHONE - 18 PRO MAX", 1299.00)
+model1 = Iphone.ModelName(phone1, "IPHONE - 18", 629)
+model2 = Iphone.ModelName(phone1, "IPHONE - 18 PLUS", 750)
+model3 = Iphone.ModelName(phone1, "IPHONE - 18 PRO", 1099)
+model4 = Iphone.ModelName(phone1, "IPHONE - 18 PRO MAX", 1299)
 
 model1.mode_info()
 model2.mode_info()
