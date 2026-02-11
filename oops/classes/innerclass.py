@@ -19,3 +19,6 @@ class University:
         def department_info(self):
             print(f"Department info:{self.deptName}, No of Staff: {self.staff}")
 
+ # outer class object creation
+university1 = University("UNIVERSITY OF PITTSBURGH")
+print(university1.universityName)
