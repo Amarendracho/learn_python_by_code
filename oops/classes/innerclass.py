@@ -32,18 +32,18 @@ department1.department_info()
         # Inner classes are (NO INHERITANCE)
 
 class University:
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, uni_name):
+        self.uni_name = uni_name
     class Department:
 
         def __init__(self,outer ,name, staff):
-            self.outer = outer
+            self.outer = outer  # store outer object
             self.name = name
             self.staff = staff
 
         def dept_info(self):
             # outer.outclassattributename
-            print(f"University Name: {self.outer.name}\n"
+            print(f"University Name: {self.outer.uni_name}\n"
                   f"Department Name: {self.name}\n"
                   f"Staff: {self.staff}")
 
@@ -59,7 +59,7 @@ class Iphone:
 
     class ModelName:
         def __init__(self,outer, name, cost):
-            self.outer = outer
+            self.outer = outer # store outer object
             self.name = name
             self.cost = cost
 
