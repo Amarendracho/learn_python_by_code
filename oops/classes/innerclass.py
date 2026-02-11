@@ -1,0 +1,1 @@
+# An inner class is a class defined inside a class.
