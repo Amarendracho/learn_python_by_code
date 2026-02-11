@@ -6,25 +6,25 @@
 
 
 # Example University - Department
-# class University:
-#     def __init__(self,universityName):
-#         self.universityName = universityName
-#
-#     class Department:
-#         def __init__(self, deptName, staff):
-#             self.deptName = deptName
-#             self.staff = staff
-#
-#         def department_info(self):
-#             print(f"Department is: {self.deptName}\n"
-#                   f"No of Staff: {self.staff}")
-#
-#  # outer class object creation
-# university1 = University("UNIVERSITY OF PITTSBURGH")
-# print(university1.universityName)
-# # Create an Inner class obj with the help of outer class
-# department1 = University.Department("Checimal Department", 15)
-# department1.department_info()
+class University:
+    def __init__(self,universityName):
+        self.universityName = universityName
+
+    class Department:
+        def __init__(self, deptName, staff):
+            self.deptName = deptName
+            self.staff = staff
+
+        def department_info(self):
+            print(f"Department is: {self.deptName}\n"
+                  f"No of Staff: {self.staff}")
+
+ # outer class object creation
+university1 = University("UNIVERSITY OF PITTSBURGH")
+print(university1.universityName)
+# Create an Inner class obj with the help of outer class
+department1 = University.Department("Checimal Department", 15)
+department1.department_info()
 
 
 # fetching outer class attributes inside inner class
