@@ -22,3 +22,5 @@ class University:
  # outer class object creation
 university1 = University("UNIVERSITY OF PITTSBURGH")
 print(university1.universityName)
+# Create an Inner class obj with the help of outer class
+department1 = University.Department("Checimal Department", 15)
