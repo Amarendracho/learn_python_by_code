@@ -9,7 +9,7 @@
 # 6️⃣ Function to return factorial of a number
 # 7️⃣ Function to check if a number is prime
 # 8️⃣ Function to reverse a number
-# 9️⃣ Function to find largest number in a list
+# 9️⃣ Function to find the largest number in a list
 # 🔟 Function to count vowels in a string
 
 # LEVEL 3 (Real-world)
