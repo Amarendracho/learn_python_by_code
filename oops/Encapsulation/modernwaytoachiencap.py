@@ -1,5 +1,5 @@
 # advance way to achieve encapsulation
-# using @property @variable_name.setter
+# using @property @propertymethodname.setter
 
 class Employee:
     def __init__(self, salary):
