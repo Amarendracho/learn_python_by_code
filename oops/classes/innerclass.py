@@ -50,3 +50,29 @@ class University:
 uni1 = University("MIT")
 computer_dept = University.Department(uni1, "Computer Science", 25)
 computer_dept.dept_info()
+
+class Iphone:
+    def __init__(self, name):
+        self.name = name
+
+    class ModelName:
+        def __init__(self,outer, name, cost):
+            self.outer = outer
+            self.name = name
+            self.cost = cost
+
+        def mode_info(self):
+            print(f"{self.outer.name}\n"
+                  f"{self.name}\n"
+                  f"${self.cost}")
+
+phone1 = Iphone("IPHONE 18 SERIES")
+model1 = Iphone.ModelName(phone1, "IPHONE - 18", 629.00)
+model2 = Iphone.ModelName(phone1, "IPHONE - 18 PLUS", 750.00)
+model3 = Iphone.ModelName(phone1, "IPHONE - 18 PRO", 1099.00)
+model4 = Iphone.ModelName(phone1, "IPHONE - 18 PRO MAX", 1299.00)
+
+model1.mode_info()
+model2.mode_info()
+model3.mode_info()
+model4.mode_info()
