@@ -12,15 +12,17 @@ class University:
         self.universityName = universityName
 
     class Department:
-        def __init__(self, deptName, staff):
+        def __init__(self, universityName, deptName, staff):
+            super().__init__(universityName)
             self.deptName = deptName
             self.staff = staff
 
         def department_info(self):
-            print(f"Department info:{self.deptName}, No of Staff: {self.staff}")
+            print(f"University name: {self.} ,Department is: {self.deptName}, No of Staff: {self.staff}")
 
  # outer class object creation
 university1 = University("UNIVERSITY OF PITTSBURGH")
 print(university1.universityName)
 # Create an Inner class obj with the help of outer class
-department1 = University.Department("Checimal Department", 15)
+department1 = University.Department("UNIVERSITY OF PITTSBURGH","Checimal Department", 15)
+department1.department_info()
