@@ -25,3 +25,8 @@ print(university1.universityName)
 # Create an Inner class obj with the help of outer class
 department1 = University.Department("Checimal Department", 15)
 department1.department_info()
+
+
+# fetching outer class attributes inside inner class
+        # inner classes are not child classes
+        # Inner classes are (NO INHERITANCE)
