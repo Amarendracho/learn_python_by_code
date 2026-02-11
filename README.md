@@ -12,5 +12,4 @@ Topic :
 4. functions
 5. conditional_statements
 6. loops
-7. methods
-8. oops
+7. oops
