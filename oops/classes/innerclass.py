@@ -24,6 +24,8 @@ university1 = University("UNIVERSITY OF PITTSBURGH")
 print(university1.universityName)
 # Create an Inner class obj with the help of outer class
 department1 = University.Department("Checimal Department", 15)
+# fetching inner class attributes
+print(department1.deptName) # Checimal Department
 department1.department_info()
 
 
@@ -34,8 +36,8 @@ department1.department_info()
 class University:
     def __init__(self, uni_name):
         self.uni_name = uni_name
-    class Department:
 
+    class Department:
         def __init__(self,outer ,name, staff):
             self.outer = outer  # store outer object
             self.name = name
@@ -50,6 +52,10 @@ class University:
 uni1 = University("MIT")
 computer_dept = University.Department(uni1, "Computer Science", 25)
 computer_dept.dept_info()
+
+#fetching inner class attributes
+print(computer_dept.name)
+print(computer_dept.staff)
 
 
 # Example 3
