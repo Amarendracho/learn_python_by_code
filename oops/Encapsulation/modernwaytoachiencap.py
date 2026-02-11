@@ -9,7 +9,7 @@ class Employee:
     def salary(self):
         return self.__salary
 
-    @salary.setter
+    @salary.setter # act as setter
     def salary(self, amount):
         if amount > 0:
             self.__salary = amount
