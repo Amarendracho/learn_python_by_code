@@ -22,11 +22,11 @@ print(User.validate_email("funwithpython@python")) # F
 print(User.validate_email("funwithpython@python.com")) # T
 
 
-# # calculate tax
-# class SalaryUtils:
-#
-#     @staticmethod
-#     def tax_calc(salary):
-#         return salary * 0.30
-#
-# print(SalaryUtils.tax_calc(100000))
+# calculate tax
+class SalaryUtils:
+
+    @staticmethod
+    def tax_calc(salary):
+        return salary * 0.30
+
+print(SalaryUtils.tax_calc(100000))
