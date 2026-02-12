@@ -10,18 +10,18 @@ class MathUntil:
 
 print(MathUntil.add(10,20))
 
-# # real examples
-# # Email login verification
-# class User:
-#
-#     @staticmethod
-#     def validate_email(email):
-#         return "@" in email and "." in email
-#
-# print(User.validate_email("funwithpython@python")) # F
-# print(User.validate_email("funwithpython@python.com")) # T
-#
-#
+# real examples
+# Email login verification
+class User:
+
+    @staticmethod
+    def validate_email(email):
+        return "@" in email and "." in email
+
+print(User.validate_email("funwithpython@python")) # F
+print(User.validate_email("funwithpython@python.com")) # T
+
+
 # # calculate tax
 # class SalaryUtils:
 #
