@@ -1,8 +1,9 @@
-# Constructor in python special method. it automatically calls when the object is created.
-# constructor define =  __init__(self)
-# A constructor can contain [instance variables , default variables]
-# Instance variables used for object reference and object variable implementation.
-# Default variables calls with default values while we are not declare any values to instance variables
+# A constructor in Python is a special method __init__() that is automatically executed when an object is created.
+# The constructor is defined using the __init__(self, ...) method.
+# A constructor is typically used to initialize instance variables.
+# Default values can be provided as default parameters in the constructor.
+# Instance variables store data that belongs to a specific object.
+# Default parameter values allow a constructor to assign values automatically if no arguments are provided during object creation.
 # python supports 1 constructor inside a class. python not supports constructor overloading like java.
 # Because Python does not support method overloading by signature.
 
@@ -23,11 +24,17 @@ class Table:
     #     self.width = width
 
     # 3 Approach variable value initialization happen when object creation
-    def __init__(self, height, width):
-        self.height = height
-        self.width = width
+    # def __init__(self, height, width):
+    #     self.height = height
+    #     self.width = width
 
-table = Table(10,20)
+    def __new__(cls):
+        print("calls first")
+        return super().__new__(cls)
+
+table = Table()
+
+#table = Table(10,20)
 # print(table.height)
 # print(table.width)
 # print(table.default_measurements())
@@ -35,5 +42,5 @@ table = Table(10,20)
 # print(table.height)
 # print(table.width)
 
-print(table.height)
-print(table.width)
+# print(table.height)
+# print(table.width)
