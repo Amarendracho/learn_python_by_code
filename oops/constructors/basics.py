@@ -24,17 +24,17 @@ class Table:
     #     self.width = width
 
     # 3 Approach variable value initialization happen when object creation
-    # def __init__(self, height, width):
-    #     self.height = height
-    #     self.width = width
+    def __init__(self, height, width):
+        self.height = height
+        self.width = width
 
-    def __new__(cls):
-        print("calls first")
-        return super().__new__(cls)
+    # def __new__(cls):
+    #     print("calls first")
+    #     return super().__new__(cls)
 
-table = Table()
+#table = Table()
 
-#table = Table(10,20)
+table = Table(10,20)
 # print(table.height)
 # print(table.width)
 # print(table.default_measurements())
