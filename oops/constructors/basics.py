@@ -11,12 +11,12 @@
 class Table:
 
     # 1 Approach default values initialization inside a constructor
-    # def __init__(self):
-    #     self.height = 10
-    #     self.width = 20
-    #
-    # def default_measurements(self):
-    #     return f"{self.height}cm {self.width}cm"
+    def __init__(self):
+        self.height = 10
+        self.width = 20
+
+    def default_measurements(self):
+        return f"{self.height}cm {self.width}cm"
 
     # 2 Approach default values initialization when constructor init
     def __init__(self, height = 5, width = 10):
@@ -28,19 +28,19 @@ class Table:
         self.height = height
         self.width = width
 
-    # def __new__(cls):
-    #     print("calls first")
-    #     return super().__new__(cls)
+    def __new__(cls):
+        print("calls first")
+        return super().__new__(cls)
 
-#table = Table()
+table = Table()
 
-table = Table(10,20)
-# print(table.height)
-# print(table.width)
-# print(table.default_measurements())
+print(table.height)
+print(table.width)
+print(table.default_measurements())
 
-# print(table.height)
-# print(table.width)
+print(table.height)
+print(table.width)
 
-# print(table.height)
-# print(table.width)
+table1 = Table(10,20)
+print(table.height)
+print(table.width)
