@@ -5,3 +5,9 @@
 # Default variables calls with default values while we are not declare any values to instance variables
 
 #constructor with instance variables
+class Table:
+
+    def __init__(self):
+        pass
+
+table = Table()
