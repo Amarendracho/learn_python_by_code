@@ -1,5 +1,7 @@
 # advance way to achieve encapsulation
 # using @property @propertymethodname.setter
+# Benefits : add additional logic when you read, write, or delete attributes
+
 
 class Employee:
     def __init__(self, salary):
