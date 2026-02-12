@@ -9,7 +9,7 @@
 #constructor with instance variables
 class Table:
 
-    # 1 approach default values initialization inside a constructor
+    # 1 Approach default values initialization inside a constructor
     # def __init__(self):
     #     self.height = 10
     #     self.width = 20
@@ -17,15 +17,23 @@ class Table:
     # def default_measurements(self):
     #     return f"{self.height}cm {self.width}cm"
 
-    # 2 approach default values initialization when constructor init
+    # 2 Approach default values initialization when constructor init
     # def __init__(self, height = 5, width = 10):
     #     self.height = height
     #     self.width = width
 
-table = Table()
+    # 3 Approach variable value initialization happen when object creation
+    def __init__(self, height, width):
+        self.height = height
+        self.width = width
+
+table = Table(10,20)
 # print(table.height)
 # print(table.width)
 # print(table.default_measurements())
 
 # print(table.height)
 # print(table.width)
+
+print(table.height)
+print(table.width)
