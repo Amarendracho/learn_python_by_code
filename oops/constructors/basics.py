@@ -19,9 +19,9 @@ class Table:
     #     return f"{self.height}cm {self.width}cm"
 
     # 2 Approach default values initialization when constructor init
-    # def __init__(self, height = 5, width = 10):
-    #     self.height = height
-    #     self.width = width
+    def __init__(self, height = 5, width = 10):
+        self.height = height
+        self.width = width
 
     # 3 Approach variable value initialization happen when object creation
     def __init__(self, height, width):
