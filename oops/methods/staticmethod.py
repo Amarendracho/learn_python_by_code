@@ -2,14 +2,14 @@
 # Define static method - use @staticmethod Decorator
 
 
-# class MathUntil:
-#
-#     @staticmethod
-#     def add(a,b):
-#         return a + b
-#
-# print(MathUntil.add(10,20))
-#
+class MathUntil:
+
+    @staticmethod
+    def add(a,b):
+        return a + b
+
+print(MathUntil.add(10,20))
+
 # # real examples
 # # Email login verification
 # class User:
