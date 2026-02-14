@@ -11,13 +11,12 @@
 
 # To Handle those exceptions use try and except block. (try except)
 
+class ExceptionExample:
+    try:
+        a = 10
+        b = 2
+        print(a/b)
 
-# class Exception:
-#
-#     try:
-#         a = 10
-#         b = 2
-#         print(a/b)
-#
-#     except ZeroDivisionError:
-#         print("Don't do it")
+    finally:
+        pass
+
