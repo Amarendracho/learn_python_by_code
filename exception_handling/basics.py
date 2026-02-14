@@ -14,9 +14,10 @@
 class ExceptionExample:
     try:
         a = 10
-        b = 2
+        b = 0
         print(a/b)
+    except ZeroDivisionError:
+        print("Number can't divide by zero 🛑")
 
-    finally:
-        pass
+# Dividing a number by 0 raises a ZeroDivisionError.
 
