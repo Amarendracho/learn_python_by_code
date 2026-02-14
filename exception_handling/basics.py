@@ -1,4 +1,14 @@
+class Exception:
 
-a = 10
-b = 0
-print(a/b) # ZeroDivisionError: division by zero
+    try:
+        a = 10
+        b = 2
+        print(a/b)
+
+    except ZeroDivisionError:
+        print("Don't do it")
+
+
+
+
+# ZeroDivisionError: division by zero
