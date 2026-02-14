@@ -5,10 +5,11 @@
 
 
 # Exception example : ZeroDivisionError: division by zero
-a = 10
-b = 0
-print(a / b)
+# a = 10
+# b = 0
+# print(a / b)
 
+# To Handle those exceptions use try and except block. (try except)
 
 
 # class Exception:
