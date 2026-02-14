@@ -27,8 +27,9 @@ class ExceptionExample:
 # ERROR VS EXCEPTION
 
 #ERRORS :  Serious problems in the program logic that cannot be handled. Examples include syntax errors or memory errors.
-name =  # syntax error - expression expected
-print(name  # syntax error - ')' expected
+# name =                # syntax error - expression expected
+# print(name            # syntax error - ')' expected
 
 # EXCEPTION - problems that occur at runtime and can be managed using exception handling (e.g., invalid input, missing files).
-
+n = 10
+res = n / 0         # ZeroDivisionError (Exception)
