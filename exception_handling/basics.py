@@ -32,4 +32,5 @@ class ExceptionExample:
 
 # EXCEPTION - problems that occur at runtime and can be managed using exception handling (e.g., invalid input, missing files).
 n = 10
-res = n / 0         # ZeroDivisionError (Exception)
+#res = n / 0         # ZeroDivisionError (Exception)
+
