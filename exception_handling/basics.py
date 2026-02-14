@@ -24,3 +24,8 @@ class ExceptionExample:
 # The try block contains code that may fail
 # The except block catches the error, printing a safe message instead of stopping the program.
 
+# ERROR VS EXCEPTION
+
+#ERRORS
+name =  # syntax error - expression expected
+print(name  # syntax error - ')' expected
