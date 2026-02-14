@@ -16,8 +16,11 @@ class ExceptionExample:
         a = 10
         b = 0
         print(a/b)
+
     except ZeroDivisionError:
         print("Number can't divide by zero 🛑")
 
 # Dividing a number by 0 raises a ZeroDivisionError.
+# The try block contains code that may fail
+# The except block catches the error, printing a safe message instead of stopping the program.
 
