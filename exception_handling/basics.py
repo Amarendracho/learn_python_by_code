@@ -2,6 +2,7 @@
         without crashing .
         Instead of terminating abruptly, Python lets you detect the problem, respond to it, and continue execution when possible.
 """
+from contextlib import nullcontext
 
 
 # Exception example : ZeroDivisionError: division by zero
@@ -34,3 +35,5 @@ class ExceptionExample:
 n = 10
 #res = n / 0         # ZeroDivisionError (Exception)
 
+name = ""
+print(name.)
