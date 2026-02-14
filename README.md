@@ -13,3 +13,4 @@ Topic :
 5. conditional_statements
 6. loops
 7. oops
+8. Exception Handling
