@@ -5,4 +5,5 @@
 
 # 1 / 0 [ZeroDivisionError]
 # 10 / name [NameError]
-20 + "coffee" [TypeError]
+#20 + "coffee" [TypeError]
+int("something") [ValueError]
