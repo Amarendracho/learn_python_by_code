@@ -10,4 +10,8 @@
 #20 + "coffee" [TypeError]
 #int("something") [ValueError]
 
-
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("Division by zero")
