@@ -4,6 +4,7 @@
 
 # To Handle those errors we use [try , except, finally blocks]
         # use you think you block may throw an exception use [try:]
+        # If you know what type of exception may occur use [except pre-defined exception: print("custom exception")]
 
 
 # 1 / 0 [ZeroDivisionError]
