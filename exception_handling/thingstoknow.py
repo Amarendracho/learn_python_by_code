@@ -4,7 +4,8 @@
 
 # To Handle those errors we use [try , except, finally blocks]
         # use you think you block may throw an exception use [try:]
-        # If you know what type of exception may occur use [except pre-defined exception: print("custom exception")]
+        # If you know what type of exception may occur use [except pre-defined exception: print("custom exception")].
+        # [finally] block execute even the exception happen or not.
 
 
 # 1 / 0 [ZeroDivisionError]
@@ -17,3 +18,5 @@ try:
     print(10 / number)
 except ZeroDivisionError:
     print("Division by zero")
+finally:
+    print("I can execute any way")
