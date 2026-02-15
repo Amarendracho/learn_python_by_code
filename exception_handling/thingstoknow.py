@@ -6,6 +6,8 @@
         # use you think you block may throw an exception use [try:]
         # If you know what type of exception may occur use [except pre-defined exception: print("custom exception")].
         # [finally] block execute even the exception happen or not.
+        # We can use multiple [except blocks] for multiple exceptions.
+        # If you think which exception may occur use [Exception:] block it will throw an exception not specific(Not recommend)
 
 
 # 1 / 0 [ZeroDivisionError]
@@ -16,7 +18,7 @@
 try:
     number = int(input("Enter a number: "))
     print(10 / number)
-except ZeroDivisionError:
+except Exception:
     print("Division by zero")
 finally:
-    print("I can execute any way")
+    print("I can execute any way! I don't care about try, except block. \nI am going anyway")
