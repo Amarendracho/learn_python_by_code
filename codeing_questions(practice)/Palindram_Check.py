@@ -1,15 +1,21 @@
 
 class Palindrome:
+    palName_check = "amar"
 
     # approach 1
     @staticmethod
     def pal_check(str):
-
-        revarse = ""
+        reverse = ""
         for i in str[::-1]:
-            revarse += i
+            reverse += i
 
-        return 1 if str == revarse else 0
+        return 1 if str == reverse else 0
+
+    # Approach2
+    @classmethod
+    def pali_check(cls):
+        return 1 if cls.palName_check == cls.palName_check[::-1] else 0
 
 name_check = "noon"
 print(Palindrome.pal_check(name_check))
+print(Palindrome.pali_check())
