@@ -3,6 +3,7 @@
 #   [example: ZeroDivisionError, NameError, TypeError, ValueError]
 
 # To Handle those errors we use [try , except, finally blocks]
+        # use you think you block may throw an exception use [try:]
 
 
 # 1 / 0 [ZeroDivisionError]
