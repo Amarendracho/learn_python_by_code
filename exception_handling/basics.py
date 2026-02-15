@@ -1,3 +1,6 @@
+# exception is an event that interrupt the flow of the program.
+
+
 """Python Exception Handling allows a program to handle unexpected events (like invalid input or missing files)
         without crashing .
         Instead of terminating abruptly, Python lets you detect the problem, respond to it, and continue execution when possible.
