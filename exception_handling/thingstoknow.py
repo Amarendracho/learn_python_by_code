@@ -62,11 +62,21 @@
 # we can separate them if different types of exceptions require different handling.
 
 
-mix_list = [36, "amar", 5.0]
+# mix_list = [36, "amar", 5.0]
+#
+# try:
+#     total = int(mix_list[1]) + int(mix_list[2])
+# except (ValueError, TypeError) as e:
+#     print("Error",e)
+# except IndexError:
+#     print("Index out of range.")
 
+
+# 3.Catch-All Handlers and Their Risks
+# if teh exception is not match with any of exception it takes inside except block
 try:
-    total = int(mix_list[1]) + int(mix_list[2])
-except (ValueError, TypeError) as e:
-    print("Error",e)
-except IndexError:
-    print("Index out of range.")
+    res = "100" / 20  # Risky operation: dividing string by number
+except ArithmeticError:
+    print("Arithmetic problem.")
+except:
+    print("Something went wrong!")
