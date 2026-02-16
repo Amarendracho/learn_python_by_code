@@ -42,5 +42,7 @@
 #     something = input("anything ?")
 #     print(something / 0)
 # except TypeError:
-#     print("unsupported types str can;t divide by zero")
+#     print("unsupported types str can't divide by zero")
+
+#1. Catching Specific Exceptions
 
