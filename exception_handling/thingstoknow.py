@@ -74,9 +74,9 @@
 
 # 3.Catch-All Handlers and Their Risks
 # if teh exception is not match with any of exception it takes inside except block
-try:
-    res = "100" / 20  # Risky operation: dividing string by number
-except ArithmeticError:
-    print("Arithmetic problem.")
-except:
-    print("Something went wrong!")
+# try:
+#     res = "100" / 20  # Risky operation: dividing string by number
+# except ArithmeticError:
+#     print("Arithmetic problem.")
+# except:
+#     print("Something went wrong!")
