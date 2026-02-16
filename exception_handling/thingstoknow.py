@@ -31,7 +31,7 @@ try:
     print(10 / number)
 except ZeroDivisionError:
     print("Number can't be zero by zero")
-except ValueError:
+except ValueError: # cancat input with int
     print("Number can't be divided by string idiot!")
 finally:
     print("I can execute any way! I don't care about try, except block.")
