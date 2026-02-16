@@ -38,11 +38,11 @@
 #     print("I can execute any way! I don't care about try, except block.")
 
 # TypeError
-# try:
-#     something = input("anything ?")
-#     print(something / 0)
-# except TypeError:
-#     print("unsupported types str can't divide by zero")
+try:
+    something = input("anything ?")
+    print(something / 0)
+except TypeError:
+    print("unsupported types str can't divide by zero")
 
 #1. Catching Specific Exceptions
 try:
