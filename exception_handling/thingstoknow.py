@@ -45,15 +45,28 @@
 #     print("unsupported types str can't divide by zero")
 
 #1. Catching Specific Exceptions
-try:
-    x = int("str")  # This will cause ValueError
-    inv = 1 / x  # Inverse calculation
-
-except ValueError:
-    print("Not Valid!")
-
-except ZeroDivisionError:
-    print("Zero has no inverse!")
-
+# try:
+#     x = int("str")  # This will cause ValueError
+#     inv = 1 / x  # Inverse calculation
+#
+# except ValueError:
+#     print("Not Valid!")
+#
+# except ZeroDivisionError:
+#     print("Zero has no inverse!")
 
 # A ValueError occurs because "str" cannot be converted to an integer.
+
+# 2. Catching Multiple Exceptions
+# We can catch multiple exceptions in a single block if we need to handle them in the same way or
+# we can separate them if different types of exceptions require different handling.
+
+
+mix_list = [36, "amar", 5.0]
+
+try:
+    total = int(mix_list[1]) + int(mix_list[2])
+except (ValueError, TypeError) as e:
+    print("Error",e)
+except IndexError:
+    print("Index out of range.")
