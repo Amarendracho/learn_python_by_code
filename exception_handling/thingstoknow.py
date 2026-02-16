@@ -45,15 +45,15 @@
 #     print("unsupported types str can't divide by zero")
 
 #1. Catching Specific Exceptions
-# try:
-#     x = int("str")  # This will cause ValueError
-#     inv = 1 / x  # Inverse calculation
-#
-# except ValueError:
-#     print("Not Valid!")
-#
-# except ZeroDivisionError:
-#     print("Zero has no inverse!")
+try:
+    x = int("str")  # This will cause ValueError
+    inv = 1 / x  # Inverse calculation
+
+except ValueError:
+    print("Not Valid!")
+
+except ZeroDivisionError:
+    print("Zero has no inverse!")
 
 # A ValueError occurs because "str" cannot be converted to an integer.
 
