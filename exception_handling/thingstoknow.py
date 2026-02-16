@@ -16,22 +16,29 @@
 #20 + "coffee" [TypeError]
 #int("something") [ValueError]
 
-try:
-    number = int(input("Enter a number: "))
-    print(10 / number)
-except ZeroDivisionError:
-    print("Number can't be zero by zero")
-finally:
-    print("I can execute any way! I don't care about try, except block.")
+# try:
+#     number = int(input("Enter a number: "))
+#     print(10 / number)
+# except ZeroDivisionError:
+#     print("Number can't be zero by zero")
+# finally:
+#     print("I can execute any way! I don't care about try, except block.")
 
 
 # multiple except blocks
+# try:
+#     number = int(input("Enter a number: "))
+#     print(10 / number)
+# except ZeroDivisionError:
+#     print("Number can't be zero by zero")
+# except ValueError: # cancat input with int
+#     print("Number can't be divided by string idiot!")
+# finally:
+#     print("I can execute any way! I don't care about try, except block.")
+
 try:
-    number = int(input("Enter a number: "))
-    print(10 / number)
-except ZeroDivisionError:
-    print("Number can't be zero by zero")
-except ValueError: # cancat input with int
-    print("Number can't be divided by string idiot!")
-finally:
-    print("I can execute any way! I don't care about try, except block.")
+    something = input("anything ?")
+    print(something / 0)
+except TypeError:
+    print("unsupported types str can;t divide by zero")
+
