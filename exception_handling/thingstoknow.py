@@ -83,18 +83,18 @@
 
 
 # Raise an Exception
-#We raise an exception in Python using the raise keyword followed by an instance
+# We raise an exception in Python using the raise keyword followed by an instance
 # of the exception class that we want to trigger.
 
-# def voter_check(age):
-#     if age > 0:
-#         raise ValueError("Age cannot be negative")
-#     print(f"Age set to {age}")
-#
-#     try:
-#         voter_check(-3)
-#     except ValueError as e:
-#         print(e)
+def voter_check(age):
+    if age > 0:
+        raise ValueError("Age cannot be negative")
+    print(f"Age set to {age}")
+
+    try:
+        voter_check(-3)
+    except ValueError as e:
+        print(e)
 
 #Custom Exceptions
 class AgeError(Exception):
