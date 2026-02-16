@@ -17,13 +17,13 @@
 #20 + "coffee" [TypeError]
 #int("something") [ValueError]
 
-# try:
-#     number = int(input("Enter a number: "))
-#     print(10 / number)
-# except ZeroDivisionError:
-#     print("Number can't be zero by zero")
-# finally:
-#     print("I can execute any way! I don't care about try, except block.")
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("Number can't be zero by zero")
+finally:
+    print("I can execute any way! I don't care about try, except block.")
 
 
 # multiple except blocks
