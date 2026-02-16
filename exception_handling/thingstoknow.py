@@ -23,3 +23,15 @@ except ZeroDivisionError:
     print("Number can't be zero by zero")
 finally:
     print("I can execute any way! I don't care about try, except block.")
+
+
+# multiple except blocks
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("Number can't be zero by zero")
+except ValueError:
+    print("Number can't be divided by string idiot!")
+finally:
+    print("I can execute any way! I don't care about try, except block.")
