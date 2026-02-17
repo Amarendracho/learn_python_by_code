@@ -9,16 +9,3 @@ AttributeError – missing attribute/method
 ImportError / ModuleNotFoundError – import problems
 All exceptions ultimately inherit from BaseException, but you usually catch from Exception.
 """
-
-
-# try:
-#     f = open("data.txt")
-#     data = f.read()
-# except FileNotFoundError:
-#     print("File missing")
-# finally:
-#     # runs whether exception happened or not
-#     try:
-#         f.close()
-#     except:
-#         pass

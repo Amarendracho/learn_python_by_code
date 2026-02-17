@@ -121,7 +121,7 @@ except AgeError as e:
 
 #finally: always runs (cleanup)
 try:
-   file = open("file.txt")
+   file = open("file1.txt")
    read = file.read()
    print(read)
 except FileNotFoundError:
