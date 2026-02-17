@@ -96,7 +96,7 @@ def voter_check(age):
     except ValueError as e:
         print(e)
 
-#Custom Exceptions
+#Custom Exceptions or raise an exception
 class AgeError(Exception):
     pass
 
