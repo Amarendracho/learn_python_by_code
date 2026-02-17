@@ -10,3 +10,11 @@ ImportError / ModuleNotFoundError – import problems
 All exceptions ultimately inherit from BaseException, but you usually catch from Exception.
 """
 
+try:
+    res = 10
+    if res > 18:
+        print("ALLOWED")
+except NameError as e:
+    print("Invalid Number", e)
+else:
+    print("AGE MATCHED, GET IN")

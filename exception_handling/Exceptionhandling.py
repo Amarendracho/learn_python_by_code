@@ -83,6 +83,14 @@ except:
 
 
 #else: runs only if no exception happened
+try:
+    res = 10
+    if res > 18:
+        print("ALLOWED")
+except NameError as e:
+    print("Invalid Number", e)
+else:
+    print("AGE MATCHED, GET IN")
 
 # Raise an Exception
 # We raise an exception in Python using the raise keyword followed by an instance
