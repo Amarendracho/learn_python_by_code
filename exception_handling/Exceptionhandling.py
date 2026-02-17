@@ -118,3 +118,13 @@ try:
     set(-5)
 except AgeError as e:
     print(e)
+
+#finally: always runs (cleanup)
+try:
+   file = open("file.txt")
+   read = file.read()
+   print(read)
+except FileNotFoundError as e:
+    print("File is not present on the location",e)
+finally:
+    file.close()
