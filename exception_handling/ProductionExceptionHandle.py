@@ -22,3 +22,12 @@ try:
     ...
 except (ValueError, KeyError) as e:
     ...
+
+# 2) Log exceptions (instead of printing)
+import logging
+logger = logging.getLogger(__name__)
+
+try:
+    1 / 0
+except ZeroDivisionError:
+    logger.exception("Division failed")  # logs stack trace
