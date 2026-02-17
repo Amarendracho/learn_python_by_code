@@ -84,13 +84,12 @@ except:
 
 #else: runs only if no exception happened. Use else for code that should run only when try succeeded.
 try:
-    res = 10
-    if res > 18:
-        print("ALLOWED")
+    res = int(10 + 20 )
+    print(res)
 except:
-    print("Invalid Number")
+    print("something wrong")
 else:
-    print("AGE MATCHED, GET IN")
+    print("I execute only try block success")
 
 # Raise an Exception
 # We raise an exception in Python using the raise keyword followed by an instance
