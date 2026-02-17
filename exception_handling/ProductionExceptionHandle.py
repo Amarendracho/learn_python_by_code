@@ -49,7 +49,7 @@ except Exception:
     raise  # let it propagate (so monitoring catches it)
 
 
-Amar k
-amarendra96k@gmail.com
+# Amar k
+# amarendra96k@gmail.com
 # Amarendra96k
 # amarU$@23
