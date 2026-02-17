@@ -57,8 +57,8 @@ except ZeroDivisionError:
 
 # A ValueError occurs because "str" cannot be converted to an integer.
 
-# 2. Catching Multiple Exceptions
-# We can catch multiple exceptions in a single block if we need to handle them in the same way or
+# 2. Catching Multiple Exceptions together
+# We can catch multiple exceptions in a single block if we need to handle them in the same way, or
 # we can separate them if different types of exceptions require different handling.
 
 
