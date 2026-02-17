@@ -73,7 +73,7 @@ except IndexError:
 
 
 # 3.Catch-All Handlers and Their Risks
-# if teh exception is not match with any of exception it takes inside except block
+# if the exception is not match with any of exception it takes inside except block
 try:
     res = "100" / 20  # Risky operation: dividing string by number
 except ArithmeticError:
@@ -81,6 +81,8 @@ except ArithmeticError:
 except:
     print("Something went wrong!")
 
+
+#else: runs only if no exception happened
 
 # Raise an Exception
 # We raise an exception in Python using the raise keyword followed by an instance
