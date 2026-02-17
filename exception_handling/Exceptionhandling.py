@@ -82,13 +82,13 @@ except:
     print("Something went wrong!")
 
 
-#else: runs only if no exception happened
+#else: runs only if no exception happened. Use else for code that should run only when try succeeded.
 try:
     res = 10
     if res > 18:
         print("ALLOWED")
-except NameError as e:
-    print("Invalid Number", e)
+except:
+    print("Invalid Number")
 else:
     print("AGE MATCHED, GET IN")
 

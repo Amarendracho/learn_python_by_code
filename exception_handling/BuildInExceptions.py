@@ -11,10 +11,10 @@ All exceptions ultimately inherit from BaseException, but you usually catch from
 """
 
 try:
-    res = 10
+    res = 20
     if res > 18:
         print("ALLOWED")
-except NameError as e:
-    print("Invalid Number", e)
+except ValueError:
+    print("Invalid Number")
 else:
     print("AGE MATCHED, GET IN")
