@@ -124,7 +124,10 @@ try:
    file = open("file.txt")
    read = file.read()
    print(read)
-except FileNotFoundError as e:
-    print("File is not present on the location",e)
+except FileNotFoundError:
+    print("File is not present on the location")
 finally:
-    file.close()
+    try:
+        file.close()
+    except:
+        pass

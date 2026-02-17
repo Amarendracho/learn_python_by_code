@@ -10,17 +10,6 @@ ImportError / ModuleNotFoundError – import problems
 All exceptions ultimately inherit from BaseException, but you usually catch from Exception.
 """
 
-try:
-   file = open("file.txt")
-   read = file.read()
-   print(read)
-except FileNotFoundError:
-    print("File is not present on the location")
-finally:
-    try:
-        file.close()
-    except:
-        pass
 
 # try:
 #     f = open("data.txt")
