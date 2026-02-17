@@ -31,3 +31,19 @@ try:
     1 / 0
 except ZeroDivisionError:
     logger.exception("Division failed")  # logs stack trace
+
+# 3) Re-raise when you can’t recover
+def process_payment():
+    pass
+
+class PaymentFailedError:
+    pass
+
+try:
+    process_payment()
+except PaymentFailedError as e:
+    logger.warning("Payment failed: %s", e)
+    # return safe message to user
+except Exception:
+    logger.exception("Unexpected error")
+    raise  # let it propagate (so monitoring catches it)
