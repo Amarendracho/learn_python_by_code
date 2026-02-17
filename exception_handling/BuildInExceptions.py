@@ -11,10 +11,9 @@ All exceptions ultimately inherit from BaseException, but you usually catch from
 """
 
 try:
-    res = 20
-    if res > 18:
-        print("ALLOWED")
-except ValueError:
-    print("Invalid Number")
+    res = int(10 + 20 )
+    print(res)
+except:
+    print("something wrong")
 else:
-    print("AGE MATCHED, GET IN")
+    print("I execute only try block success")
