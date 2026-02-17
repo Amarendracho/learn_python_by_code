@@ -6,6 +6,19 @@
 # ✅ Let unexpected bugs fail loudly (or be handled centrally)
 
 
-with open("data.txt") as f:
-    data = f.read()
+# with open("data.txt") as f:
+#     data = f.read()
 
+# 1) Catch only specific exceptions
+
+#BAD PRACTICE
+try:
+    ...
+except:
+    pass
+
+# RIGHT WAY
+try:
+    ...
+except (ValueError, KeyError) as e:
+    ...
