@@ -11,9 +11,25 @@ All exceptions ultimately inherit from BaseException, but you usually catch from
 """
 
 try:
-    res = int(10 + 20 )
-    print(res)
-except:
-    print("something wrong")
-else:
-    print("I execute only try block success")
+   file = open("file.txt")
+   read = file.read()
+   print(read)
+except FileNotFoundError:
+    print("File is not present on the location")
+finally:
+    try:
+        file.close()
+    except:
+        pass
+
+# try:
+#     f = open("data.txt")
+#     data = f.read()
+# except FileNotFoundError:
+#     print("File missing")
+# finally:
+#     # runs whether exception happened or not
+#     try:
+#         f.close()
+#     except:
+#         pass
