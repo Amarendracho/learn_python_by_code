@@ -29,3 +29,11 @@
 # except (ValueError, TypeError) as e:
 #     print("Error: ",e)
 
+try:
+    for i in range(1,4):
+        print(i)
+except IndexError:
+    print("Something wrong in try so i caught it....")
+else:
+    print("I can run it there is no exception occurs")
+
