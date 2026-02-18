@@ -10,12 +10,12 @@
 #     print("I am executing anyway... ")
 
 
-try:
-    nums = [1, 2, 3, 4, 5, 6, 7]
-    print(nums[7]) # This cause index out of range
-
-except (IndexError, ZeroDivisionError, ValueError):
-    print("Something happen")
+# try:
+#     nums = [1, 2, 3, 4, 5, 6, 7]
+#     print(nums[7]) # This cause index out of range
+#
+# except (IndexError, ZeroDivisionError, ValueError):
+#     print("Something happen")
 
 try:
     val = 10

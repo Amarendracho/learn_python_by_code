@@ -45,6 +45,37 @@ except ValueError: # cancat input with int
 finally:
     print("I can execute any way! I don't care about try, except block.")
 
+# Catching multiple exceptions together
+try:
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    print(nums[7]) # This cause index out of range
+
+except (IndexError, ZeroDivisionError, ValueError):
+    print("Something happen")
+
+# Catching Multiple Exceptions together
+# We can catch multiple exceptions in a single block if we need to handle them in the same way, or
+# we can separate them if different types of exceptions require different handling.
+
+
+mix_list = [36, "amar", 5.0]
+
+try:
+    total = int(mix_list[1]) + int(mix_list[2])
+except (ValueError, TypeError) as e:
+    print("Error",e)
+except IndexError:
+    print("Index out of range.")
+
+# as e - e is a variable that stores the exception object.
+       # e → actual error instance.
+       # e contains the error message.
+try:
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    print(nums[7]) # This cause index out of range
+
+except (IndexError, ZeroDivisionError, ValueError) as e:
+    print("Something happen", e)
 
 #1. Catching Specific Exceptions
 try:
@@ -59,19 +90,7 @@ except ZeroDivisionError:
 
 # A ValueError occurs because "str" cannot be converted to an integer.
 
-# 2. Catching Multiple Exceptions together
-# We can catch multiple exceptions in a single block if we need to handle them in the same way, or
-# we can separate them if different types of exceptions require different handling.
 
-
-mix_list = [36, "amar", 5.0]
-
-try:
-    total = int(mix_list[1]) + int(mix_list[2])
-except (ValueError, TypeError) as e:
-    print("Error",e)
-except IndexError:
-    print("Index out of range.")
 
 
 # 3.Catch-All Handlers and Their Risks
