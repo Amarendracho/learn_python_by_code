@@ -39,7 +39,7 @@ try:
     number = int(input("Enter a number: "))
     print(10 / number)
 except ZeroDivisionError:
-    print("Number can't be zero by zero")
+    print("Number can't be divide by zero")
 except ValueError: # cancat input with int
     print("Number can't be divided by string idiot!")
 finally:
