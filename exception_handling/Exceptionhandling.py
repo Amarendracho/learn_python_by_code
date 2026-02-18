@@ -37,6 +37,15 @@ try:
 except TypeError:
     print("unsupported types str can't divide by zero")
 
+#else: runs only if no exception happened. Use else for code that should run only when try succeeded.
+try:
+    res = int(10 + 20)
+    print(res)
+except:
+    print("something wrong")
+else:
+    print("I execute only try block success")
+
 # using finally block
 try:
     number = int(input("Enter a number: "))
@@ -45,7 +54,6 @@ except ZeroDivisionError:
     print("Number can't be zero by zero")
 finally:
     print("I can execute any way! I don't care about try, except block.")
-
 
 # multiple except blocks
 try:
@@ -97,14 +105,8 @@ except ArithmeticError:
 except:
     print("Something went wrong!")
 
-#else: runs only if no exception happened. Use else for code that should run only when try succeeded.
-try:
-    res = int(10 + 20 )
-    print(res)
-except:
-    print("something wrong")
-else:
-    print("I execute only try block success")
+
+
 
 # Raise an Exception
 # We raise an exception in Python using the raise keyword followed by an instance
