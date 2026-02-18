@@ -105,9 +105,6 @@ except ArithmeticError:
 except:
     print("Something went wrong!")
 
-
-
-
 # Raise an Exception
 # We raise an exception in Python using the raise keyword followed by an instance
 # of the exception class that we want to trigger.
