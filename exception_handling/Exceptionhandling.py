@@ -17,6 +17,19 @@
 #20 + "coffee" [TypeError]
 #int("something") [ValueError]
 
+#1. Catching Specific Exceptions
+try:
+    x = int("str")  # This will cause ValueError
+    inv = 1 / x  # Inverse calculation
+
+except ValueError:
+    print("Not Valid!")
+
+except ZeroDivisionError:
+    print("Zero has no inverse!")
+
+# A ValueError occurs because "str" cannot be converted to an integer.
+
 # TypeError
 try:
     something = input("anything ?")
@@ -53,10 +66,9 @@ try:
 except (IndexError, ZeroDivisionError, ValueError):
     print("Something happen")
 
-# Catching Multiple Exceptions together
+#2. Catching Multiple Exceptions together
 # We can catch multiple exceptions in a single block if we need to handle them in the same way, or
 # we can separate them if different types of exceptions require different handling.
-
 
 mix_list = [36, "amar", 5.0]
 
@@ -77,22 +89,6 @@ try:
 except (IndexError, ZeroDivisionError, ValueError) as e:
     print("Something happen", e)
 
-#1. Catching Specific Exceptions
-try:
-    x = int("str")  # This will cause ValueError
-    inv = 1 / x  # Inverse calculation
-
-except ValueError:
-    print("Not Valid!")
-
-except ZeroDivisionError:
-    print("Zero has no inverse!")
-
-# A ValueError occurs because "str" cannot be converted to an integer.
-
-
-
-
 # 3.Catch-All Handlers and Their Risks
 # if the exception is not match with any of exception it takes inside except block
 try:
@@ -101,7 +97,6 @@ except ArithmeticError:
     print("Arithmetic problem.")
 except:
     print("Something went wrong!")
-
 
 #else: runs only if no exception happened. Use else for code that should run only when try succeeded.
 try:
