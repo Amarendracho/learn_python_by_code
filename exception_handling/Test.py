@@ -13,8 +13,13 @@
 try:
     nums = [1, 2, 3, 4, 5, 6, 7]
     print(nums[7]) # This cause index out of range
-    print(nums[1]/0)
 
-except (IndexError, ZeroDivisionError) as e:
-    print("Something happen", e)
+except (IndexError, ZeroDivisionError, ValueError):
+    print("Something happen")
 
+try:
+    val = 10
+    print(type(val))
+    print( val / 0)
+except (ZeroDivisionError,IndexError, ValueError, TypeError) as e:
+    print("Error", e)
