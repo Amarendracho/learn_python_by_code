@@ -19,7 +19,13 @@
 
 try:
     val = 10
-    print(type(val))
     print( val / 0)
 except (ZeroDivisionError,IndexError, ValueError, TypeError) as e:
-    print("Error", e)
+    print("Error: ", e)
+
+mix_list = [36, "amar", 5.0]
+try:
+    total = int(mix_list[1]) + int(mix_list[2])
+except (ValueError, TypeError) as e:
+    print("Error: ",e)
+

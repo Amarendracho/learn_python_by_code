@@ -71,12 +71,11 @@ except (IndexError, ZeroDivisionError, ValueError):
 # we can separate them if different types of exceptions require different handling.
 
 mix_list = [36, "amar", 5.0]
-
 try:
     total = int(mix_list[1]) + int(mix_list[2])
 except (ValueError, TypeError) as e:
     print("Error",e)
-except IndexError:
+except IndexError: # if the error doesn't match above except block this except block will run.
     print("Index out of range.")
 
 # as e - e is a variable that stores the exception object.
