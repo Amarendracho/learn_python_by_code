@@ -36,3 +36,12 @@
 #     print("Something wrong in try so i caught it....")
 # else:
 #     print("I can run it there is no exception occurs")
+
+try:
+    all_mix = ["mark", 10, 5.0,"justin"]
+    res = all_mix[0] + all_mix[2]
+    print(res)
+except (ValueError, IndexError, ZeroDivisionError) as e:
+    print("Error: ", e)
+except:
+    print("None Error match so I can handle, something wrong for sure")
