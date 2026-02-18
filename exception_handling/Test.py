@@ -11,8 +11,10 @@
 
 
 try:
-    for i in range(2):
-        print(i)
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    print(nums[7]) # This cause index out of range
+    print(nums[1]/0)
 
-except (IndexError, ZeroDivisionError) :
-    print("Something happen")
+except (IndexError, ZeroDivisionError) as e:
+    print("Something happen", e)
+
