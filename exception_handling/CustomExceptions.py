@@ -15,3 +15,14 @@
 # except ValueError as e:
 #     print(e)
 
+def withdrew(balance, amount):
+    if amount <= 0:
+        raise ValueError("amount must be positive")
+    if amount > balance:
+        raise ValueError("Insufficient Funds")
+    return balance - amount
+
+try:
+    print(withdrew(5000, 5100))
+except ValueError as e:
+    print(e)
