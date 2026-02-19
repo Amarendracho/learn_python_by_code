@@ -44,3 +44,11 @@ try:
     result = math.exp(1000)  # Exponential function with a large argument
 except OverflowError as e:
     print(e)
+
+# MemoryError - A MemoryError occurs when Python cannot allocate enough memory for an operation.
+#               This usually happens when trying to create extremely large data structures.
+# Don't run this code to system will hang
+# try:
+#     li = [1] * (10**10)
+# except MemoryError as e:
+#     print(e)
