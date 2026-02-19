@@ -40,7 +40,7 @@ except ZeroDivisionError:
 #logger.exception() is great in production because it includes the full traceback.
 
 
-
+# Convert low-level errors to business-level errors
 class DatabaseUnavailableError(Exception):
     pass
 
