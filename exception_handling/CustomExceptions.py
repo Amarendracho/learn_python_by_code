@@ -48,3 +48,4 @@ except ZeroDivisionError:
 #     db.query(...)
 # except TimeoutError as e:
 #     raise DatabaseUnavailableError("DB timed out") from e
+
