@@ -29,6 +29,10 @@
 #     raise
 
 # Production Web Application
+import logging
+
+logger = logging.getLogger(__name__)
+
 class PaymentFailed(Exception):
     pass
 
@@ -37,3 +41,14 @@ def process_payment(amount):
         raise PaymentFailed("Limit exceeded")
 
 # Controller layer:
+try:
+    process_payment(amount)
+    return {"status" : "stccess"}
+
+except PaymentFailed as e:
+    logger.warning("Payment failed: %s", e)
+    return {"error" : str(e), 400}
+
+except Exception:
+    logger.exception("System failure")
+    return {"error": "Internal server error"}, 500
