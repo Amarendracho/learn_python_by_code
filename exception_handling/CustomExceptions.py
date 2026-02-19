@@ -6,10 +6,18 @@ class AgeError(Exception):
     pass
 def setAge(age):
     if age < 0:
-        raise ValueError("Age cannot be -ve")
+        raise AgeError("Age cannot be -ve")
     print(f"age set to {age}")
 
 try:
     setAge(-1)
 except AgeError as e:
     print(e)
+
+# example
+class PaymentFailedError(Exception):
+    pass
+
+def charge(card, amount):
+    if amount > 10000:
+        raise PaymentFailedError("limit exceeded")
