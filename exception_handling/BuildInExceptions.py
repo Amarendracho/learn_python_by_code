@@ -9,3 +9,9 @@ AttributeError – missing attribute/method
 ImportError / ModuleNotFoundError – import problems
 All exceptions ultimately inherit from BaseException, but you usually catch from Exception.
 """
+
+#BaseException - root exception rarely used in code.
+try:
+    raise BaseException("This is BaseException")
+except BaseException as e:
+    print(e)
