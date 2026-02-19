@@ -14,7 +14,7 @@ try:
 except AgeError as e:
     print(e)
 
-# example
+# Payment limit example
 class PaymentFailedError(Exception):
     pass
 
