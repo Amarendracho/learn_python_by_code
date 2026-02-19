@@ -29,16 +29,16 @@
 #     raise
 
 # Production Web Application
-import logging
-
-logger = logging.getLogger(__name__)
-
-class PaymentFailed(Exception):
-    pass
-
-def process_payment(amount):
-    if amount > 10000:
-        raise PaymentFailed("Limit exceeded")
+# import logging
+#
+# logger = logging.getLogger(__name__)
+#
+# class PaymentFailed(Exception):
+#     pass
+#
+# def process_payment(amount):
+#     if amount > 10000:
+#         raise PaymentFailed("Limit exceeded")
 
 # Controller layer:
 # try:
