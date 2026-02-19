@@ -23,3 +23,24 @@ try:
     raise Exception("This is a generic exception")
 except Exception as e:
     print(e)
+
+# The ArithmeticError - class is the base for all errors related to mathematical operations.
+try:
+    raise ArithmeticError("This Error class throws math errors")
+except ArithmeticError as e:
+    print(e)
+
+# ZeroDivisionError - A ZeroDivisionError occurs when you attempt to divide a number by zero.
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(e)
+
+# OverflowError - An OverflowError occurs when the result of a numerical operation
+#                 is too large for Python to represent. While Python handles large integers well,
+#                 certain floating-point operations (like very large exponentials) can still cause this error.
+import math
+try:
+    result = math.exp(1000)  # Exponential function with a large argument
+except OverflowError as e:
+    print(e)
