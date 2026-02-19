@@ -1,15 +1,6 @@
 # Custom exception used in production. Create separate classes for exception.
 # Exception class inherit in-build python exception class called(Exception)
 
-import logging
-logger = logging.getLogger(__name__)
-
-try:
-    1/0
-except ZeroDivisionError:
-    logger.exception("Division failed")
-#logger.exception() is great in production because it includes the full traceback.
-
 
 # age check
 # class AgeError(Exception):
@@ -31,3 +22,13 @@ except ZeroDivisionError:
 # def charge(card, amount):
 #     if amount > 10000:
 #         raise PaymentFailedError("limit exceeded")
+
+
+import logging
+logger = logging.getLogger(__name__)
+
+try:
+    1/0
+except ZeroDivisionError:
+    logger.exception("Division failed")
+#logger.exception() is great in production because it includes the full traceback.
