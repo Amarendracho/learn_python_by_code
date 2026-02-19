@@ -29,6 +29,7 @@ try:
 except PaymentFailedError as e:
     print(e)
 
+# Log exceptions (instead of printing)
 import logging
 logger = logging.getLogger(__name__)
 
@@ -37,3 +38,13 @@ try:
 except ZeroDivisionError:
     logger.exception("Division failed")
 #logger.exception() is great in production because it includes the full traceback.
+
+
+
+class DatabaseUnavailableError(Exception):
+    pass
+
+try:
+    db.query(...)
+except TimeoutError as e:
+    raise DatabaseUnavailableError("DB timed out") from e
