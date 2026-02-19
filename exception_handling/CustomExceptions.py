@@ -29,11 +29,11 @@ try:
 except PaymentFailedError as e:
     print(e)
 
-# import logging
-# logger = logging.getLogger(__name__)
-#
-# try:
-#     1/0
-# except ZeroDivisionError:
-#     logger.exception("Division failed")
+import logging
+logger = logging.getLogger(__name__)
+
+try:
+    1/0
+except ZeroDivisionError:
+    logger.exception("Division failed")
 #logger.exception() is great in production because it includes the full traceback.
