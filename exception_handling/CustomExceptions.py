@@ -41,10 +41,10 @@ except ZeroDivisionError:
 
 
 # Convert low-level errors to business-level errors
-class DatabaseUnavailableError(Exception):
-    pass
-
-try:
-    db.query(...)
-except TimeoutError as e:
-    raise DatabaseUnavailableError("DB timed out") from e
+# class DatabaseUnavailableError(Exception):
+#     pass
+#
+# try:
+#     db.query(...)
+# except TimeoutError as e:
+#     raise DatabaseUnavailableError("DB timed out") from e
