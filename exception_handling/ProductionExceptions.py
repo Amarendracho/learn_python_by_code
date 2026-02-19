@@ -29,3 +29,11 @@
 #     raise
 
 # Production Web Application
+class PaymentFailed(Exception):
+    pass
+
+def process_payment(amount):
+    if amount > 10000:
+        raise PaymentFailed("Limit exceeded")
+
+# Controller layer:
