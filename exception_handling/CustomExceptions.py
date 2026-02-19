@@ -5,4 +5,7 @@
 class AgeError(Exception):
     pass
 
-def
+def setAge(age):
+    if age < 0:
+        raise ValueError("Age cannot be -ve")
+    print(f"")
