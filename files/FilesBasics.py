@@ -8,16 +8,16 @@
 # file = open("readme.txt", "r")
 # f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "r")
 
-# read File - file not there FileNotFound Exception
+# read File - r mode -  file not there FileNotFound Exception
 # file = open("readme.txt", "r")
 # f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "r")
 
 # print(file.read())
 # print(f.read())
 
-# Create file
-file = open("readme.txt", "r")
-f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "r")
+# Create file - x mode
+file = open("readme.txt", "x")
+f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "x")
 
 # file = open("readme.txt", "r")
 # print(file.read())
