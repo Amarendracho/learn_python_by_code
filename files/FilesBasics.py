@@ -16,16 +16,18 @@
 # print(f.read())
 
 # Create file - x mode
-file = open("readme.txt", "x")
-f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "x")
+# file = open("readme.txt", "x")
+# f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
 
-# file = open("readme.txt", "r")
-# print(file.read())
-# f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "r")
+# write mode - w mode and read mode
+file = open("readme.txt", "w")
+file.write("This is readme file! \n you can read me")
+file.close()
 
-#print(f.read())
+file = open("readme.txt", "r")
+print(file.read())
 
-# read mode
+#f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
 
 
 # file1 = open("newfile.txt", "w")
