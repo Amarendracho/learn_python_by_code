@@ -4,9 +4,14 @@
 #                               open() - 2 parameters(filename, mode)
 #                               filename("samedirectory_location_path" / "fulldirectory_path")
 
-file = open("readme.txt")
-# read mode
+file = open("readme.txt", "r")
 print(file.read())
+f = open("/Users/amarendrak/PycharmProjects/python_codepractice/newfile.txt", "r")
+
+#print(f.read())
+
+# read mode
+
 
 file1 = open("newfile.txt", "w")
 
