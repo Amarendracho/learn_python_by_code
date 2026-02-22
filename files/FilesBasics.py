@@ -20,15 +20,24 @@
 # f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
 
 # write mode - w mode and read mode
-file = open("readme.txt", "w")
-file.write("This is readme file! \n you can read me")
+# file = open("readme.txt", "w")
+# file.write("This is readme file! \n you can read me")
+# file.close()
+#
+# file = open("readme.txt", "r")
+# print(file.read())
+#
+# #f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
+
+
+# Checking File Properties
+file = open("newfile.txt", "r")
+print("Checking :", file.name)
+print("Mode :", file.mode)
+print("Is Closing? :", file.closed)
+
 file.close()
-
-file = open("readme.txt", "r")
-print(file.read())
-
-#f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
-
+print("Is Closing? :", file.closed)
 
 # file1 = open("newfile.txt", "w")
 #
