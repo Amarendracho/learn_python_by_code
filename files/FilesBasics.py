@@ -30,15 +30,13 @@
 # #f = open("/Users/amarendrak/PycharmProjects/python_codepractice/files/newfile.txt", "x")
 
 
-# Checking File Properties
-file = open("newfile.txt", "r")
-print("Checking :", file.name)
-print("Mode :", file.mode)
-print("Is Closing? :", file.closed)
-
-file.close()
-print("Is Closing? :", file.closed)
-
-# file1 = open("newfile.txt", "w")
+# # Checking File Properties
+# file = open("newfile.txt", "r")
+# print("Checking :", file.name)
+# print("Mode :", file.mode)
+# print("Is Closing? :", file.closed)
 #
-# file2 = open("newfile1.txt", "a")
+# file.close()
+# print("Is Closing? :", file.closed)
+
+
