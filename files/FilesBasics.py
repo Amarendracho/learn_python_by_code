@@ -5,3 +5,7 @@
 file = open("readme.txt")
 # read mode
 print(file.read())
+
+file1 = open("newfile.txt", "w")
+
+file2 = open("newfile1.txt", "a")
