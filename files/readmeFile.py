@@ -10,3 +10,14 @@ print(content)
 
 # Once you open a file you mush close it to.
 file.close()
+
+
+
+# creating file
+f = open("NewFile.txt", "x")
+
+#Using with statement - no need to close file manually.
+with open("NewFile.txt", "r") as file1:
+    content1 = file1.read()
+    print(content1)
+
