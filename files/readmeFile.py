@@ -21,12 +21,12 @@
 #     content1 = file1.read()
 #     print(content1)
 
-# Reading a File Line by Line - 2 approaches
-# 1. Using a Loop to Read Line by Line
-file2 =  open("car.txt", "r")
-for line in file2:
-    print(line.strip()) # .strip() to remove newline characters
-file2.close()
+# # Reading a File Line by Line - 2 approaches
+# # 1. Using a Loop to Read Line by Line
+# file2 =  open("car.txt", "r")
+# for line in file2:
+#     print(line.strip()) # .strip() to remove newline characters
+# file2.close()
 
 # close automatically
 with open("car.txt", "r") as file3:
