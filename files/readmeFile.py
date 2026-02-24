@@ -38,5 +38,5 @@ file4 = open("NewFile.txt", "r")
 line = file4.readline()
 while line:
     print(line.strip())
-    line = file4.readline()
+    line = file4.readline() # We can keep calling it inside a loop until no lines are left.
 file4.close()
