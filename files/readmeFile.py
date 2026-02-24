@@ -33,6 +33,3 @@
 #     for lines in file3:
 #         print(lines.strip())
 
-with open("NewFile.txt", "r") as file4:
-    for lines in file4:
-        print(lines.strip())
