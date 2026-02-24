@@ -21,3 +21,4 @@ with open("NewFile.txt", "r") as file1:
     content1 = file1.read()
     print(content1)
 
+# Reading a File Line by Line
