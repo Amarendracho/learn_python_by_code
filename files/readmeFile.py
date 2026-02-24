@@ -37,3 +37,6 @@
 file4 = open("NewFile.txt", "r")
 line = file4.readline()
 while line:
+    print(line.strip())
+    line = file4.readline()
+file4.close()
