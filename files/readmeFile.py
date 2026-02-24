@@ -41,3 +41,4 @@
 #     line = file4.readline() # We can keep calling it inside a loop until no lines are left.
 # file4.close()
 
+# Reading Binary Files
