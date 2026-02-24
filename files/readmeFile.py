@@ -33,3 +33,4 @@
 #     for lines in file3:
 #         print(lines.strip())
 
+# 2. Using readline()
