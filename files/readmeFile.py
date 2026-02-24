@@ -28,7 +28,7 @@
 #     print(line.strip()) # .strip() to remove newline characters
 # file2.close()
 
-# close automatically
-with open("car.txt", "r") as file3:
-    for lines in file3:
-        print(lines.strip())
+# # close automatically
+# with open("car.txt", "r") as file3:
+#     for lines in file3:
+#         print(lines.strip())
