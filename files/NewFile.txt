@@ -1,1 +1,1 @@
-This is new file            got a lot of  spaces.
+            This is new file            got a lot of  spaces.
