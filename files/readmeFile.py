@@ -34,3 +34,6 @@
 #         print(lines.strip())
 
 # 2. Using readline()
+file4 = open("NewFile.txt", "r")
+line = file4.readline()
+while line:
