@@ -42,6 +42,3 @@
 # file4.close()
 
 # Reading Binary Files
-file = open("car.jpg", "rb")
-print(file.read())
-file.close()
