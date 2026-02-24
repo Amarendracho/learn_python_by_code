@@ -23,3 +23,11 @@
 
 # Reading a File Line by Line - 2 approaches
 # 1. Using a Loop to Read Line by Line
+file2 =  open("car.txt", "r")
+for line in file2:
+    print(line.strip())
+file2.close()
+
+with open("car.txt", "r") as file3:
+    for lines in file3:
+        print(lines.strip())
