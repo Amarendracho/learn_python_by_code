@@ -42,4 +42,6 @@
 # file4.close()
 
 # Reading Binary Files
-
+file = open("NewFile.bin", "rb")
+print(file.read())
+file.close()
