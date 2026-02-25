@@ -42,3 +42,8 @@
 # file4.close()
 
 # Reading Binary Files
+
+file = open("NewFile.txt", "r")
+for line in file:
+    print(line)
+file.close()
