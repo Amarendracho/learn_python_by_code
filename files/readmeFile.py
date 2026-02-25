@@ -43,11 +43,10 @@
 
 # Reading Binary Files
 
-file = open("NewFile.txt", "r")
-line = file.readline()
-while line:
-    print(line.strip())
+with open("NewFile.txt", "r") as file:
     line = file.readline()
-file.close()
+    while line:
+        print(line.strip())
+        line = file.readline()
 
 
