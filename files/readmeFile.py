@@ -43,7 +43,4 @@
 
 # Reading Binary Files
 
-file = open("NewFile.txt", "r")
-for line in file:
-    print(line.strip())
-file.close()
+
