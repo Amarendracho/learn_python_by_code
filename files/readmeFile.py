@@ -46,3 +46,4 @@ with open("NewFile.bin", "rb") as file:
     content = file.read()
     print(content)
 
+#Reading Specific Parts of a File

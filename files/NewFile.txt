@@ -1,2 +1,2 @@
-            This is new file            got a lot of  spaces.
-                I am here to clean up white spaces.
+This is new file.
+I am here to clean up white spaces.
