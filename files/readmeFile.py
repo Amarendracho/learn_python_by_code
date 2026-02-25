@@ -49,4 +49,4 @@ with open("NewFile.txt", "r") as file:
         print(line.strip())
         line = file.readline()
 
-
+print()
