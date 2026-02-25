@@ -52,7 +52,7 @@
 # print(content)
 # file.close()
 
-# without close
+# using with
 with open("NewFile.txt", "r") as file:
     content = file.read(18)
     print(content)
