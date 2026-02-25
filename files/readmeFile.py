@@ -42,8 +42,10 @@
 # file4.close()
 
 # Reading Binary Files
-with open("NewFile.bin", "rb") as file:
-    content = file.read()
-    print(content)
+# with open("NewFile.bin", "rb") as file:
+#     content = file.read()
+#     print(content)
 
 #Reading Specific Parts of a File
+file = open("NewFile.txt", "r")
+
