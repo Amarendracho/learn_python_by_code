@@ -45,5 +45,5 @@
 
 file = open("NewFile.txt", "r")
 for line in file:
-    print(line)
+    print(line.strip())
 file.close()
