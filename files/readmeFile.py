@@ -48,5 +48,3 @@ with open("NewFile.txt", "r") as file:
     while line:
         print(line.strip())
         line = file.readline()
-
-print()
