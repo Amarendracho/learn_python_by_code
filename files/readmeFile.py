@@ -58,3 +58,9 @@
 #     print(content)
 
 #Reading CSV Files
+file = open("/Users/amarendrak/Downloads/customers-100.csv", "r")
+line = file.readline()
+while line:
+    print(line.strip())
+    line = file.readline()
+file.close()
