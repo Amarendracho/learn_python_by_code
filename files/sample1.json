@@ -1,0 +1,20 @@
+{
+  "company": "Tech Solutions",
+  "employeeCount": 150,
+  "isActive": true,
+  "location": {
+    "city": "San Francisco",
+    "country": "USA"
+  },
+  "departments": ["Engineering", "Marketing", "Sales"],
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "deadline": "2026-06-01"
+    },
+    {
+      "name": "Project Beta",
+      "deadline": "2026-08-15"
+    }
+  ]
+}
