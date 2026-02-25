@@ -48,4 +48,10 @@
 
 #Reading Specific Parts of a File
 file = open("NewFile.txt", "r")
+content = file.read(10)
+print(content)
+file.close()
 
+# with open("NewFile.txt", "r") as file:
+#     content = file.read(18)
+#     print(content)
