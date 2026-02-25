@@ -41,18 +41,18 @@
 #     line = file4.readline() # We can keep calling it inside a loop until no lines are left.
 # file4.close()
 
-# Reading Binary Files
+## Reading Binary Files
 # with open("NewFile.bin", "rb") as file:
 #     content = file.read()
 #     print(content)
 
-#Reading Specific Parts of a File
-file = open("NewFile.txt", "r")
-content = file.read(10)
-print(content)
-file.close()
+# #Reading Specific Parts of a File
+# file = open("NewFile.txt", "r")
+# content = file.read(10)
+# print(content)
+# file.close()
 
 # without close
-# with open("NewFile.txt", "r") as file:
-#     content = file.read(18)
-#     print(content)
+with open("NewFile.txt", "r") as file:
+    content = file.read(18)
+    print(content)
