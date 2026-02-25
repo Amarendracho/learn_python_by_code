@@ -57,17 +57,19 @@
 #     content = file.read(18)
 #     print(content)
 
-#Reading CSV Files
-import csv
-import io
+# #Reading CSV Files
+# import csv
+# import io
+#
+# # Create a CSV sample in memory
+# csv_data = """Year,Industry,Value
+# 2014,Manufacturing,769400
+# 2014,Manufacturing,48000
+# 2014,Manufacturing,12
+# """
+# csvfile = io.StringIO(csv_data)
+# csvreader = csv.reader(csvfile)
+# for row in csvreader:
+#     print(row)
 
-# Create a CSV sample in memory
-csv_data = """Year,Industry,Value
-2014,Manufacturing,769400
-2014,Manufacturing,48000
-2014,Manufacturing,12
-"""
-csvfile = io.StringIO(csv_data)
-csvreader = csv.reader(csvfile)
-for row in csvreader:
-    print(row)
+# Reading JSON Files
