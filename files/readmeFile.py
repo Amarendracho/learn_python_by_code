@@ -43,4 +43,6 @@
 
 # Reading Binary Files
 
-
+file = open("NewFile.txt", "r")
+print(file.read())
+file.close()
