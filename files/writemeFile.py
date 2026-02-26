@@ -38,9 +38,9 @@
 #     print(file.read())
 
 #Writing to a Binary File
-data = b'\x00\x01\x02\x03\x04'
-with open("binaryFile.bin", "wb") as file:
-    file.write(data)
-
-with open("binaryFile.bin", "rb") as file:
-    print(file.read())
+# data = b'\x00\x01\x02\x03\x04'
+# with open("binaryFile.bin", "wb") as file:
+#     file.write(data)
+#
+# with open("binaryFile.bin", "rb") as file:
+#     print(file.read())
