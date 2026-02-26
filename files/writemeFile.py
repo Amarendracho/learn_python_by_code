@@ -29,3 +29,10 @@
 # except FileExistsError:
 #     print("NewFile.txt already exists, exclusive creation aborted.")
 
+#Writing multiple lines
+lines = ["First line\n", "Second line\n", "Third line\n"]
+with open("file1.txt", "w", encoding="utf-8") as file:
+    file.writelines(lines)
+
+with open("file1.txt", "r", encoding="utf-8") as file:
+    print(file.read())
