@@ -23,8 +23,9 @@
 #     print(file.read())
 
 #Create only if it does not exist
-try:
-    with open("NewFile.txt", "x", encoding="uft-8") as file:
-        file.write("Created using exclusive mode.\n")
-except FileExistsError:
-    print("NewFile.txt already exists, exclusive creation aborted.")
+# try:
+#     with open("NewFile.txt", "x", encoding="uft-8") as file:
+#         file.write("Created using exclusive mode.\n")
+# except FileExistsError:
+#     print("NewFile.txt already exists, exclusive creation aborted.")
+
