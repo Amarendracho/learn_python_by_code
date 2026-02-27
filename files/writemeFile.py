@@ -44,3 +44,7 @@
 #
 # with open("binaryFile.bin", "rb") as file:
 #     print(file.read())
+
+import os
+cwd = os.getcwd()
+print("Current working directory:", cwd)
