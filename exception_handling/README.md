@@ -1,9 +1,9 @@
-FOLLOW THIS ORDER
+# FOLLOW THIS ORDER
 
-# basics
-# Exceptionhandling.py
-# Built In Exception names
-# Raise Exception
-# ProductionExceptionHandle
-# ProductionExceptionHandleExamples
-# UserDefinedExceptions
+1. basics
+2. Exceptionhandling.py
+3. Built In Exception names
+4. Raise Exception
+5. ProductionExceptionHandle
+6. ProductionExceptionHandleExamples
+7. UserDefinedExceptions
