@@ -1,6 +1,6 @@
 # Follow the order
 
-1. FIleBasics.py \n
+1. FIleBasics.py 
     open() , read(), create(), write()
     
 2. readmeFile.py
