@@ -1,7 +1,8 @@
 # Follow the order
 
-1. FIleBasics.py
-    open() , read(), create(), write()
+    1. FIleBasics.py
+        open() , read(), create(), write()
+    
+    2. readmeFile.py
+    3. writemeFile.py
 
-2. readmeFile.py
-3. writemeFile.py
