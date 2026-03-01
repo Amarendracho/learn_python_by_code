@@ -56,8 +56,8 @@
 
 # Print Float or Decimal Number in Python
 
-# salary = float(input("Salary : "))
-# print(salary)
+salary = float(input("Salary : "))
+print(salary)
 
 # Find DataType of Input in Python
 
