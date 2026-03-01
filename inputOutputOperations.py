@@ -33,7 +33,7 @@
 # print("My favourite thing 1: ", thing1)
 # print("My favourite thing 2: ", thing2)
 
-a,b, c = input("your Top Schools: ? ")
-print("My Top college is: ",a)
-print("My second Top college is: ",b)
-print("My third Top college is: ",c)
+a,b,c = input("your Top Schools: ? ").split()
+print("My Top college is:",a)
+print("My second Top college is:",b)
+print("My third Top college is:",c)
