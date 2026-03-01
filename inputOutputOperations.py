@@ -47,5 +47,9 @@
 """ By default input() function helps in taking user input as string. If any user wants
     to take input as int or float, we just need to typecast it. """
 
-something = input("Type Any thing: ")
-print(something)
+# something = input("Type Any thing: ")
+# print(something)
+
+# Print Numbers in Python
+age = int(input("Enter age: "))
+print(age)
