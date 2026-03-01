@@ -14,4 +14,10 @@
 # and then prints a greeting message addressing the user by their entered name.
 
 # Printing Output using print() in Python
-print("Something")
+# This function allows us to display text, variables and expressions on the console.
+
+#print("Something")
+
+# Printing Variables
+
+
