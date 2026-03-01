@@ -15,8 +15,8 @@
 
 # Printing Output using print() in Python
 # This function allows us to display text, variables and expressions on the console.
-#
-# print("Something")
+
+print("Something")
 
 # Printing Variables
 
