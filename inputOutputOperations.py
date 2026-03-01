@@ -18,12 +18,13 @@
 #
 # print("Something")
 
-# # Printing Variables
-# print("Person Details")
-# name = "MarkSloan"
-# age = 26
-# address = "1-12 BEVERLY HILLS FLORIDA"
-# print("Name:",name, ":)age:",age, "!address:",address)
+# Printing Variables
+
+print("Person Details")
+name = "MarkSloan"
+age = 26
+address = "1-12 BEVERLY HILLS FLORIDA"
+print("Name:",name, ":)age:",age, "!address:",address)
 
 #Take Multiple Input in Python
 # We are taking multiple input from the user in a single line, splitting the values entered by the user
