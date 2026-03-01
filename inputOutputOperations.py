@@ -59,3 +59,12 @@ salary = float(input("Salary : "))
 print(salary)
 
 # Find DataType of Input in Python
+name = "Justin"
+age = 25
+salary = 123323.12
+fav_food = ["Biryani", "Chicken", "Tea"]
+fav_cars = ("Mustang", "Porsche", "Audi")
+fav_places = {"USA": "NEWYORK", "IND" : "VIZAG", "UK" :"LONDON"}
+
+print(type(name))
+print(type(age))
