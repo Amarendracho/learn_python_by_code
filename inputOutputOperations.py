@@ -13,7 +13,7 @@
 # The code prompts the user to input their name, stores it in the variable "name"
 # and then prints a greeting message addressing the user by their entered name.
 
-# Printing Output using print() in Python
+# Printing Output using print() function in Python
 # This function allows us to display text, variables and expressions on the console.
 
 print("Something")
