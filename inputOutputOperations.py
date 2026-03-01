@@ -43,3 +43,9 @@
     If you need them as numbers (int or float), you must convert them using typecasting.
 """
 
+# Change the Type of Input in Python
+""" By default input() function helps in taking user input as string. If any user wants
+    to take input as int or float, we just need to typecast it. """
+
+something = input("Type Any thing: ")
+print(something)
