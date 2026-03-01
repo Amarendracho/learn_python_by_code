@@ -19,5 +19,9 @@
 #print("Something")
 
 # Printing Variables
-
+print("Person Details")
+name = "MarkSloan"
+age = 26
+address = "1-12 BEVERLY HILLS FLORIDA"
+print("Name:",name, ":)age:",age, "!address:",address)
 
