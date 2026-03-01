@@ -70,3 +70,4 @@ fav_places = {"USA": "NEWYORK", "IND" : "VIZAG", "UK" :"LONDON"}
 print(type(name))
 print(type(age))
 print(type(salary))
+print(type(fav_food))
