@@ -51,5 +51,7 @@
 # print(something)
 
 # Print Numbers in Python
-age = int(input("Enter age: "))
-print(age)
+# age = int(input("Enter age: "))
+# print(age)
+
+# Print Float or Decimal Number in Python
