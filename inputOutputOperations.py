@@ -5,4 +5,5 @@
 
 # Taking input in Python - input() function
 # input() method return a string what to convert concat with other datatypes(int, float,...)
-input("")
+name = input("Enter your favourite singer: ")
+print(name,"is My favourite singer 🎶")
