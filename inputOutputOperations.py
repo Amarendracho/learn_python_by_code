@@ -15,13 +15,25 @@
 
 # Printing Output using print() in Python
 # This function allows us to display text, variables and expressions on the console.
+#
+# print("Something")
 
-#print("Something")
+# # Printing Variables
+# print("Person Details")
+# name = "MarkSloan"
+# age = 26
+# address = "1-12 BEVERLY HILLS FLORIDA"
+# print("Name:",name, ":)age:",age, "!address:",address)
 
-# Printing Variables
-print("Person Details")
-name = "MarkSloan"
-age = 26
-address = "1-12 BEVERLY HILLS FLORIDA"
-print("Name:",name, ":)age:",age, "!address:",address)
+#Take Multiple Input in Python
+# We are taking multiple input from the user in a single line, splitting the values entered by the user
+# into separate variables for each value using the split() method.
 
+# thing1 , thing2 = input("Enter your favourite things: ?").split()
+# print("My favourite thing 1: ", thing1)
+# print("My favourite thing 2: ", thing2)
+
+a,b, c = input("your Top Schools: ? ")
+print("My Top college is: ",a)
+print("My second Top college is: ",b)
+print("My third Top college is: ",c)
