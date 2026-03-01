@@ -19,7 +19,6 @@ print(name,"is My favourite singer 🎶")
 print("Something")
 
 # Printing Variables
-
 print("Person Details")
 name = "MarkSloan"
 age = 26
@@ -52,17 +51,14 @@ something = input("Type Any thing: ")
 print(something)
 
 # Print Numbers in Python
-
 age = int(input("Enter age: "))
 print(age)
 
 # Print Float or Decimal Number in Python
-
 salary = float(input("Salary : "))
 print(salary)
 
 # Find DataType of Input in Python
-
 name = "Justin"
 age = 25
 salary = 123323.12
