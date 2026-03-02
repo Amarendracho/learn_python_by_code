@@ -5,5 +5,5 @@
 3. Global Variable and Local Variable
 4. Recuusion
 5. Lambda-functions
-6. 
+6. Inner functions
 
