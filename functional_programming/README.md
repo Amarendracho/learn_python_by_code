@@ -2,5 +2,5 @@
 
 1. Functions.py
 2. pass statement
-3. Global variable and 
+3. Global variable and Local Variable 
 
