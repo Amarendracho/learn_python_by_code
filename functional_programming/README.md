@@ -6,5 +6,5 @@
 4. Recuusion
 5. Lambda-functions
 6. Inner functions
-7. Dec
+7. Deco
 
