@@ -48,3 +48,8 @@
 # customer(fname="Justin", lname="Bieber")
 
 # 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
+
+def employee(name, salary):
+    print("Employee name is ", name)
+    print("Salary is ", salary)
+
