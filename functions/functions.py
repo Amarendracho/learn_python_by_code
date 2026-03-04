@@ -46,3 +46,4 @@ def customer(fname, lname):
 
 customer(fname="Alex", lname="Bob")
 customer(fname="Justin", lname="Bieber")
+
