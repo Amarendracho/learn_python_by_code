@@ -13,6 +13,16 @@ watching()
 # Function Arguments - Arguments are the values passed inside the parenthesis of the function.
 #                      A function can have any number of arguments separated by a comma.
 
+# Even / Odd check
+def evenCheck(n):
+    if n % 2 == 0:
+        return "EVEN"
+    else:
+        return "ODD"
+
+result = evenCheck(26)
+print(result)
+
 def multitasks(series, texting):
     print(f"I AM WATCHING {series} AND ALSO, I AM TEXTING IN {texting}")
 
