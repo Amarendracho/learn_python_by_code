@@ -13,4 +13,7 @@ watching()
 # Function Arguments - Arguments are the values passed inside the parenthesis of the function.
 #                      A function can have any number of arguments separated by a comma.
 
+def multitasks(series, texting):
+    print(f"I AM WATCHING {series} AND ALSO, I AM TEXTING IN {texting}")
 
+multitasks("GRAY'S ANATOMY", "WHAT'S APP")
