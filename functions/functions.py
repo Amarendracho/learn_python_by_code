@@ -32,6 +32,9 @@
 
 # Types of Function Arguments
 
-# 1. DEFAULT ARGUMENTS
+# 1. DEFAULT ARGUMENTS - PASSING THE DEFAULT VALUE INSIDE FUNCTION PARASITISM.
 
-def
+def person(name, country = "USA"):
+    print(name, country)
+
+person("JUSTIN")
