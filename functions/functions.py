@@ -54,3 +54,5 @@
 #
 # employee("Derek", 455000.21)
 # employee(234423.22, "Mark")
+
+# 4. Arbitrary Arguments
