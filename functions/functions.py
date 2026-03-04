@@ -40,3 +40,9 @@
 # person("JUSTIN")
 
 # 2. KEYWORD ARGUMENTS - PASSED BY EXPLICITLY SPECIFYING THE PARAMETER NAMES, SO THE ORDER DOESN’T MATTER
+
+def customer(fname, lname):
+    print(f"FIRST NAME: {fname}, LAST NAME: {lname}")
+
+customer(fname="Alex", lname="Bob")
+customer(fname="Justin", lname="Bieber")
