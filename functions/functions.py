@@ -47,3 +47,4 @@
 # customer(fname="Alex", lname="Bob")
 # customer(fname="Justin", lname="Bieber")
 
+# 3. POSITIONAL ARGUMENTS
