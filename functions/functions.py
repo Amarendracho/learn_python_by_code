@@ -61,7 +61,7 @@
 # IF YOU ARE NOT SURE HOW MANY ARGUMENTS PASSING INSIDE () USE THESE 2.
 
 def unknow_parameters(*args):
-    print(f"WE DON'T KNOW PARAMETER {args}")
+    print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {args}")
     for each in args:
         print(each)
 
