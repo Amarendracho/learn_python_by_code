@@ -1,6 +1,6 @@
-# Topic wise
+# Topic wise follow ths order
 
-1. Functions.py
+1. functions.py
 2. pass statement
 3. Global Variable and Local Variable
 4. Recursion
