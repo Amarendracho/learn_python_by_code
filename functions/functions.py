@@ -9,3 +9,8 @@ def watching():
 
 # CALLING THE FUNCTION IS SIMPLE CALL WITH NAME OF THE FUNCTION.
 watching()
+
+# Function Arguments - Arguments are the values passed inside the parenthesis of the function.
+#                      A function can have any number of arguments separated by a comma.
+
+
