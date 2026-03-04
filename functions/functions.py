@@ -62,3 +62,7 @@
 
 def unknow_parameters(*args):
     print(f"WE DON'T KNOW PARAMETER {args}")
+    for each in args:
+        print(each)
+
+unknow_parameters("A","B","C")
