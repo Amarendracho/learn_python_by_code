@@ -4,27 +4,34 @@
 
 # We define a function using keyword called - def function_name:
 
-def watching():
-    print("WATCHING A WEB SERIES... GRAY'S ANATOMY")
+# def watching():
+#     print("WATCHING A WEB SERIES... GRAY'S ANATOMY")
+#
+# # CALLING THE FUNCTION IS SIMPLE CALL WITH NAME OF THE FUNCTION.
+# watching()
+#
+# # Function Arguments - Arguments are the values passed inside the parenthesis of the function.
+# #                      A function can have any number of arguments separated by a comma.
+#
+# # Even / Odd check - SINGLE ARGUMENT
+# def evenCheck(n):
+#     if n % 2 == 0:
+#         return "EVEN"
+#     else:
+#         return "ODD"
+#
+# result = evenCheck(26)
+# print(result)
+#
+# # TWO ARGUMENT
+# def multitasks(series, texting):
+#     print(f"I AM WATCHING {series} AND ALSO, I AM TEXTING IN {texting}")
+#
+# multitasks("GRAY'S ANATOMY", "WHAT'S APP")
 
-# CALLING THE FUNCTION IS SIMPLE CALL WITH NAME OF THE FUNCTION.
-watching()
 
-# Function Arguments - Arguments are the values passed inside the parenthesis of the function.
-#                      A function can have any number of arguments separated by a comma.
+# Types of Function Arguments
 
-# Even / Odd check - SINGLE ARGUMENT
-def evenCheck(n):
-    if n % 2 == 0:
-        return "EVEN"
-    else:
-        return "ODD"
+# 1. DEFAULT ARGUMENTS
 
-result = evenCheck(26)
-print(result)
-
-# TWO ARGUMENT
-def multitasks(series, texting):
-    print(f"I AM WATCHING {series} AND ALSO, I AM TEXTING IN {texting}")
-
-multitasks("GRAY'S ANATOMY", "WHAT'S APP")
+def
