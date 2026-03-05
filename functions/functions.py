@@ -61,20 +61,20 @@
 # IF YOU ARE NOT SURE HOW MANY ARGUMENTS PASSING INSIDE () USE THESE 2.
 """*args and **kwargs are used when a function does not know in advance how many arguments it will receive"""
 
-# def unknow_parameters(*args):
-#     print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {args}")
-#     for each in args:
-#         print(each)
-#
-# unknow_parameters("A","B","C")
-#
-# # KEY VALUE
-# def unknow_parameters2(**kwargs):
-#     print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {kwargs}")
-#     for k,v in kwargs.items():
-#         print(k,v)
-#
-# unknow_parameters2(key1 = "A", key2 = "B", key3 = "C")
+def unknow_parameters(*args):
+    print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {args}")
+    for each in args:
+        print(each)
+
+unknow_parameters("A","B","C")
+
+# KEY VALUE
+def unknow_parameters2(**kwargs):
+    print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {kwargs}")
+    for k,v in kwargs.items():
+        print(k,v)
+
+unknow_parameters2(key1 = "A", key2 = "B", key3 = "C")
 
 def log(*messages):
     for msg in messages:
