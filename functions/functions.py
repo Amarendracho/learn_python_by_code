@@ -94,6 +94,12 @@
 #
 # outer()
 
-# ANONYMOUS FUNCTIONS -
+# ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
+
+#NORMAL FUNCTION
+def add(a):
+    print(a * a)
+
+
 name = "Anonymous Functions"
 print(name.upper())
