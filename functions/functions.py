@@ -105,3 +105,8 @@ result = lambda a: print(a * a)
 
 add(5)
 result(6)
+
+# RETURN STATEMENT IN FUNCTION -
+
+name = "Return Statement in Function"
+print(name.upper())
