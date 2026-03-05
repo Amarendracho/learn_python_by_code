@@ -83,4 +83,6 @@
 # log("Server started")
 # log("User login", "UserID:123")
 
-# Function within Functions
+# FUNCTION WITHIN FUNCTIONS
+name = "Function within Functions"
+print(name.upper())
