@@ -76,12 +76,12 @@
 #
 # unknow_parameters2(key1 = "A", key2 = "B", key3 = "C")
 
-# def log(*messages):
-#     for msg in messages:
-#         print("LOG:", msg)
-#
-# log("Server started")
-# log("User login", "UserID:123")
+def log(*messages):
+    for msg in messages:
+        print("LOG:", msg)
+
+log("Server started")
+log("User login", "UserID:123")
 
 # FUNCTION WITHIN FUNCTIONS - A FUNCTION DEFINED INSIDE ANOTHER FUNCTION IS CALLED
 #                               AN INNER FUNCTION (OR NESTED FUNCTION).
