@@ -83,6 +83,5 @@
 # log("Server started")
 # log("User login", "UserID:123")
 
-# FUNCTION WITHIN FUNCTIONS - A function defined inside another function is called an inner function (or nested function).
-n = "A function defined inside another function is called an inner function (or nested function). "
-print(n.upper())
+# FUNCTION WITHIN FUNCTIONS - A FUNCTION DEFINED INSIDE ANOTHER FUNCTION IS CALLED
+#                               AN INNER FUNCTION (OR NESTED FUNCTION).
