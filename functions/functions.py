@@ -106,7 +106,8 @@
 # add(5)
 # result(6)
 
-# RETURN STATEMENT IN FUNCTION -
+# RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER
 
-name = "Return Statement in Function"
+
+name = "The return statement ends a function and sends a value back to the caller"
 print(name.upper())
