@@ -39,21 +39,21 @@
 #
 # person("JUSTIN")
 
-# # 2. KEYWORD ARGUMENTS - PASSED BY EXPLICITLY SPECIFYING THE PARAMETER NAMES, SO THE ORDER DOESN’T MATTER
-#
-# def customer(fname, lname):
-#     print(f"FIRST NAME: {fname}, LAST NAME: {lname}")
-#
-# customer(fname="Alex", lname="Bob")
-# customer(fname="Justin", lname="Bieber")
+# 2. KEYWORD ARGUMENTS - PASSED BY EXPLICITLY SPECIFYING THE PARAMETER NAMES, SO THE ORDER DOESN’T MATTER
 
-# # 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
-# #                           FALLOW THE ARGUMENT ORDER.
-# def employee(name, salary):
-#     print(f"Employee name is {name} & Salary is {salary}")
-#
-# employee("Derek", 455000.21)
-# employee(234423.22, "Mark")
+def customer(fname, lname):
+    print(f"FIRST NAME: {fname}, LAST NAME: {lname}")
+
+customer(fname="Alex", lname="Bob")
+customer(fname="Justin", lname="Bieber")
+
+# 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
+#                           FALLOW THE ARGUMENT ORDER.
+def employee(name, salary):
+    print(f"Employee name is {name} & Salary is {salary}")
+
+employee("Derek", 455000.21)
+employee(234423.22, "Mark")
 
 # 4. ARBITRARY ARGUMENTS - *args (KEYWORD ARGUMENTS)
 #                          **kwargs (NON-KEYWORD ARGUMENTS)
