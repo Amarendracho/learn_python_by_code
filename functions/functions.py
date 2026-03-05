@@ -114,5 +114,7 @@
 #
 # print(square(3))
 
-name = "It can return any data type, multiple values (packed into a tuple), or None if no value is given"
+
+# RECURSIVE FUNCTIONS -
+name = "Recursive Functions"
 print(name.upper())
