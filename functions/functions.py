@@ -96,15 +96,15 @@
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
 
-# # NORMAL FUNCTION
-# def add(a):
-#     print(a * a)
-#
-# # LAMBDA FUNCTION
-# result = lambda a: print(a * a)
-#
-# add(5)
-# result(6)
+# NORMAL FUNCTION
+def add(a):
+    print(a * a)
+
+# LAMBDA FUNCTION
+result = lambda a: print(a * a)
+
+add(5)
+result(6)
 
 # RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER.
 #           IT CAN RETURN ANY DATA TYPE, MULTIPLE VALUES (PACKED INTO A TUPLE), OR NONE IF NO VALUE IS GIVEN
