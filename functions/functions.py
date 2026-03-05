@@ -109,6 +109,7 @@
 # RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER.
 #           IT CAN RETURN ANY DATA TYPE, MULTIPLE VALUES (PACKED INTO A TUPLE), OR NONE IF NO VALUE IS GIVEN
 
+def square(num):
 
 
 name = "It can return any data type, multiple values (packed into a tuple), or None if no value is given"
