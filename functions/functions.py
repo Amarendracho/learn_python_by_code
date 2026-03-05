@@ -100,6 +100,8 @@
 def add(a):
     print(a * a)
 
+# LAMBDA FUNCTION
+result = lambda a: print(a * a)
 
-name = "Anonymous Functions"
-print(name.upper())
+add(5)
+result(6)
