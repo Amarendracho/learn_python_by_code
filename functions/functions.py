@@ -86,13 +86,13 @@
 # FUNCTION WITHIN FUNCTIONS - A FUNCTION DEFINED INSIDE ANOTHER FUNCTION IS CALLED
 #                               AN INNER FUNCTION (OR NESTED FUNCTION).
 
-# def outer():
-#     outer_var = "outer function"
-#     def inner():
-#         print(outer_var)
-#     inner()
-#
-# outer()
+def outer():
+    outer_var = "outer function"
+    def inner():
+        print(outer_var)
+    inner()
+
+outer()
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
 
