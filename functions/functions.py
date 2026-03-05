@@ -112,5 +112,7 @@
 def square(num):
     return num * num
 
+print(square(10))
+
 name = "It can return any data type, multiple values (packed into a tuple), or None if no value is given"
 print(name.upper())
