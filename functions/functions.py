@@ -86,7 +86,6 @@
 # FUNCTION WITHIN FUNCTIONS - A FUNCTION DEFINED INSIDE ANOTHER FUNCTION IS CALLED
 #                               AN INNER FUNCTION (OR NESTED FUNCTION).
 
-
 def outer():
     outer_var = "outer function"
     def inner():
