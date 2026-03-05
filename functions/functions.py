@@ -84,5 +84,4 @@
 # log("User login", "UserID:123")
 
 # FUNCTION WITHIN FUNCTIONS
-name = "Function within Functions"
-print(name.upper())
+
