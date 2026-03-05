@@ -110,9 +110,9 @@
 #           IT CAN RETURN ANY DATA TYPE, MULTIPLE VALUES (PACKED INTO A TUPLE), OR NONE IF NO VALUE IS GIVEN
 
 def square(num):
-    return num * num
+    return num ** num
 
-print(square(10))
+print(square(3))
 
 name = "It can return any data type, multiple values (packed into a tuple), or None if no value is given"
 print(name.upper())
