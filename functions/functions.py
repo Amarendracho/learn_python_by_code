@@ -115,6 +115,6 @@
 # print(square(3))
 
 
-# RECURSIVE FUNCTIONS -
-name = "Recursive Functions"
+# RECURSIVE FUNCTIONS - A RECURSIVE FUNCTION IS A FUNCTION THAT CALLS ITSELF TO SOLVE A PROBLEM
+name = "A recursive function is a function that calls itself to solve a problem"
 print(name.upper())
