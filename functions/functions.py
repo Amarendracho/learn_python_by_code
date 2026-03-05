@@ -116,5 +116,11 @@
 
 
 # RECURSIVE FUNCTIONS - A RECURSIVE FUNCTION IS A FUNCTION THAT CALLS ITSELF TO SOLVE A PROBLEM
-name = "A recursive function is a function that calls itself to solve a problem"
-print(name.upper())
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print(factorial(4))
