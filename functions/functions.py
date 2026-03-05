@@ -106,8 +106,10 @@
 # add(5)
 # result(6)
 
-# RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER
+# RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER.
+#           IT CAN RETURN ANY DATA TYPE, MULTIPLE VALUES (PACKED INTO A TUPLE), OR NONE IF NO VALUE IS GIVEN
 
 
-name = "The return statement ends a function and sends a value back to the caller"
+
+name = "It can return any data type, multiple values (packed into a tuple), or None if no value is given"
 print(name.upper())
