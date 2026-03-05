@@ -76,9 +76,9 @@
 #
 # unknow_parameters2(key1 = "A", key2 = "B", key3 = "C")
 
-def log(*messages):
-    for msg in messages:
-        print("LOG:", msg)
-
-log("Server started")
-log("User login", "UserID:123")
+# def log(*messages):
+#     for msg in messages:
+#         print("LOG:", msg)
+#
+# log("Server started")
+# log("User login", "UserID:123")
