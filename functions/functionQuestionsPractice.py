@@ -256,3 +256,7 @@ def star_pattern(number):
 
 rows = int(input("Enter a number : "))
 star_pattern(rows)
+
+
+
+                        ===============================END=========================
