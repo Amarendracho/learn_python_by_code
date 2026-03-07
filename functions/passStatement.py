@@ -15,3 +15,4 @@ def hello():
 hello()
 
 # IN CONDITIONAL STATEMENTS
+age = 17
