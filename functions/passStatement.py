@@ -20,3 +20,9 @@ if age >= 18:
     pass
 else:
     print("Not Eligible")
+
+# IN LOOPS
+
+for i in range(1, 11):
+    if i == 3:
+        pass
