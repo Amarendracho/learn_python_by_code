@@ -43,5 +43,7 @@ class Student:
     def __str__(self):
         return f"{self.name} is {self.age} years old"
 
+    def details(self):
+        pass
 
 print(Student("Mark Slon", 41))
