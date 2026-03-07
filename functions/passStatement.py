@@ -7,12 +7,12 @@
 name = "No methods or attributes yet"
 print(name.upper())
 
-# # IN FUNCTIONS
-#
-# def hello():
-#     pass
-#
-# hello()
+# IN FUNCTIONS
+
+def hello():
+    pass
+
+hello()
 
 # IN CONDITIONAL STATEMENTS
 age = 17
