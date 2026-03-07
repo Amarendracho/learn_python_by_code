@@ -4,12 +4,14 @@
 # IT IS USED TO KEEP CODE BLOCKS VALID WHERE A STATEMENT IS REQUIRED BUT NO LOGIC IS NEEDED YET.
 # EXAMPLES SITUATIONS WHERE PASS IS USED ARE EMPTY FUNCTIONS, CLASSES, LOOPS OR CONDITIONAL BLOCKS.
 
-name = ""
+name = "In Conditional Statements"
 print(name.upper())
 
-# In Functions
+# IN FUNCTIONS
 
 def hello():
     pass
 
 hello()
+
+#
