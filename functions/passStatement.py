@@ -31,21 +31,21 @@ print(name.upper())
 
 # IN CLASSES
 
-# class Duplicate:
-#     pass   # NO METHODS OR ATTRIBUTES YET
+class Duplicate:
+    pass   # NO METHODS OR ATTRIBUTES YET
 
-# class Student:
-#
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-#
-#     def __str__(self):
-#         return f"{self.name} is {self.age} years old"
-#
-#     def details(self):
-#         pass
-#
-# mark = Student("Mark Slon", 41)
-# print(mark)
+class Student:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old"
+
+    def details(self):
+        pass
+
+mark = Student("Mark Slon", 41)
+print(mark)
 
