@@ -4,7 +4,7 @@
 # IT IS USED TO KEEP CODE BLOCKS VALID WHERE A STATEMENT IS REQUIRED BUT NO LOGIC IS NEEDED YET.
 # EXAMPLES SITUATIONS WHERE PASS IS USED ARE EMPTY FUNCTIONS, CLASSES, LOOPS OR CONDITIONAL BLOCKS.
 
-name = " No methods or attributes yet"
+name = "No methods or attributes yet"
 print(name.upper())
 
 # # IN FUNCTIONS
@@ -46,4 +46,6 @@ class Student:
     def details(self):
         pass
 
-print(Student("Mark Slon", 41))
+mark = Student("Mark Slon", 41)
+print(mark)
+
