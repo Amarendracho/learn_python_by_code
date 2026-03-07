@@ -31,4 +31,7 @@ print(name.upper())
 
 # IN CLASSES
 
+class Duplicate:
+    pass
+
 
