@@ -31,8 +31,8 @@ print(name.upper())
 
 # IN CLASSES
 
-class Duplicate:
-    pass   # NO METHODS OR ATTRIBUTES YET
+# class Duplicate:
+#     pass   # NO METHODS OR ATTRIBUTES YET
 
 # class Student:
 #
