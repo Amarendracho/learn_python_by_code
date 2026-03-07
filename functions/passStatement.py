@@ -7,12 +7,12 @@
 name = "Do nothing when i is 3"
 print(name.upper())
 
-# IN FUNCTIONS
-
-def hello():
-    pass
-
-hello()
+# # IN FUNCTIONS
+#
+# def hello():
+#     pass
+#
+# hello()
 
 # # IN CONDITIONAL STATEMENTS
 # age = 17
