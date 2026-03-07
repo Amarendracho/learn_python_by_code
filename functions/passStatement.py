@@ -4,7 +4,7 @@
 # IT IS USED TO KEEP CODE BLOCKS VALID WHERE A STATEMENT IS REQUIRED BUT NO LOGIC IS NEEDED YET.
 # EXAMPLES SITUATIONS WHERE PASS IS USED ARE EMPTY FUNCTIONS, CLASSES, LOOPS OR CONDITIONAL BLOCKS.
 
-name = "Do nothing when i is 3"
+name = " No methods or attributes yet"
 print(name.upper())
 
 # # IN FUNCTIONS
@@ -32,7 +32,7 @@ print(name.upper())
 # IN CLASSES
 
 class Duplicate:
-    pass
+    pass   # NO METHODS OR ATTRIBUTES YET
 
 class Student:
 
