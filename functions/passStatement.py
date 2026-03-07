@@ -28,3 +28,7 @@ print(name.upper())
 #         pass        # DO NOTHING WHEN I IS 3
 #     else:
 #         print(i)
+
+# IN CLASSES
+
+
