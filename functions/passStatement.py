@@ -21,13 +21,13 @@ print(name.upper())
 # else:
 #     print("Not Eligible")
 
-# # IN LOOPS
-#
-# for i in range(1, 5):
-#     if i == 3:
-#         pass        # DO NOTHING WHEN I IS 3
-#     else:
-#         print(i)
+# IN LOOPS
+
+for i in range(1, 5):
+    if i == 3:
+        pass        # DO NOTHING WHEN I IS 3
+    else:
+        print(i)
 
 # IN CLASSES
 
