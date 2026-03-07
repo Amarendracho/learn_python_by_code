@@ -7,5 +7,5 @@
 5. Lambda-functions
 6. Inner functions
 7. Decorators
-8. functionquestionspractice
+8. functionQuestionsPractice
 
