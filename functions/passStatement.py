@@ -45,4 +45,4 @@ class Student:
 
 mark = Student("Mark Slon", 41)
 print(mark)
-
+name
