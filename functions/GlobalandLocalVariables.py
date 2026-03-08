@@ -17,14 +17,14 @@ print(NAME.upper())
 #
 # userDetails()
 
-# # LOCAL VARIABLE CALLING OUTSIDE A METHOD
-#
-# def greeting():
-#     message = "WELCOME TO LOCAL VARIABLES"
-#     print(message)
-#
-# greeting()
-# # print("OUTSIDE CALLING LOCAL VARIABLE :", message) - ERROR
+# LOCAL VARIABLE CALLING OUTSIDE A METHOD
+
+def greeting():
+    message = "WELCOME TO LOCAL VARIABLES"
+    print(message)
+
+greeting()
+# print("OUTSIDE CALLING LOCAL VARIABLE :", message) - ERROR
 
 # GLOBAL VARIABLE - GLOBAL VARIABLES ARE DECLARED OUTSIDE ALL FUNCTIONS AND CAN BE ACCESSED ANYWHERE IN THE PROGRAM,
 #                   INCLUDING INSIDE FUNCTIONS.
