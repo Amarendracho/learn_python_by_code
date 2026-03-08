@@ -3,8 +3,8 @@
 # LOCAL VARIABLE - LOCAL VARIABLES ARE CREATED INSIDE A FUNCTION AND EXIST ONLY DURING ITS EXECUTION.
 #                  THEY CANNOT BE ACCESSED FROM OUTSIDE THE FUNCTION.
 
-NAME = ("Local variables are created inside a function and exist only during its execution. "
-        "They cannot be accessed from outside the function.")
+NAME = ("Global variables are declared outside all functions and can be accessed anywhere in the program,"
+        " including inside functions.")
 
 print(NAME.upper())
 
