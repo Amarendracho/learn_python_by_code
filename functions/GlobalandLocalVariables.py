@@ -51,3 +51,13 @@ print(NAME.upper())
 
 # WITH global DECLARATION
 
+country = "UNITED STATES"
+
+def countryDetails():
+    global country
+
+    country += " HAVE 50 STATES"
+    print(country)
+    country = "" # RE-ASSIGN THE VALUE
+
+countryDetails()
