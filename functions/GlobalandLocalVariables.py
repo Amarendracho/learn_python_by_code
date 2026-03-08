@@ -26,3 +26,5 @@ print(NAME.upper())
 #
 # greeting()
 # # print("OUTSIDE CALLING LOCAL VARIABLE :", message) - ERROR
+
+# GLOBAL VARIABLE -
