@@ -49,3 +49,4 @@ def userInfo():
     #  print(country)
     pass
 
+# WITH global DECLARATION
