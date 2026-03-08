@@ -10,3 +10,9 @@ print(NAME.upper())
 
 # LOCAL VARIABLE EXAMPLE
 
+def userDetails():
+    name = "Mark Slone"
+    age = 47
+    print(name, age)
+
+userDetails()
