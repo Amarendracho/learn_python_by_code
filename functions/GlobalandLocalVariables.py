@@ -25,3 +25,5 @@ def greeting():
     print(message)
 
 greeting()
+
+# print("OUTSIDE CALLING LOCAL VARIABLE :", message)
