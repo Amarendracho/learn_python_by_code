@@ -7,15 +7,15 @@ NAME = "Modifying Global Variables Inside a Function"
 
 print(NAME.upper())
 
-## LOCAL VARIABLE EXAMPLE
+# LOCAL VARIABLE EXAMPLE
 
-# def userDetails():
-#     # LOCAL VARIABLES INIT AND DECLARATION
-#     name = "Mark Slone"
-#     age = 47
-#     print(name, age)
-#
-# userDetails()
+def userDetails():
+    # LOCAL VARIABLES INIT AND DECLARATION
+    name = "Mark Slone"
+    age = 47
+    print(name, age)
+
+userDetails()
 
 # LOCAL VARIABLE CALLING OUTSIDE A METHOD
 
