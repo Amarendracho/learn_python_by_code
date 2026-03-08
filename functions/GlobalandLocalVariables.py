@@ -7,3 +7,6 @@ NAME = ("Local variables are created inside a function and exist only during its
         "They cannot be accessed from outside the function.")
 
 print(NAME.upper())
+
+# LOCAL VARIABLE EXAMPLE
+
