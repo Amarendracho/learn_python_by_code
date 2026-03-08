@@ -39,3 +39,11 @@ print(NAME.upper())
 
 # MODIFYING GLOBAL VARIABLES INSIDE A FUNCTION - BY DEFAULT WE CANNOT MODIFY GLOBAL VARIABLES INSIDE A FUNCTION.
 #                                                WITH THE HELP OF global DECLARATION WE CAN CHANGE IT.
+
+# WITHOUT global DECLARATION
+
+country = "UNITED STATES"
+def userInfo():
+
+    # error
+
