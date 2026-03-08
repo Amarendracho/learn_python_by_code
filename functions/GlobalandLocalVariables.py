@@ -49,17 +49,17 @@ print(NAME.upper())
 #     #  print(country)
 #     pass
 
-# # WITH global DECLARATION
-#
-# country = "UNITED STATES"
-#
-# def countryDetails():
-#     global country # DECLARE WITH global keyword
-#
-#     country += " HAVE 50 STATES"
-#     print(country)
-#     country = "INDIA HAVE 28 STATES" # RE-ASSIGN THE VALUE
-#     print(country)
-#
-# countryDetails()
-# print(country)
+# WITH global DECLARATION
+
+country = "UNITED STATES"
+
+def countryDetails():
+    global country # DECLARE WITH global keyword
+
+    country += " HAVE 50 STATES"
+    print(country)
+    country = "INDIA HAVE 28 STATES" # RE-ASSIGN THE VALUE
+    print(country)
+
+countryDetails()
+print(country)
