@@ -44,7 +44,8 @@ print(NAME.upper())
 
 country = "UNITED STATES"
 def userInfo():
-
-    # error
+    # ERROR - UnboundLocalError
     # country += "MARK"
-    # print(country)
+    #  print(country)
+    pass
+
