@@ -31,3 +31,7 @@ print(NAME.upper())
 #                   INCLUDING INSIDE FUNCTIONS.
 
 msg = "THIS IS GLOBAL VARIABLE ACCESS INSIDE A FUNCTION AND OUTSIDE A FUNCTION"
+def greet():
+    print("INSIDE A FUNCTION - ",msg)
+
+greet()
