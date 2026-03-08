@@ -11,6 +11,7 @@ print(NAME.upper())
 # LOCAL VARIABLE EXAMPLE
 
 def userDetails():
+    # LOCAL VARIABLES INIT AND DECLARATION
     name = "Mark Slone"
     age = 47
     print(name, age)
