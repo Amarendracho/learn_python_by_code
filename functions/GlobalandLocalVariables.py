@@ -58,6 +58,8 @@ def countryDetails():
 
     country += " HAVE 50 STATES"
     print(country)
-    country = "" # RE-ASSIGN THE VALUE
+    country = "INDIA HAVE 28 STATES" # RE-ASSIGN THE VALUE
+    print(country)
 
 countryDetails()
+print(country)
