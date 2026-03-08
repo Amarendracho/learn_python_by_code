@@ -17,3 +17,6 @@ def userDetails():
     print(name, age)
 
 userDetails()
+
+# LOCAL VARIABLE CALLING OUTSIDE A METHOD
+
