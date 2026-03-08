@@ -54,7 +54,7 @@ print(NAME.upper())
 country = "UNITED STATES"
 
 def countryDetails():
-    global country
+    global country # DECLARE WITH global keyword
 
     country += " HAVE 50 STATES"
     print(country)
