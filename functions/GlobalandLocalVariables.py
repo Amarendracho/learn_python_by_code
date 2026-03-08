@@ -42,11 +42,12 @@ print(NAME.upper())
 
 # WITHOUT global DECLARATION
 
-country = "UNITED STATES"
-def userInfo():
-    # ERROR - UnboundLocalError
-    # country += "MARK"
-    #  print(country)
-    pass
+# country = "UNITED STATES"
+# def userInfo():
+#     # ERROR - UnboundLocalError
+#     # country += "MARK"
+#     #  print(country)
+#     pass
 
 # WITH global DECLARATION
+
