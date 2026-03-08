@@ -20,3 +20,8 @@ print(NAME.upper())
 
 # LOCAL VARIABLE CALLING OUTSIDE A METHOD
 
+def greeting():
+    message = "WELCOME TO LOCAL VARIABLES"
+    print(message)
+
+greeting()
