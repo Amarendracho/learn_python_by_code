@@ -44,6 +44,7 @@ print(NAME.upper())
 
 country = "UNITED STATES"
 def userInfo():
-
+    global country
     # error
-
+    country += "MARK"
+    print(country)
