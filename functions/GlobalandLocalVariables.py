@@ -35,3 +35,4 @@ def greet():
     print("INSIDE A FUNCTION - ",msg)
 
 greet()
+print("OUTSIDE A FUNCTION - ",msg)
