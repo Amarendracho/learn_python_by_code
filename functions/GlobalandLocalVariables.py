@@ -3,8 +3,7 @@
 # LOCAL VARIABLE - LOCAL VARIABLES ARE CREATED INSIDE A FUNCTION AND EXIST ONLY DURING ITS EXECUTION.
 #                  THEY CANNOT BE ACCESSED FROM OUTSIDE THE FUNCTION.
 
-NAME = ("Global variables are declared outside all functions and can be accessed anywhere in the program,"
-        " including inside functions.")
+NAME = "Modifying Global Variables Inside a Function"
 
 print(NAME.upper())
 
@@ -37,3 +36,5 @@ print(NAME.upper())
 #
 # greet()
 # print("OUTSIDE A FUNCTION - ",msg)
+
+# MODIFYING GLOBAL VARIABLES INSIDE A FUNCTION
