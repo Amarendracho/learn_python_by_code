@@ -8,7 +8,7 @@ NAME = ("Local variables are created inside a function and exist only during its
 
 print(NAME.upper())
 
-# LOCAL VARIABLE EXAMPLE
+## LOCAL VARIABLE EXAMPLE
 
 # def userDetails():
 #     # LOCAL VARIABLES INIT AND DECLARATION
