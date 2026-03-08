@@ -18,12 +18,11 @@ print(NAME.upper())
 #
 # userDetails()
 
-# LOCAL VARIABLE CALLING OUTSIDE A METHOD
-
-def greeting():
-    message = "WELCOME TO LOCAL VARIABLES"
-    print(message)
-
-greeting()
-
-# print("OUTSIDE CALLING LOCAL VARIABLE :", message)
+# # LOCAL VARIABLE CALLING OUTSIDE A METHOD
+#
+# def greeting():
+#     message = "WELCOME TO LOCAL VARIABLES"
+#     print(message)
+#
+# greeting()
+# # print("OUTSIDE CALLING LOCAL VARIABLE :", message) - ERROR
