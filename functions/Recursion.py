@@ -21,10 +21,10 @@ print(name.upper())
 
 # EXAMPLE 1: FACTORIAL CALCULATION
 
-def factorial(n):
-    if n == 0: # BASE CONDITION
-        return 1
-    else:
-        return n * factorial(n - 1)
-
-print(factorial(5))
+# def factorial(n):
+#     if n == 0: # BASE CONDITION
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+#
+# print(factorial(5))
