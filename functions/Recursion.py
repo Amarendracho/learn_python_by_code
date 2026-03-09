@@ -16,7 +16,11 @@
     BASE CASE: THE STOPPING CONDITION THAT PREVENTS INFINITE RECURSION.
     RECURSIVE CASE: THE PART OF THE FUNCTION WHERE IT CALLS ITSELF WITH MODIFIED PARAMETERS."""
 
-name = "Recursive Case: The part of the function where it calls itself with modified parameters.."
+name = "Example 1: Factorial Calculation"
 print(name.upper())
 
-# Example 1: Factorial Calculation
+# EXAMPLE 1: FACTORIAL CALCULATION
+
+def factorial(n):
+    if n == 0:
+        return 1
