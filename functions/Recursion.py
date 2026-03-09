@@ -39,3 +39,4 @@ def fibonacci(n):
     else:
         return n + fibonacci(n - 1)
 
+print(fibonacci(10))
