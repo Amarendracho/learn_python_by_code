@@ -18,3 +18,5 @@
 
 name = "Recursive Case: The part of the function where it calls itself with modified parameters.."
 print(name.upper())
+
+# Example 1: Factorial Calculation
