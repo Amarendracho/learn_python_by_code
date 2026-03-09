@@ -28,3 +28,5 @@ print(name.upper())
 #         return n * factorial(n - 1)
 #
 # print(factorial(5))
+
+# EXAMPLE 2: FIBONACCI SEQUENCE 5 = 5 + 4 + 3 + 2 + 1 = 15
