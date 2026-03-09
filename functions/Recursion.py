@@ -32,7 +32,7 @@ print(factorial(5))
 # EXAMPLE 2: FIBONACCI SEQUENCE 5 = 5 + 4 + 3 + 2 + 1 = 15
 
 def fibonacci(n):
-    if n == 0: # BASE
+    if n == 0: # BASE C
         return 0
     elif n == 1:
         return 1
