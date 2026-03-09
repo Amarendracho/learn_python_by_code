@@ -11,10 +11,10 @@
     else:
         return recursive_function(modified_parameters)"""
 
-"""Recursive function contains two key parts:
+"""RECURSIVE FUNCTION CONTAINS TWO KEY PARTS
 
 Base Case: The stopping condition that prevents infinite recursion.
 Recursive Case: The part of the function where it calls itself with modified parameters."""
 
-name = "Recursive function contains two key parts:"
+name = "Base Case: The stopping condition that prevents infinite recursion."
 print(name.upper())
