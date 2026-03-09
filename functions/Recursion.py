@@ -25,5 +25,6 @@ def factorial(n):
     if n == 0: # BASE CONDITION
         return 1
 
-    return n *
+    return n * factorial(n - 1)
 
+factorial(4)
