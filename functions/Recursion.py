@@ -2,5 +2,8 @@
 #             TO SOLVE A PROBLEM BY BREAKING IT INTO SMALLER, SIMPLER SUBPROBLEMS.
 
 # WORKING OF RECURSION
-name = "Recursion is a programming technique where a function calls itself either directly or indirectly to solve a problem by breaking it into smaller, simpler subproblems."
+#                  A RECURSIVE FUNCTION IS JUST LIKE ANY OTHER PYTHON FUNCTION EXCEPT THAT IT CALLS ITSELF IN ITS BODY.
+
+
+name = "A recursive function is just like any other Python function except that it calls itself in its body"
 print(name.upper())
