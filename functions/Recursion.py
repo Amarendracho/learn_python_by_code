@@ -22,5 +22,5 @@ print(name.upper())
 # EXAMPLE 1: FACTORIAL CALCULATION
 
 def factorial(n):
-    if n == 0:
+    if n == 0: # BASE CONDITION
         return 1
