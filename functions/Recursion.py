@@ -14,7 +14,7 @@
 """RECURSIVE FUNCTION CONTAINS TWO KEY PARTS
 
     BASE CASE: THE STOPPING CONDITION THAT PREVENTS INFINITE RECURSION.
-    Recursive Case: The part of the function where it calls itself with modified parameters."""
+    RECURSIVE CASE: THE PART OF THE FUNCTION WHERE IT CALLS ITSELF WITH MODIFIED PARAMETERS."""
 
 name = "Recursive Case: The part of the function where it calls itself with modified parameters.."
 print(name.upper())
