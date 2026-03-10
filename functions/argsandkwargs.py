@@ -2,7 +2,7 @@
 #                       THEY ALLOW PYTHON FUNCTIONS TO ACCEPT VARIABLE NUMBER OF ARGUMENTS.
 
 
-name = "Python stores them in a tuple."
+name = "allows a function to accept multiple keyword arguments."
 print(name.upper())
 
 # NORMAL FUNCTION WITH FIXED ARGUMENTS
@@ -13,7 +13,7 @@ print(add(3,4))
 # print(add(4,5,6)) # ERROR ADD() TAKES 2 ARGUMENTS
 
 
-# *args - NON-KEYWORD ARGUMENTS, ALLOWS A FUNCTION TO ACCEPT MULTIPLE POSITIONAL ARGUMENTS.
+# 1. *args - NON-KEYWORD ARGUMENTS, ALLOWS A FUNCTION TO ACCEPT MULTIPLE POSITIONAL ARGUMENTS.
 #         PYTHON STORES THEM IN A TUPLE.
 
 # # SYNTAX - def function_name(*args)
@@ -54,3 +54,5 @@ print(add(3,4))
 #         print(name)
 #
 # names("PYTHON", "IS", "POWERFUL", "LANGUAGE FOR", "AI")
+
+# 2. **kwargs - KEY WORD ARGUMENTS
