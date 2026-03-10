@@ -60,3 +60,7 @@ print(add(3,4))
 
 # SYNTAX - def function_name(**kwargs):
 
+def show_info(**kwargs):
+    print(kwargs)
+
+show_info(name="John", age=25)
