@@ -39,4 +39,8 @@ print(add(3,4))
 # print(adding_numbers(10,20,30))
 # print(adding_numbers(10,20,30,40,50))
 
-def
+def names(*args):
+    for name in args:
+        print(name)
+
+names("PYTHON", "IS", "POWERFUL", "LANGUAGE FOR", "AI")
