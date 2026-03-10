@@ -2,7 +2,7 @@
 #                       THEY ALLOW PYTHON FUNCTIONS TO ACCEPT VARIABLE NUMBER OF ARGUMENTS.
 
 
-name = "allows a function to accept multiple keyword arguments."
+name = "Python stores them in a dictionary."
 print(name.upper())
 
 # NORMAL FUNCTION WITH FIXED ARGUMENTS
@@ -56,4 +56,5 @@ print(add(3,4))
 # names("PYTHON", "IS", "POWERFUL", "LANGUAGE FOR", "AI")
 
 # 2. **kwargs - KEY WORD ARGUMENTS - ALLOWS A FUNCTION TO ACCEPT MULTIPLE KEYWORD ARGUMENTS.
+#               PYTHON STORES THEM IN A DICTIONARY.
 
