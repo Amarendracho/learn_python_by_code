@@ -8,3 +8,5 @@ print(name.upper())
 # NORMAL FUNCTION WITH FIXED ARGUMENTS
 def add(a,b):
     return a+b
+
+print(add(3,4))
