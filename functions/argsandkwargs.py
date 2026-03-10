@@ -10,3 +10,4 @@ def add(a,b):
     return a+b
 
 print(add(3,4))
+# print(add(4,5,6)) # ERROR ADD() TAKES 2 ARGUMENTS
