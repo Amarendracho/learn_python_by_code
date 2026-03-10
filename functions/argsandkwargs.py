@@ -28,3 +28,13 @@ def add(*args):
 
 print(add(3,4,5,6,7,8,9))
 
+# REAL USE
+def adding_numbers(*args):
+    total = 0
+    for number in args:
+        total += number
+    return total
+
+print(adding_numbers(10,20))
+print(adding_numbers(10,20,30))
+print(adding_numbers(10,20,30,40,50))
