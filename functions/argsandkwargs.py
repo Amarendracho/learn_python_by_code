@@ -64,3 +64,9 @@ print(add(3,4))
 #     print(kwargs)
 #
 # show_info(name="John", age=25)
+
+def show_info(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+show_info(name="John", age=25, city="NY")
