@@ -5,3 +5,6 @@
 name = "They allow Python functions to accept variable number of arguments."
 print(name.upper())
 
+# NORMAL FUNCTION WITH FIXED ARGUMENTS
+def add(a,b):
+    return a+b
