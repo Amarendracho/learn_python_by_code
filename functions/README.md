@@ -4,8 +4,9 @@
 2. passStatement.py
 3. GlobalandLocalVariables.py
 4. Recursion
-5. Lambda-functions
-6. Inner functions
-7. Decorators
-8. functionQuestionsPractice
+5. *args and **kwargs
+6. Lambda-functions
+7. Inner functions
+8. Decorators
+9. functionQuestionsPractice
 
