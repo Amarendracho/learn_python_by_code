@@ -39,15 +39,15 @@ print(add(3,4))
 # print(adding_numbers(10,20,30))
 # print(adding_numbers(10,20,30,40,50))
 
-def multiply(*args):
-    result = 1
-    for num in args:
-        result *= num
-    return result
-
-print(multiply(3,4))
-print(multiply(3,4,5))
-print(multiply(3,4,5,6))
+# def multiply(*args):
+#     result = 1
+#     for num in args:
+#         result *= num
+#     return result
+#
+# print(multiply(3,4))
+# print(multiply(3,4,5))
+# print(multiply(3,4,5,6))
 
 # def names(*args):
 #     for name in args:
