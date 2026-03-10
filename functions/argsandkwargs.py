@@ -17,6 +17,12 @@ print(add(3,4))
 #         PYTHON STORES THEM IN A TUPLE.
 
 # SYNTAX - def function_name(*args)
+def add_numbers(*args):
+    print(args)
+
+add_numbers(1,2,3,4)
+
+
 def add(*args):
     return sum(args)
 
