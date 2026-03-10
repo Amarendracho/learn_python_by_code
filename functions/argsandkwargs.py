@@ -39,31 +39,31 @@ print(add(3,4))
 # print(adding_numbers(10,20,30))
 # print(adding_numbers(10,20,30,40,50))
 
-# def multiply(*args):
-#     result = 1
-#     for num in args:
-#         result *= num
-#     return result
-#
-# print(multiply(3,4))
-# print(multiply(3,4,5))
-# print(multiply(3,4,5,6))
+def multiply(*args):
+    result = 1
+    for num in args:
+        result *= num
+    return result
 
-# def names(*args):
-#     for name in args:
-#         print(name)
-#
-# names("PYTHON", "IS", "POWERFUL", "LANGUAGE FOR", "AI")
+print(multiply(3,4))
+print(multiply(3,4,5))
+print(multiply(3,4,5,6))
+
+def names(*args):
+    for name in args:
+        print(name)
+
+names("PYTHON", "IS", "POWERFUL", "LANGUAGE FOR", "AI")
 
 # 2. **kwargs - KEY WORD ARGUMENTS - ALLOWS A FUNCTION TO ACCEPT MULTIPLE KEYWORD ARGUMENTS.
 #               PYTHON STORES THEM IN A DICTIONARY.
 
 # SYNTAX - def function_name(**kwargs):
 
-# def show_info(**kwargs):
-#     print(kwargs)
-#
-# show_info(name="John", age=25)
+def show_info(**kwargs):
+    print(kwargs)
+
+show_info(name="John", age=25)
 
 def show_info(**kwargs):
     for key, value in kwargs.items():
