@@ -14,6 +14,9 @@ print(add(3,4))
 
 
 # *args - ALLOWS A FUNCTION TO ACCEPT MULTIPLE POSITIONAL ARGUMENTS.
+#         PYTHON STORES THEM IN A TUPLE.
+
+# SYNTAX - def function_name(*args)
 def add(*args):
     return sum(args)
 
