@@ -16,28 +16,28 @@ print(add(3,4))
 # 1. *args - NON-KEYWORD ARGUMENTS, ALLOWS A FUNCTION TO ACCEPT MULTIPLE POSITIONAL ARGUMENTS.
 #         PYTHON STORES THEM IN A TUPLE.
 
-# # SYNTAX - def function_name(*args)
-# def add_numbers(*args):
-#     print(args)
-#
-# add_numbers(1,2,3,4)
-#
-# # ADD NUMBERS
-# def add(*args):
-#     return sum(args)
-#
-# print(add(3,4,5,6,7,8,9))
-#
-# # REAL USE
-# def adding_numbers(*args):
-#     total = 0
-#     for number in args:
-#         total += number
-#     return total
-#
-# print(adding_numbers(10,20))
-# print(adding_numbers(10,20,30))
-# print(adding_numbers(10,20,30,40,50))
+# SYNTAX - def function_name(*args)
+def add_numbers(*args):
+    print(args)
+
+add_numbers(1,2,3,4)
+
+# ADD NUMBERS
+def add(*args):
+    return sum(args)
+
+print(add(3,4,5,6,7,8,9))
+
+# REAL USE
+def adding_numbers(*args):
+    total = 0
+    for number in args:
+        total += number
+    return total
+
+print(adding_numbers(10,20))
+print(adding_numbers(10,20,30))
+print(adding_numbers(10,20,30,40,50))
 
 def multiply(*args):
     result = 1
