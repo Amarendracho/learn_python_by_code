@@ -58,3 +58,5 @@ print(add(3,4))
 # 2. **kwargs - KEY WORD ARGUMENTS - ALLOWS A FUNCTION TO ACCEPT MULTIPLE KEYWORD ARGUMENTS.
 #               PYTHON STORES THEM IN A DICTIONARY.
 
+# SYNTAX - def function_name(**kwargs):
+
