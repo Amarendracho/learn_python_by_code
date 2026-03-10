@@ -2,7 +2,7 @@
 #                       THEY ALLOW PYTHON FUNCTIONS TO ACCEPT VARIABLE NUMBER OF ARGUMENTS.
 
 
-name = "They allow Python functions to accept variable number of arguments."
+name = "Python stores them in a tuple."
 print(name.upper())
 
 # NORMAL FUNCTION WITH FIXED ARGUMENTS
@@ -12,7 +12,10 @@ def add(a,b):
 print(add(3,4))
 # print(add(4,5,6)) # ERROR ADD() TAKES 2 ARGUMENTS
 
+
+# *args - ALLOWS A FUNCTION TO ACCEPT MULTIPLE POSITIONAL ARGUMENTS.
 def add(*args):
     return sum(args)
 
 print(add(3,4,5,6,7,8,9))
+
