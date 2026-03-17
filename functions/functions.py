@@ -63,6 +63,8 @@ def employee(name, salary):
 employee("Derek", 455000.21)
 employee(234423.22, "Mark")
 
+
+
 # 4. ARBITRARY ARGUMENTS - *args (KEYWORD ARGUMENTS)
 #                          **kwargs (NON-KEYWORD ARGUMENTS)
 
