@@ -120,10 +120,11 @@ def outer():
 
 outer()
 
-def brand:
+def brand():
     brand = "APPLE"
-    def model:
+    def model():
         print(f"{brand} is {model}")
+    model = model("IPHONE18")
 
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
