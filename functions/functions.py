@@ -63,11 +63,11 @@ def employee(name, salary):
 employee("Derek", 455000.21)
 employee(234423.22, "Mark")
 
-def car_details(brand, cost):
-    print(f"Car BrandName: {brand}, Cost $:{cost}")
-
-car_details("MUST_ANG", 55000)
-car_details(225000, "Porch 911")
+# def car_details(brand, cost):
+#     print(f"Car BrandName: {brand}, Cost $:{cost}")
+#
+# car_details("MUST_ANG", 55000)
+# car_details(225000, "Porch 911")
 
 # 4. ARBITRARY ARGUMENTS - *args (KEYWORD ARGUMENTS)
 #                          **kwargs (NON-KEYWORD ARGUMENTS)
