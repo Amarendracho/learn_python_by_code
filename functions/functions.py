@@ -87,7 +87,7 @@ def unknown(*args, **kwargs):
     for each in args:
         print(each)
 
-    print("")
+    print("KEYWORD ARGUMENTS")
 
 # KEY VALUE
 def unknow_parameters2(**kwargs):
