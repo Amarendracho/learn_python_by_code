@@ -133,12 +133,12 @@ outer()
 
 # NORMAL FUNCTION
 def add(a):
-    print(a * a)
+    print(a ** a)
 
 # LAMBDA FUNCTION
 result = lambda a: print(a * a)
 
-add(5)
+add(4)
 result(6)
 
 # RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER.
