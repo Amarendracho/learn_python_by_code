@@ -123,7 +123,7 @@ outer()
 def brand:
     brand = "APPLE"
     def model:
-        print(f"{brand} is ")
+        print(f"{brand} is {model}")
 
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
