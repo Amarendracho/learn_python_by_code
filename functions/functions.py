@@ -82,6 +82,8 @@ def unknow_parameters(*args):
 
 unknow_parameters("A","B","C")
 
+def
+
 # KEY VALUE
 def unknow_parameters2(**kwargs):
     print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {kwargs}")
