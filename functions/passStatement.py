@@ -6,7 +6,7 @@
 
 # IN FUNCTIONS
 
-def hello():
+def ():
     pass
 
 hello()
