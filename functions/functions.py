@@ -120,7 +120,8 @@ def outer():
 
 outer()
 
-def
+def brand:
+
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
 
