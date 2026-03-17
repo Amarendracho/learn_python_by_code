@@ -88,6 +88,8 @@ def unknown(*args, **kwargs):
         print(each)
 
     print("KEYWORD ARGUMENTS")
+    for k,v in kwargs.items():
+        print(k,v)
 
 # KEY VALUE
 def unknow_parameters2(**kwargs):
