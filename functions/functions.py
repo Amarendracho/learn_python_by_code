@@ -64,7 +64,7 @@ employee("Derek", 455000.21)
 employee(234423.22, "Mark")
 
 def car_details(brand, cost):
-
+    print()
 
 # 4. ARBITRARY ARGUMENTS - *args (KEYWORD ARGUMENTS)
 #                          **kwargs (NON-KEYWORD ARGUMENTS)
