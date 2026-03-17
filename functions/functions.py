@@ -32,7 +32,7 @@ multitasks("GRAY'S ANATOMY", "WHAT'S APP")
 
 # Types of Function Arguments
 
-# 1. DEFAULT ARGUMENTS - PASSING THE DEFAULT VALUE INSIDE FUNCTION PARASITISM.
+# 1. DEFAULT ARGUMENTS - PASSING THE DEFAULT VALUE AS A FUNCTION PARAMETER.
 
 def person(name, country = "USA"):
     print(name, country)
