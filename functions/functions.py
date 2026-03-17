@@ -89,8 +89,9 @@ def unknown(*args, **kwargs):
 
     print("KEYWORD ARGUMENTS")
     for k,v in kwargs.items():
-        print(k,v)
+        print(f"key = {k}, value = {v}")
 
+unknown("Good Doctor", "Gray's Anatomy", Fav_series = "HARRY_POTTER", fav_mov = "Titanic")
 # KEY VALUE
 def unknow_parameters2(**kwargs):
     print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {kwargs}")
