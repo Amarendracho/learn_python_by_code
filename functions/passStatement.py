@@ -9,10 +9,10 @@
 def convert_dollar_to_pound():
     # I DON'T KNOW THE LOGIC YET, LET ME PAUSE A WHILE
     pass
-
 convert_dollar_to_pound()
 
 # IN CONDITIONAL STATEMENTS
+
 age = 17
 if age >= 18:
     pass
