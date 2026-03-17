@@ -35,7 +35,8 @@ multitasks("GRAY'S ANATOMY", "WHAT'S APP")
 # 1. DEFAULT ARGUMENTS - PASSING THE DEFAULT VALUE AS A FUNCTION PARAMETER.
 
 def person(name, country = "USA"):
-    print(name, country)
+    print(name)
+    print(country)
 
 person("JUSTIN")
 
