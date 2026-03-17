@@ -48,6 +48,8 @@ def customer(fname, lname):
 customer(fname="Alex", lname="Creav")
 customer(fname="Justin", lname="Bieber")
 
+def phoneDetails(brandName, modelName):
+
 
 # 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
 #                           FALLOW THE ARGUMENT ORDER.
