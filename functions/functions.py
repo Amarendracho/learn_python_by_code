@@ -52,6 +52,7 @@ def phoneDetails(brandName, modelName):
     print(f"Mobile BrandName: {brandName}, ModelName: {modelName}")
 
 phoneDetails(brandName = "IPHONE", modelName = "18-PRO MAX")
+phoneDetails(brandName = "SAMSUNG", modelName = "S24-ULTRA")
 
 # 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
 #                           FALLOW THE ARGUMENT ORDER.
