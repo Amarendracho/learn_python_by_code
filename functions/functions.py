@@ -82,16 +82,16 @@ def unknow_parameters(*args):
 
 unknow_parameters("A","B","C")
 
-def unknown(*args, **kwargs):
-    print("NON-KEYWORD ARGUMENTS")
-    for each in args:
-        print(each)
-
-    print("KEYWORD ARGUMENTS")
-    for k,v in kwargs.items():
-        print(f"key = {k}, value = {v}")
-
-unknown("Good Doctor", "Gray's Anatomy", Fav_series = "HARRY_POTTER", fav_mov = "Titanic")
+# def unknown(*args, **kwargs):
+#     print("NON-KEYWORD ARGUMENTS")
+#     for each in args:
+#         print(each)
+#
+#     print("KEYWORD ARGUMENTS")
+#     for k,v in kwargs.items():
+#         print(f"key = {k}, value = {v}")
+#
+# unknown("Good Doctor", "Gray's Anatomy", Fav_series = "HARRY_POTTER", fav_mov = "Titanic")
 # KEY VALUE
 def unknow_parameters2(**kwargs):
     print(f"WE DON'T KNOW HOW MANY PARAMETER AS ARGUMENTS: {kwargs}")
