@@ -136,10 +136,10 @@ def add(a):
     print(a ** a)
 
 # LAMBDA FUNCTION
-result = lambda a: print(a * a)
+result = lambda a: print(a ** a)
 
 add(4)
-result(6)
+result(4)
 
 # RETURN STATEMENT IN FUNCTION - THE RETURN STATEMENT ENDS A FUNCTION AND SENDS A VALUE BACK TO THE CALLER.
 #           IT CAN RETURN ANY DATA TYPE, MULTIPLE VALUES (PACKED INTO A TUPLE), OR NONE IF NO VALUE IS GIVEN
