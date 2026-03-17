@@ -147,7 +147,7 @@ result(4)
 def square(num):
     return num ** num
 
-print(square(3))
+print(square(4))
 
 
 # RECURSIVE FUNCTIONS - A RECURSIVE FUNCTION IS A FUNCTION THAT CALLS ITSELF TO SOLVE A PROBLEM
