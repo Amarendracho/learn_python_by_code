@@ -13,7 +13,7 @@ convert_dollar_to_pound()
 
 # IN CONDITIONAL STATEMENTS
 
-age = 17
+age = 19
 if age >= 18:
     pass
 else:
@@ -45,5 +45,5 @@ class Student:
         pass
 
 mark = Student("Mark Slon", 41)
-print(mark)
+details()
 
