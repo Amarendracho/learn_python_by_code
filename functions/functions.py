@@ -39,6 +39,11 @@ def person(name, country = "USA"):
 
 person("JUSTIN")
 
+def my_Function(x, y = 10):
+    print(x)
+    print(y)
+
+
 # 2. KEYWORD ARGUMENTS - PASSED BY EXPLICITLY SPECIFYING THE PARAMETER NAMES, SO THE ORDER DOESN’T MATTER
 
 def customer(fname, lname):
