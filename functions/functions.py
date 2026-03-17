@@ -124,8 +124,9 @@ def brand():
     brand = "APPLE"
     def model(name):
         print(f"{brand} is {name}")
-    model = model("IPHONE-18PRO")
+    model("IPHONE-18 PRO")
 
+brand()
 
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
 
