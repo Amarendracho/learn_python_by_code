@@ -45,6 +45,6 @@ class Student:
         pass
 
 mark = Student("Mark Slon", 41)
-mark.details() # NOTHING DISPLAYED JUST
+mark.details() # NOTHING DISPLAYED
 print(mark)
 
