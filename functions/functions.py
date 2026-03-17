@@ -120,6 +120,7 @@ def outer():
 
 outer()
 
+# Example
 # def brand():
 #     brand = "APPLE"
 #     def model(name):
