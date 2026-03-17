@@ -6,10 +6,10 @@
 
 # IN FUNCTIONS
 
-def convert_doller_to_pound():
+def convert_dollar_to_pound():
     pass
 
-hello()
+convert_dollar_to_pound()
 
 # IN CONDITIONAL STATEMENTS
 age = 17
