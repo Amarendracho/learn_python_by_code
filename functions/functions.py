@@ -120,6 +120,8 @@ def outer():
 
 outer()
 
+def
+
 # ANONYMOUS FUNCTIONS - FUNCTION WITHOUT NAME
 
 # NORMAL FUNCTION
