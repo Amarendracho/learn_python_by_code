@@ -45,8 +45,9 @@ person("JUSTIN")
 def customer(fname, lname):
     print(f"FIRST NAME: {fname}, LAST NAME: {lname}")
 
-customer(fname="Alex", lname="Bob")
+customer(fname="Alex", lname="Creav")
 customer(fname="Justin", lname="Bieber")
+
 
 # 3. POSITIONAL ARGUMENTS - POSITIONAL ARGUMENTS, VALUES ARE ASSIGNED TO PARAMETERS BASED ON THEIR ORDER IN THE FUNCTION CALL.
 #                           FALLOW THE ARGUMENT ORDER.
