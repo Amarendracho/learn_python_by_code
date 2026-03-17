@@ -82,7 +82,7 @@ def unknow_parameters(*args):
 
 unknow_parameters("A","B","C")
 
-# both
+# BOTH *args, **kwargs
 # def unknown(*args, **kwargs):
 #     print("NON-KEYWORD ARGUMENTS")
 #     for each in args:
