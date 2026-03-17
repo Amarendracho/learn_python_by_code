@@ -7,7 +7,7 @@
 # IN FUNCTIONS
 
 def convert_dollar_to_pound():
-    # I DON'T KNOW THE
+    # I DON'T KNOW THE LOGIC
     pass
 
 convert_dollar_to_pound()
