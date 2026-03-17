@@ -48,6 +48,7 @@ def customer(fname, lname):
 customer(fname="Alex", lname="Creav")
 customer(fname="Justin", lname="Bieber")
 
+#EXAMPLE
 def phoneDetails(brandName, modelName):
     print(f"Mobile BrandName: {brandName}, ModelName: {modelName}")
 
