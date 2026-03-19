@@ -10,7 +10,7 @@ Topic :
     4.2 comparison
     4.3 logical
     4.4 assignment
-4. functions
+5. functions
 5. conditional_statements
 6. loops
 7. oops
