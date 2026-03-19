@@ -14,7 +14,7 @@ Topic :
 6. conditional_statements
 7. loops
 8. oops
-8. Exception Handling
+9. Exception Handling
 9. Files
 
 
