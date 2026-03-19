@@ -6,7 +6,7 @@ Topic :
 2. Datatypes
 3. InputOutputOperations
 4. operators
-    arthmetic
+    4.1 arithmetic
     comparison
     logical
     assignment
