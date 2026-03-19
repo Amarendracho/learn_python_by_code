@@ -11,7 +11,7 @@ Topic :
     4.3 logical
     4.4 assignment
 5. functions
-5. conditional_statements
+6. conditional_statements
 6. loops
 7. oops
 8. Exception Handling
