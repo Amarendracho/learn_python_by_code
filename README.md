@@ -8,7 +8,7 @@ Topic :
 4. operators
     4.1 arithmetic
     4.2 comparison
-    logical
+    4.3 logical
     assignment
 4. functions
 5. conditional_statements
