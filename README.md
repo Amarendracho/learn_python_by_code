@@ -12,7 +12,7 @@ Topic :
     4.4 assignment
 5. functions
 6. conditional_statements
-6. loops
+7. loops
 7. oops
 8. Exception Handling
 9. Files
