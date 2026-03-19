@@ -9,5 +9,5 @@
 7. Inner functions
 8. Decorators
 9. functionQuestionsPractice
-10. decara
+10. decarat
 
