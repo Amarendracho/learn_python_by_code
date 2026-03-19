@@ -7,7 +7,7 @@ Topic :
 3. InputOutputOperations
 4. operators
     4.1 arithmetic
-    comparison
+    4.2 comparison
     logical
     assignment
 4. functions
