@@ -1,7 +1,7 @@
 # Learn python by coding 
 # code basic coding questions by topic-wise
 
-Topics : 
+#Topics : 
 1. Variables
 2. Datatypes
 3. InputOutputOperations
