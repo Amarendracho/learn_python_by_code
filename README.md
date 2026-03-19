@@ -9,7 +9,7 @@ Topic :
     4.1 arithmetic
     4.2 comparison
     4.3 logical
-    assignment
+    4.4 assignment
 4. functions
 5. conditional_statements
 6. loops
