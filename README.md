@@ -13,7 +13,7 @@ Topic :
 5. functions
 6. conditional_statements
 7. loops
-7. oops
+8. oops
 8. Exception Handling
 9. Files
 
