@@ -5,7 +5,7 @@
 1. Variables
 2. Datatypes
 3. InputOutputOperations
-4. operators \n
+4. operators '\n'
     4.1 arithmetic
     4.2 comparison
     4.3 logical
