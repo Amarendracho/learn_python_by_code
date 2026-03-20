@@ -26,5 +26,13 @@ def carBrand():
 carBrand()
 
 
+def carBrand():
+    brandName = "FORD MUSTANG"
+    def carModel():
+        print(brandName, "GT")
+    carModel()
+
+carBrand()
+
 name = "Modifying variables using nonlocal"
 print(name.upper())
