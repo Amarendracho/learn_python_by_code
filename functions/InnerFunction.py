@@ -62,8 +62,3 @@ closure = outer_function(10)
 # Call the closure with different values of 'y'
 print(closure(5))
 print(closure(20))
-
-
-
-name = "Closure in inner function"
-print(name.upper())
