@@ -42,10 +42,11 @@ carBrand()
 
 def carBrand(name):
     def carModel():
-        print(brandName, "GT")
+        print(name)
     carModel()
 
-carBrand()
+closer = carBrand("mustang")
+closer()
 
 
 name = "Closure in inner function"
