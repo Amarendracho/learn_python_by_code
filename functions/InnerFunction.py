@@ -6,7 +6,7 @@
 
 def outer(name): # outer function
     def inner(): # inner function
-        print(name)
+        print(name) # access variable from outer scope
     inner()
 
 outer("Amar")
