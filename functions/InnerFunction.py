@@ -3,3 +3,10 @@
     USED FOR: ENCAPSULATION, ACCESS OUTER VARIABLES AND CLOSURES AND DECORATORS"""
 
 # EXAMPLE INNER FUNCTION ACCESS VARIABLES FROM OUTER FUNCTION
+
+def outer(name):
+    def inner():
+        print(name)
+    inner()
+
+outer("Amar")
