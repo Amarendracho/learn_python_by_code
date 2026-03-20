@@ -38,9 +38,6 @@ def carBrand():
 
 carBrand()
 
-name = "Closure in inner function"
-print(name.upper())
-
  # CLOSURE IN INNER FUNCTION
 
 def carBrand():
@@ -50,3 +47,7 @@ def carBrand():
     carModel()
 
 carBrand()
+
+
+name = "Closure in inner function"
+print(name.upper())
