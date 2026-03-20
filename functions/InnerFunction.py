@@ -29,7 +29,7 @@ carBrand()
 def carBrand():
     brandName = "FORD MUSTANG"
     def carModel():
-        nonlocal brandName #
+        nonlocal brandName #changeing outer variable value
         brandName = "PORSCHE"
         print(brandName)
     carModel()
