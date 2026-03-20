@@ -10,3 +10,6 @@ def outer(name): # outer function
     inner()
 
 outer("Amar")
+
+name = "Scope of variables in inner functions"
+print(name.upper())
