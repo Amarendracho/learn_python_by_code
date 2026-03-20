@@ -14,5 +14,8 @@ outer("Amar")
 # SCOPE OF VARIABLES IN INNER FUNCTIONS
 # INNER FUNCTIONS FOLLOW PYTHON'S - LEGB RULE (LOCAL --> ENCLOSING --> GLOBAL --> BUILT-IN).
 # INNER FUNCTIONS ACCESS OUTER FUNCTION VARIABLES, BUT MODIFYING THEM REQUIRES SPECIAL KEYWORDS LIKE (nonlocal).
+
+# EXAMPLE : LOCAL VARIABLE ACCESS
+
 name = "access outer function variables, but modifying them requires special keywords like nonlocal."
 print(name.upper())
