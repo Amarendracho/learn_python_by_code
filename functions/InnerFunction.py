@@ -40,8 +40,7 @@ carBrand()
 
  # CLOSURE IN INNER FUNCTION
 
-def carBrand():
-    brandName = "FORD MUSTANG"
+def carBrand(name):
     def carModel():
         print(brandName, "GT")
     carModel()
