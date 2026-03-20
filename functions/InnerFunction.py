@@ -64,4 +64,5 @@ print(closure(5))
 print(closure(20))
 
 #ENCAPSULATION
-def process_date()
+def process_date(data):
+    def
