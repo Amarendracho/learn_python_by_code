@@ -49,6 +49,7 @@ closure = carBrand("AUDI")
 closure()
 
 # EXAMPLE CLOSURE IN INNER FUNCTION
+
 def outer_function(x):
     # Outer function: takes 'x' and defines inner_function
     def inner_function(y):
