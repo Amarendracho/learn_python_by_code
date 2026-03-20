@@ -25,7 +25,7 @@ def carBrand():
 
 carBrand()
 
-#
+# MODIFYING VARIABLES USING NONLOCAL
 
 def carBrand():
     brandName = "FORD MUSTANG"
