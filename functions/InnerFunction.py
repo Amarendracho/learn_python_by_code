@@ -43,12 +43,12 @@ carBrand()
 def carBrand(name):
     def carModel():
         print(name)
-    return carModel # NOT CALLING INNER METHOD
+    return carModel # NOT CALLING INNER METHOD()
 
 closure = carBrand("AUDI")
 closure()
 
-
+# EXAMPLE CLOSURE IN INNER FUNCTION
 def outer_function(x):
     # Outer function: takes 'x' and defines inner_function
     def inner_function(y):
