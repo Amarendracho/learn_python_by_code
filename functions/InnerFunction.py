@@ -4,7 +4,7 @@
 
 # EXAMPLE INNER FUNCTION ACCESS VARIABLES FROM OUTER FUNCTION
 
-def outer(name):
+def outer(name): # outer function
     def inner():
         print(name)
     inner()
