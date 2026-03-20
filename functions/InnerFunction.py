@@ -38,7 +38,7 @@ def carBrand():
 
 carBrand()
 
-name = "Modifying variables using nonlocal"
+name = "Closure in inner function"
 print(name.upper())
 
 def carBrand():
