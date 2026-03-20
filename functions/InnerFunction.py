@@ -12,6 +12,6 @@ def outer(name): # outer function
 outer("Amar")
 
 # SCOPE OF VARIABLES IN INNER FUNCTIONS
-# INNER FUNCTIONS FOLLOW
-name = "Scope of variables in inner functions"
+# INNER FUNCTIONS FOLLOW PYTHON'S - LEGB RULE (LOCAL --> ENCLOSING --> GLOBAL --> BUILT-IN).
+name = "LEGB rule (Local --> Enclosing --> Global --> Built-in)."
 print(name.upper())
