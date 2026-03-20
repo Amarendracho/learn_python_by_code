@@ -64,3 +64,4 @@ print(closure(5))
 print(closure(20))
 
 
+Encapsulation
