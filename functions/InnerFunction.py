@@ -65,4 +65,5 @@ print(closure(20))
 
 #ENCAPSULATION
 def process_date(data):
-    def
+    def clean_date():
+        return [item]
