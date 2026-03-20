@@ -43,10 +43,10 @@ carBrand()
 def carBrand(name):
     def carModel():
         print(name)
-    carModel()
+    return carModel()
 
-closer = carBrand("mustang")
-closer()
+closure = carBrand("mustang")
+closure()
 
 
 name = "Closure in inner function"
