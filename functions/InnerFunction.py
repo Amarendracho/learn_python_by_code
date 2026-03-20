@@ -68,4 +68,5 @@ def process_date(data):
     def clean_date():
         return [item.strip() for item in data]
     return clean_date()
-process_date()
+
+print(process_date())
