@@ -17,5 +17,13 @@ outer("Amar")
 
 # EXAMPLE : LOCAL VARIABLE ACCESS
 
+def carBrand():
+    brandName = "FORD MUSTANG"
+    def carModel():
+        print(brandName)
+    carModel()
+
+
+
 name = "access outer function variables, but modifying them requires special keywords like nonlocal."
 print(name.upper())
