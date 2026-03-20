@@ -30,9 +30,8 @@ def carBrand():
     brandName = "FORD MUSTANG"
     def carModel():
         nonlocal brandName
-
-
-        print(brandName, "GT")
+        brandName = "PORSCHE"
+        print(brandName, "911")
     carModel()
 
 carBrand()
