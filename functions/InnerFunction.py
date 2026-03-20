@@ -43,7 +43,7 @@ carBrand()
 def carBrand(name):
     def carModel():
         print(name)
-    return carModel # NOT CALLING
+    return carModel # NOT CALLING INNER METHOD
 
 closure = carBrand("AUDI")
 closure()
