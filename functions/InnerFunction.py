@@ -20,9 +20,10 @@ outer("Amar")
 def carBrand():
     brandName = "FORD MUSTANG"
     def carModel():
-        print(brandName)
+        print(brandName, "GT")
     carModel()
 
+carBrand()
 
 
 name = "access outer function variables, but modifying them requires special keywords like nonlocal."
