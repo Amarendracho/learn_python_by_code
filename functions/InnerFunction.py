@@ -11,5 +11,7 @@ def outer(name): # outer function
 
 outer("Amar")
 
+# SCOPE OF VARIABLES IN INNER FUNCTIONS
+# INNER FUNCTIONS FOLLOW
 name = "Scope of variables in inner functions"
 print(name.upper())
