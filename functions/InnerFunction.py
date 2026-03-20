@@ -41,6 +41,8 @@ carBrand()
 name = "Closure in inner function"
 print(name.upper())
 
+ # CLOSURE IN INNER FUNCTION
+
 def carBrand():
     brandName = "FORD MUSTANG"
     def carModel():
