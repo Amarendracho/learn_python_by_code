@@ -69,4 +69,4 @@ def process_date(data):
         return [item.strip() for item in data]
     return clean_date()
 
-print(process_date(["   HARRY ", "POTTER    ", "IS      BEST TV     ", "SERIES"]))
+print(process_date(["   HARRY ", "POTTER    ", "IS  BEST TV     ", "    SERIES"]))
