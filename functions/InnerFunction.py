@@ -63,5 +63,5 @@ closure = outer_function(10)
 print(closure(5))
 print(closure(20))
 
-#
+#ENCAPSULATION
 Encapsulation
