@@ -26,5 +26,5 @@ def carBrand():
 carBrand()
 
 
-name = "access outer function variables, but modifying them requires special keywords like nonlocal."
+name = "Modifying variables using nonlocal"
 print(name.upper())
