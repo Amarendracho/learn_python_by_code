@@ -16,7 +16,7 @@
 8. oops
 9. Exception Handling
 10. Files
-11. Cassande
+11. Cassand
 
 
 
