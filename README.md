@@ -16,7 +16,7 @@
 8. oops
 9. Exception Handling
 10. Files
-11. Cassandra no-s
+11. Cassandra no-sq
 
 
 
