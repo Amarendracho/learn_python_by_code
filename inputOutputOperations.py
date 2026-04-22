@@ -23,7 +23,7 @@ print("Person Details")
 name = "MarkSloan"
 age = 26
 address = "1-12 BEVERLY HILLS FLORIDA"
-print(name)
+print(name) # PRINTING A SINGLE VARIABLE
 print("Name:",name, ":)age:",age, "!address:",address) # PRINTING MULTIPLE VARIABLES SEPARATED BY COMMA.
 
 #Take Multiple Input in Python
