@@ -1,5 +1,5 @@
 print("this is awesome !")
 
-name = "Amar"
-age = 30
+name = "Justin"
+age = 32
 print(name)
