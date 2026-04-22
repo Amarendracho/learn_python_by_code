@@ -6,4 +6,4 @@ country = "Canada"
 
 print(name, age, country)
 
-a, b , c = input("Enter a value: ")
+a, b , c = input("Enter a value: ").split()
