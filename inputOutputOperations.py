@@ -34,7 +34,8 @@ thing1 , thing2 = input("Enter your favourite things: ?").split()
 print("My favourite thing 1: ", thing1)
 print("My favourite thing 2: ", thing2)
 
-#
+# WHILE ENTER THE VALUES
+
 a,b,c = input("Your Top Schools: ? ").split()
 print("My Top college is:",a)
 print("My second Top college is:",b)
