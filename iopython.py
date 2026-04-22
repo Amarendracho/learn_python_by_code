@@ -11,4 +11,4 @@ name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 salary= float(input("Enter your salary: "))
 
-print(name,"\n",age,"\n",salary)
+print(name ,age ,salary)
