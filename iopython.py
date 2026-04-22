@@ -5,8 +5,3 @@ age = 32
 country = "Canada"
 
 print(name, age, country)
-
-a, b , c = input("Enter a value: ").split()
-print(a)
-print(b)
-print(c)
