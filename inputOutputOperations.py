@@ -61,8 +61,6 @@ print(age)
 salary = float(input("Salary : "))
 print(salary)
 
-name
-
 # Find DataType of Input in Python
 name = "Justin"
 age = 25
