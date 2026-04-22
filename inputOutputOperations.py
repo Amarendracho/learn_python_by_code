@@ -3,7 +3,7 @@
 #       while the input() function enables interaction with users by gathering input during program execution.
 
 
-                    # Taking input in Python - input() function
+                        # Taking input in Python - input() function
 # input() method return a string. what to convert concat with other datatypes(int, float,...)
 # print() prints the output
 
