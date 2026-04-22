@@ -23,6 +23,7 @@ print("Person Details")
 name = "MarkSloan"
 age = 26
 address = "1-12 BEVERLY HILLS FLORIDA"
+print(name) #
 print("Name:",name, ":)age:",age, "!address:",address)
 
 #Take Multiple Input in Python
