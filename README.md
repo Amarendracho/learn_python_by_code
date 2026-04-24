@@ -16,7 +16,7 @@
 8. oops
 9. Exception Handling
 10. Files
-11. IAM STUPID AND 
+11. IAM STUPID AND D
 
 
 
